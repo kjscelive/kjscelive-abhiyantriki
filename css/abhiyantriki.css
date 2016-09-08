@@ -465,7 +465,6 @@ div {
   display: inline;
   padding: 0;
   margin: 0;
-  margin-bottom: -10vh;
   height: 6vh;
 }
 
@@ -560,8 +559,8 @@ div {
 }
 
 #about-kjsce {
-  background-image: url("http://kjsce-abhiyantriki.org/img/aboutkjsce-min.png");
-  background-size: 150% 100vh;
+  background-image: url("../assets/images/kjsce2.png");
+  background-size: auto;
   background-position: center top;
 }
 
@@ -1551,6 +1550,18 @@ h1 {
   }
   #crack {
     font-size: 12px;
+  }
+  a.svg {
+    position: relative;
+    display: inline-block;
+  }
+  a.svg:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
   }
 }
 

@@ -158,13 +158,13 @@ function scrollDownTo(t){
           case 6:
           	scrollT = 6;
           	arrow_down.css("display",disp);
-             html.animate({scrollTop: $('.speaker-header').offset().top-offset_s}, 1000);
+             html.animate({scrollTop: $('.speaker-header').offset().top-offset_s}, 2000);
              show_nav(speakerChild);
              break;
           case 7:
             scrollT = 7;
             arrow_down.css("display",disp);
-             html.animate({scrollTop: $('#parvah').offset().top - offset_s}, 1000);
+             html.animate({scrollTop: $('#parvah').offset().top - offset_s}, 2000);
              show_nav(parvaahChild);
              break;
           case 8:
