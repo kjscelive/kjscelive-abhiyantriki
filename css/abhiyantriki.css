@@ -757,6 +757,16 @@ body {
   background-color: rgba(243, 156, 18, 0.6);
 }
 
+#Carobar .modal-header {
+  background-image: url("../assets/images/events/Carobar.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+#Carobar .modal-header h4 {
+  background-color: rgba(211, 84, 0, 0.6);
+}
+
 #Ideate .modal-header {
   background-image: url("../assets/images/events/ideate_f.jpg");
   background-position: center;
