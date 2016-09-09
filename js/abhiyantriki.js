@@ -115,11 +115,11 @@ function scrollDownTo(t){
             scrollT = 2;
             arrow_down.css("display",disp);
             if($(window).width()<550){
-                            html.animate({scrollTop: $('.about-container').offset().top - offset_s}, 1000);
+                            html.animate({scrollTop: $('.about-container').offset().top - offset_s}, 500);
                             
                             }
                             else{
-                             html.animate({scrollTop: $('#about').offset().top - offset_s}, 1000);
+                             html.animate({scrollTop: $('#about').offset().top - offset_s}, 500);
                             }
             
 
@@ -133,7 +133,7 @@ function scrollDownTo(t){
           case 3:
           	 	scrollT = 3;
           	 	arrow_down.css("display",disp);
-             	html.animate({scrollTop: $('#about').offset().top + $(window).height()-offset_s}, 1000);
+             	html.animate({scrollTop: $('#about').offset().top + $(window).height()-offset_s}, 500);
              	current.css("display","none");
            		current = aboutChild;
                	current.css("display","block");
@@ -142,7 +142,7 @@ function scrollDownTo(t){
            			scrollT = 4;
 	          	 	arrow_down.css("display",disp);
                 $('.slider').slider('start');
-	             	html.animate({scrollTop: $('.tech-expo').offset().top -offset_s}, 1000);
+	             	html.animate({scrollTop: $('.tech-expo').offset().top -offset_s}, 500);
 	             	current.css("display","none");
 	           		current = aboutChild;
 	               	current.css("display","block");
@@ -152,32 +152,32 @@ function scrollDownTo(t){
           case 5:
             scrollT = 5;
             arrow_down.css("display",disp);
-            html.animate({scrollTop: $('.events').offset().top -offset_s}, 1000);
+            html.animate({scrollTop: $('.events').offset().top -offset_s}, 500);
             show_nav(eventChild);
             break;
           case 6:
           	scrollT = 6;
           	arrow_down.css("display",disp);
-             html.animate({scrollTop: $('.speaker-header').offset().top-offset_s}, 2000);
+             html.animate({scrollTop: $('.speaker-header').offset().top-offset_s}, 500);
              show_nav(speakerChild);
              break;
           case 7:
             scrollT = 7;
             arrow_down.css("display",disp);
-             html.animate({scrollTop: $('#parvah').offset().top - offset_s}, 2000);
+             html.animate({scrollTop: $('#parvah').offset().top - offset_s}, 500);
              show_nav(parvaahChild);
              break;
           case 8:
               scrollT = 8;
               arrow_down.css("display",disp);
-             html.animate({scrollTop: $('#sponsors').offset().top - offset_s}, 1000);
+             html.animate({scrollTop: $('#sponsors').offset().top - offset_s}, 500);
              show_nav(sponsorChild);
              break;
           case 9:
           	 scrollT = 9;
           	 arrow_down.css("display","none");
           	 show_nav(contactChild);
-             html.animate({scrollTop: $('#contact').offset().top - offset_s}, 1000);
+             html.animate({scrollTop: $('#contact').offset().top - offset_s}, 500);
              show_nav(contactChild);
              break;
          }
@@ -189,5 +189,5 @@ function scrollDownTo(t){
 
        	setTimeout(function(){
             activelyScrolling = false; scrollT =t; 
-		},1000);
+		},500);
       }
