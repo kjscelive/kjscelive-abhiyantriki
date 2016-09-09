@@ -349,7 +349,8 @@ if ($) {
         if (object.parent().hasClass('active')){
           object.siblings('.collapsible-body').stop(true,false).slideDown({ duration: 400, easing: "easeOutQuart", queue: false, complete: function() {$(this).css('height', '');}});
           // console.log(object );
-          // console.log('gi there');
+         	flag_m1 = 0;
+         	console.log(flag_m1);
           object.slideDown({ duration: 400, easing: "easeOutQuart", queue: false, complete: function() {$(this).css('height','5vh');}});
           object.parent().siblings().children('.collapsible-header').slideDown({ duration: 400, easing: "easeOutQuart", queue: false, complete: function() {$(this).css('height','5vh');}});
       		$panel_headers.children('p').css({'background':'transparent','box-shadow':'0px 0px 0px 0px black'});
@@ -361,6 +362,7 @@ if ($) {
           // object.parent().siblings().children('.collapsible-header').slideDown({ duration: 400, easing: "easeOutQuart", queue: false, complete: function() {$(this).css('height','22.5vh');}});
           $panel_headers.css("height","22.5vh");
           $panel_headers.children('p').css({'background':'black','box-shadow':'2px 2px 30px -1px black'});
+          flag_m1 = 1;
         }
 
         $panel_headers.not(object).removeClass('active').parent().removeClass('active');

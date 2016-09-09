@@ -52,7 +52,9 @@ canvas {
   margin: 0px !important;
   padding: 0px !important;
   z-index: -1;
-  transform: translateX(0);
+  -webkit-transform: translateX(0);
+      -ms-transform: translateX(0);
+          transform: translateX(0);
   background: rgba(255, 255, 255, 0.3);
 }
 
@@ -93,9 +95,12 @@ nav .side-nav {
 }
 
 .current {
+  display: -ms-flexbox;
   display: flex;
   display: -webkit-flex;
-  align-items: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   height: 100%;
 }
 
@@ -120,9 +125,12 @@ div {
 }
 
 .button-collapse {
+  display: -ms-flexbox;
   display: flex;
   display: -webkit-flex;
-  align-items: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   height: 100%;
 }
 
@@ -177,10 +185,15 @@ div {
 }
 
 .arrow-nav-container .arrow-navigation {
+  display: -ms-flexbox;
   display: flex;
   display: -webkit-flex;
-  flex-direction: row;
-  justify-content: space-between;
+  -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   position: fixed;
   right: 0;
   bottom: 0;
@@ -189,10 +202,15 @@ div {
 }
 
 .arrow-nav-container .arrow-navigation .up-arrow {
+  display: -ms-flexbox;
   display: flex;
   display: -webkit-flex;
-  justify-content: center;
-  align-items: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   background: white;
   width: 50px;
   height: 50px;
@@ -210,10 +228,15 @@ div {
 }
 
 .arrow-nav-container .arrow-navigation .down-arrow {
+  display: -ms-flexbox;
   display: flex;
   display: -webkit-flex;
-  justify-content: center;
-  align-items: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   background: white;
   width: 50px;
   height: 50px;
@@ -241,80 +264,24 @@ div {
 .animate {
   position: relative;
   -webkit-transform: translate(-264px, -250px) scale(0.2);
-  -moz-transform: translate(-264px, -250px) scale(0.2);
   -ms-transform: translate(-264px, -250px) scale(0.2);
-  -o-transform: translate(-264px, -250px) scale(0.2);
   transform: translate(-264px, -250px) scale(0.2);
 }
 
 @-webkit-keyframes bounce {
   0%, 20%, 50%, 80%, 100% {
     -webkit-transform: translateY(0);
-    -moz-transform: translateY(0);
     -ms-transform: translateY(0);
-    -o-transform: translateY(0);
     transform: translateY(0);
   }
   40% {
     -webkit-transform: translateY(-30px);
-    -moz-transform: translateY(-30px);
     -ms-transform: translateY(-30px);
-    -o-transform: translateY(-30px);
     transform: translateY(-30px);
   }
   60% {
     -webkit-transform: translateY(-15px);
-    -moz-transform: translateY(-15px);
     -ms-transform: translateY(-15px);
-    -o-transform: translateY(-15px);
-    transform: translateY(-15px);
-  }
-}
-
-@-moz-keyframes bounce {
-  0%, 20%, 50%, 80%, 100% {
-    -webkit-transform: translateY(0);
-    -moz-transform: translateY(0);
-    -ms-transform: translateY(0);
-    -o-transform: translateY(0);
-    transform: translateY(0);
-  }
-  40% {
-    -webkit-transform: translateY(-30px);
-    -moz-transform: translateY(-30px);
-    -ms-transform: translateY(-30px);
-    -o-transform: translateY(-30px);
-    transform: translateY(-30px);
-  }
-  60% {
-    -webkit-transform: translateY(-15px);
-    -moz-transform: translateY(-15px);
-    -ms-transform: translateY(-15px);
-    -o-transform: translateY(-15px);
-    transform: translateY(-15px);
-  }
-}
-
-@-ms-keyframes bounce {
-  0%, 20%, 50%, 80%, 100% {
-    -webkit-transform: translateY(0);
-    -moz-transform: translateY(0);
-    -ms-transform: translateY(0);
-    -o-transform: translateY(0);
-    transform: translateY(0);
-  }
-  40% {
-    -webkit-transform: translateY(-30px);
-    -moz-transform: translateY(-30px);
-    -ms-transform: translateY(-30px);
-    -o-transform: translateY(-30px);
-    transform: translateY(-30px);
-  }
-  60% {
-    -webkit-transform: translateY(-15px);
-    -moz-transform: translateY(-15px);
-    -ms-transform: translateY(-15px);
-    -o-transform: translateY(-15px);
     transform: translateY(-15px);
   }
 }
@@ -322,23 +289,17 @@ div {
 @keyframes bounce {
   0%, 20%, 50%, 80%, 100% {
     -webkit-transform: translateY(0);
-    -moz-transform: translateY(0);
     -ms-transform: translateY(0);
-    -o-transform: translateY(0);
     transform: translateY(0);
   }
   40% {
     -webkit-transform: translateY(-30px);
-    -moz-transform: translateY(-30px);
     -ms-transform: translateY(-30px);
-    -o-transform: translateY(-30px);
     transform: translateY(-30px);
   }
   60% {
     -webkit-transform: translateY(-15px);
-    -moz-transform: translateY(-15px);
     -ms-transform: translateY(-15px);
-    -o-transform: translateY(-15px);
     transform: translateY(-15px);
   }
 }
@@ -355,10 +316,13 @@ div {
 }
 
 .social-icons-container {
+  display: -ms-flexbox;
   display: flex;
   display: -webkit-flex;
   position: relative;
-  flex-direction: row;
+  -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
   background: transparent;
   margin-right: 4%;
   z-index: 1000;
@@ -411,9 +375,12 @@ div {
 
 #social-left {
   float: left;
+  display: -ms-flexbox;
   display: flex;
   display: -webkit-flex;
-  flex-direction: row;
+  -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
   z-index: 1000;
 }
 
@@ -426,6 +393,7 @@ div {
   position: relative;
   z-index: 1000;
   margin: 3%;
+  display: -ms-flexbox;
   display: flex;
   display: -webkit-flex;
   z-index: -1;
@@ -453,8 +421,6 @@ div {
   display: inline-block;
   background: transparent;
   -webkit-animation: bounce 2s 5s infinite;
-  -moz-animation: bounce 2s 5s infinite;
-  -o-animation: bounce 2s 5s infinite;
   animation: bounce 2s 5s infinite;
 }
 
@@ -548,9 +514,7 @@ div {
   padding: 3%;
   position: relative;
   -webkit-transform: translateY(100vh);
-  -moz-transform: translateY(100vh);
   -ms-transform: translateY(100vh);
-  -o-transform: translateY(100vh);
   transform: translateY(100vh);
   width: 90%;
   height: 80vh;
@@ -614,9 +578,15 @@ div {
 }
 
 .aboutkjsce, .aboutabhi {
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   height: 45vh;
   width: 100vw;
   margin: 0;
@@ -723,9 +693,15 @@ body {
 }
 
 .collapsible-header {
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   color: white;
   text-align: center;
   height: 22.5vh;
@@ -1030,8 +1006,6 @@ ul {
 }
 
 .collapsible-header p {
-  -webkit-box-shadow: 2px 2px 30px -1px black;
-  -moz-box-shadow: 2px 2px 30px -1px black;
   -o-box-shadow: 2px 2px 30px -1px black;
   -ms-box-shadow: 2px 2px 30px -1px black;
   box-shadow: 2px 2px 30px -1px black;
@@ -1043,10 +1017,6 @@ ul {
   padding-left: 7.5%;
   padding-right: 7.5%;
   max-height: 60px;
-  -webkit-border-radius: 10px;
-  -moz-border-radius: 10px;
-  -ms-border-radius: 10px;
-  -o-border-radius: 10px;
   border-radius: 10px;
   font-family: 'Roboto',sans-serif;
   font-weight: 900;
@@ -1199,7 +1169,9 @@ a.active {
 }
 
 #parvaah-logo {
-  transform: translate(10vh, 10vh);
+  -webkit-transform: translate(10vh, 10vh);
+      -ms-transform: translate(10vh, 10vh);
+          transform: translate(10vh, 10vh);
   position: relative;
   z-index: 500;
   width: 50%;
@@ -1210,12 +1182,13 @@ a.active {
 .sponsor-container {
   height: 90vh;
   background: white;
+  overflow: hidden;
 }
 
 .sponsors {
   padding: 0;
   margin: 0;
-  height: 90vh;
+  height: 77vh;
   overflow: hidden;
   width: 100%;
   background: white;
@@ -1228,10 +1201,10 @@ a.active {
 
 #lastYear .container, #thisYear .container {
   padding-top: 0%;
-  overflow: scroll;
+  overflow: hidden;
   overflow-x: hidden;
   text-align: center;
-  height: 75vh;
+  height: 65vh;
   -webkit-transition: all 1s ease-in-out;
   -moz-transition: all 1s ease-in-out;
   -moz-transition--o-transition: all 1s ease-in-out;
@@ -1266,10 +1239,15 @@ a.active {
 
 .viewMore {
   position: relative;
+  display: -ms-flexbox;
   display: flex;
   display: -webkit-flex;
-  justify-content: center;
-  align-items: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   bottom: 0;
   height: 10vh;
   width: 100%;
@@ -1300,15 +1278,12 @@ a.active {
 }
 
 .more {
-  height: 300vh !important;
+  overflow-y: scroll !important;
 }
 
-.more .viewMore .l {
-  display: block;
-}
-
-.more .viewMore .m {
-  display: none;
+.more .viewMore {
+  height: 10vh;
+  width: 50%;
 }
 
 .contact {
@@ -1316,11 +1291,18 @@ a.active {
   color: white;
   height: 80vh;
   width: 100%;
+  display: -ms-flexbox;
   display: flex;
   display: -webkit-flex;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .about_stuco img {
@@ -1374,7 +1356,9 @@ h1 {
 }
 
 .social-footer {
-  transform: translate(-81vw, 1vh);
+  -webkit-transform: translate(-81vw, 1vh);
+      -ms-transform: translate(-81vw, 1vh);
+          transform: translate(-81vw, 1vh);
 }
 
 @media (min-width: 320px) and (max-width: 550px) {
@@ -1385,7 +1369,9 @@ h1 {
 
 @media (min-width: 320px) and (max-width: 550px) {
   #parvaah-logo {
-    transform: translate(24vh, 1vh);
+    -webkit-transform: translate(24vh, 1vh);
+        -ms-transform: translate(24vh, 1vh);
+            transform: translate(24vh, 1vh);
     position: relative;
     z-index: 500;
     width: 25%;
@@ -1458,7 +1444,9 @@ h1 {
   #college-logo {
     height: 10vh;
     width: 12vw;
-    transform: translate(2vw, 0);
+    -webkit-transform: translate(2vw, 0);
+        -ms-transform: translate(2vw, 0);
+            transform: translate(2vw, 0);
     font-family: 'Roboto',sans-serif;
     font-weight: 400;
     font-style: normal;
@@ -1470,6 +1458,7 @@ h1 {
     display: none;
   }
   .social-left, .social-right {
+    display: -ms-flexbox;
     display: flex;
     display: -webkit-flex;
   }
@@ -1502,11 +1491,16 @@ h1 {
     width: 100%;
   }
   footer .social-icons-container {
+    display: -webkit-flex;
+    display: -ms-flexbox;
     display: flex;
     width: 100%;
   }
   .social-footer {
-    transform: translate(0, 0);
+    -webkit-transform: translate(0, 0);
+        -ms-transform: translate(0, 0);
+            transform: translate(0, 0);
+    display: -ms-flexbox;
     display: flex;
     display: -webkit-flex;
     padding: 10px;
@@ -1562,8 +1556,6 @@ nav {
   font-weight: 400;
   font-style: bold;
   -webkit-transform: translateY(-4vh);
-  -moz-transform: translateY(-4vh);
   -ms-transform: translateY(-4vh);
-  -o-transform: translateY(-4vh);
   transform: translateY(-4vh);
 }
