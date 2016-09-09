@@ -348,9 +348,19 @@ if ($) {
         }
         if (object.parent().hasClass('active')){
           object.siblings('.collapsible-body').stop(true,false).slideDown({ duration: 400, easing: "easeOutQuart", queue: false, complete: function() {$(this).css('height', '');}});
-        }
+          // console.log(object );
+          // console.log('gi there');
+          object.slideDown({ duration: 400, easing: "easeOutQuart", queue: false, complete: function() {$(this).css('height','5vh');}});
+          object.parent().siblings().children('.collapsible-header').slideDown({ duration: 400, easing: "easeOutQuart", queue: false, complete: function() {$(this).css('height','5vh');}});
+      		$panel_headers.children('p').css({'background':'transparent','box-shadow':'0px 0px 0px 0px black'});
+      		 $panel_headers.css("height","5vh");
+        	}
         else{
           object.siblings('.collapsible-body').stop(true,false).slideUp({ duration: 400, easing: "easeOutQuart", queue: false, complete: function() {$(this).css('height', '');}});
+          // object.css("height","22.5vh");
+          // object.parent().siblings().children('.collapsible-header').slideDown({ duration: 400, easing: "easeOutQuart", queue: false, complete: function() {$(this).css('height','22.5vh');}});
+          $panel_headers.css("height","22.5vh");
+          $panel_headers.children('p').css({'background':'black','box-shadow':'2px 2px 30px -1px black'});
         }
 
         $panel_headers.not(object).removeClass('active').parent().removeClass('active');

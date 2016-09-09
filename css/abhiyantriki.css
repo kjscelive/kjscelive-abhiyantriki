@@ -467,7 +467,7 @@ div {
   display: inline;
   padding: 0;
   margin: 0;
-  height: 6vh;
+  height: 8vh;
 }
 
 #social-icons-li {
@@ -740,7 +740,6 @@ body {
   overflow-x: hidden;
   overflow-scrolling: touch;
   -webkit-overflow-scrolling: touch;
-  transition: all 400ms ease-in-out;
 }
 
 #featured1 .card {
@@ -1058,14 +1057,6 @@ ul {
   height: auto;
 }
 
-li {
-  -webkit-transition: all 0.5s ease-in-out;
-  -moz-transition: all 0.5s ease-in-out;
-  -moz-transition--o-transition: all 0.5s ease-in-out;
-  -moz-transition--ms-transition: all 0.5s ease-in-out;
-  transition: all 0.5s ease-in-out;
-}
-
 li:nth-child(1) .collapsible-header {
   background: transparent;
 }
@@ -1080,14 +1071,6 @@ li:nth-child(3) .collapsible-header {
 
 li:nth-child(4) .collapsible-header {
   background: transparent;
-}
-
-.collapsible-header .active {
-  -webkit-transition: all 0.5s ease-in-out;
-  -moz-transition: all 0.5s ease-in-out;
-  -moz-transition--o-transition: all 0.5s ease-in-out;
-  -moz-transition--ms-transition: all 0.5s ease-in-out;
-  transition: all 0.5s ease-in-out;
 }
 
 .image-fix {

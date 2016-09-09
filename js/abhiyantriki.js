@@ -4,8 +4,7 @@ var arrow_down = $('down-arrow');
 var disp = "flex";
 var offset_s = $(window).height()*0.1;
 
- $(document).ready(function(){
- 		  
+$(document).ready(function(){
 
  		  aboutChild = $('.current li:nth-child(2)');
                     techChild = $('.current li:nth-child(3)')
@@ -14,8 +13,8 @@ var offset_s = $(window).height()*0.1;
                     parvaahChild = $('.current li:nth-child(6)');
                     sponsorChild = $('.current li:nth-child(7)');
                     contactChild = $('.current li:nth-child(8)');
-                    collapsible_header = $('.collapsible-header');
-                    collapsible_strong = $('.collapsible-header p');
+                    // collapsible_header = $('.collapsible-header');
+                    // collapsible_strong = $('.collapsible-header p');
                     current = $('.current li');
                     arrow_up = $('.up-arrow');
                     arrow_down = $('.down-arrow');

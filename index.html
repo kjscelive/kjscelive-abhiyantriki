@@ -5,9 +5,9 @@
     <meta charset="UTF-8">
     <meta name=viewport content="width=device-width, initial-scale=1">
     <meta http-equiv="Cache-control" content="public">
-    <metaname="description" content="Abhiyantriki is the official technical festival of K.J. Somaiya College of Engineering held annually in Somaiya Vidyavihar campus.">
-<metaname="keywords" content="Techfest, Technical, Somaiya, Vidyavihar, KJSCE, KJ Somaiya, Engineering, Technology, Festival, Autonomous, Academic Autonomy, Mumbai University, Mumbai, 65 acres, Innovation, Discovery, Ideas, Competition, Events, Exhibition, Trendsetters, Visionary, Future, Main Events, Fun Events, Technical Events, Tech Expo, Internship, Internship Expo, Sponsors, Past Sponsors, Present Sponsors, Title Sponsors, Cosponsor, Team Abhiyantriki, Abhiyantriki OC, Organizing Committee, KJSCE Abhiyantriki Students' Council, Students' Council, 2016"> 
-    <title>Abhiyantriki</title>
+    <meta name="description" content="Abhiyantriki is the official technical festival of K.J. Somaiya College of Engineering held annually in Somaiya Vidyavihar campus.">
+<meta name="keywords" content="Techfest, Technical, Somaiya, Vidyavihar, KJSCE, KJ Somaiya, Engineering, Technology, Festival, Autonomous, Academic Autonomy, Mumbai University, Mumbai, 65 acres, Innovation, Discovery, Ideas, Competition, Events, Exhibition, Trendsetters, Visionary, Future, Main Events, Fun Events, Technical Events, Tech Expo, Internship, Internship Expo, Sponsors, Past Sponsors, Present Sponsors, Title Sponsors, Cosponsor, Team Abhiyantriki, Abhiyantriki OC, Organizing Committee, KJSCE Abhiyantriki Students' Council, Students' Council, 2016"> 
+    <title>Abhiyantriki 2016</title>
     <link rel="icon" href="http://i.imgur.com/mVIraef.png" type="image/png">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel=
     "stylesheet">
@@ -17,9 +17,15 @@
     <!-- <link href="css/background.css" rel="stylesheet"> -->
     <link href="css/materialize.css" rel="stylesheet">
     <link href="css/abhiyantriki.css" rel="stylesheet">
+
     
     <!-- <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">  -->
     <link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i" rel="stylesheet"> 
+     <script src="https://code.jquery.com/jquery-2.1.1.min.js" type=
+    "text/javascript">  </script> 
+    <script src="js/materialize.min.js" type="text/javascript">
+    </script>
+      
       <!-- <link rel="stylesheet" type="text/css"
           href="https://fonts.googleapis.com/css?family=Tangerine"> -->
 
@@ -354,7 +360,7 @@ ul .tabs li .tab a .active {
                                 </div>
 
 
-                                <div class="social-mobile">
+                                <div class="social-mobile" >
                                     <div class="left social-mobile-left" id=
                                     "social-left" style=
                                     "display: flex; display: -webkit-flex;">
@@ -1639,7 +1645,7 @@ ul .tabs li .tab a .active {
                   </div>
                   <div class="teamabhiyantriki">
                     <a href="teamabhiyantriki.html" target="_blank">
-                      <img class="responsive-img" src="assets/images/team_a_h.png" alt="" / style="">
+                      <img classmeta="responsive-img" src="assets/images/team_a_h.png" alt="" / style="">
                       <img class="responsive-img" src="assets/images/team_a.png" alt="" style=""; />
                      
                     </a>
@@ -1647,7 +1653,7 @@ ul .tabs li .tab a .active {
 
                 </div>
                 <footer>
-                     <div class="footer-copyright container" style="margin-left: 2%;">
+                     <div class="footer-copyright container" style="margin-left: 5%;">
             <div class="row" style="">
                                           
                                          <div class="social-footer" style="">
@@ -3815,10 +3821,10 @@ Set in the heart of the city, K. J. Somaiya College of Engineering is located in
 
  
 
-                  <script src="https://code.jquery.com/jquery-2.1.1.min.js" type=
+           <!--        <script src="https://code.jquery.com/jquery-2.1.1.min.js" type=
     "text/javascript">
-    </script>
-    <script src="js/font_size.js"></script>
+    </script> -->
+    
     <script>
       $(window).load(function() {
   $(".loader").fadeOut("slow");
@@ -3827,19 +3833,19 @@ Set in the heart of the city, K. J. Somaiya College of Engineering is located in
       $(document).ready(function(){
          scrollDownTo(1);
       });
-       $(document).fitText();
+      
     </script>
+<!--  <script src="js/materialize.js" type="text/javascript">
 
+    </script> -->
     <script src="js/skrollr.min.js" type="text/javascript">
     </script>
-    <script src="js/materialize.js" type="text/javascript">
-
-    </script>
+   
 
 <script src="https://use.fontawesome.com/25112e805e.js"></script>
 
-    <script src="js/abhiyantriki.js" type="text/javascript"></script>
-    <script type="text/javascript" src="js/jquery.touchSwipe.min.js"></script>
+    <script src="js/abhiyantriki.min.js" type="text/javascript"></script>
+    <!-- <script type="text/javascript" src="js/jquery.touchSwipe.min.js"></script> -->
                 <script type="text/javascript">
                   // $(document).ready(function(){});
     //              $(function() {      
@@ -3920,6 +3926,7 @@ Set in the heart of the city, K. J. Somaiya College of Engineering is located in
     var collapsible_header;
     var collapsible_strong;
     var collapsible_open;
+    var active_ac;
 
 
    
@@ -3991,64 +3998,73 @@ Set in the heart of the city, K. J. Somaiya College of Engineering is located in
                         return false;
                     });
 
+                   $(document).ready(function(){
+       $('.collapsible').collapsible({
+     
+    });});
 
 
-                      $('li:nth-child(1) .collapsible-header').on('click',function(){
 
-                                  if($(this).hasClass('active')){
+                      // $('li:nth-child(1) .collapsible-header').on('click',function(){
+
+                      //         // $('li:nth-child(1)').toggleClass('active');
+                      //         // $(this).toggleClass('active');
+
+
+                      //             if($(this).hasClass('active')){
 
                                            
-                                          flag_m = 1;
-                                          collapsible_header.css('height','22.5vh');
-                                          collapsible_strong.css({'background':'black','box-shadow':'2px 2px 30px -1px black'});
-                                  }
-                                  else{
+                      //                     flag_m = 1;
+                      //                     collapsible_header.css('height','22.5vh');
+                      //                     collapsible_strong.css({'background':'black','box-shadow':'2px 2px 30px -1px black'});
+                      //             }
+                      //             else{
 
                                          
-                                          flag_m  = 0;
-                                          collapsible_header.css('height','6.5vh');
-                                          collapsible_strong.css({'background':'transparent','box-shadow':'0 0 0 0'});
-                                  }
-                        });
-                        $('li:nth-child(2) .collapsible-header').on('click',function(){
-                                collapsible_open = $(this);
-                                  if($(this).hasClass('active')){
-                                          flag_m = 1;
-                                          collapsible_header.css('height','22.5vh');
-                                          collapsible_strong.css({'background':'black','box-shadow':'2px 2px 30px -1px black'});
-                                  }
-                                  else{
-                                          flag_m  = 0;
-                                          collapsible_header.css('height','6.5vh');
-                                          collapsible_strong.css({'background':'transparent','box-shadow':'0 0 0 0'});
-                                  }
-                        });
-                        $('li:nth-child(3) .collapsible-header').on('click',function(){
-                            collapsible_open = $(this);
-                                  if($(this).hasClass('active')){
-                                          flag_m = 1;
-                                          collapsible_header.css('height','22.5vh');
-                                          collapsible_strong.css({'background':'black','box-shadow':'2px 2px 30px -1px black'});
-                                  }
-                                  else{
-                                          flag_m  = 0;
-                                          collapsible_header.css('height','6.5vh');
-                                          collapsible_strong.css({'background':'transparent','box-shadow':'0 0 0 0'});
-                                  }
-                        });
-                        $('li:nth-child(4) .collapsible-header').on('click',function(){
-                            collapsible_open = $(this);
-                                  if($(this).hasClass('active')){
-                                          flag_m = 1;
-                                          collapsible_header.css('height','22.5vh');
-                                          collapsible_strong.css({'background':'black','box-shadow':'2px 2px 30px -1px black'});
-                                  }
-                                  else{
-                                          flag_m  = 0;
-                                          collapsible_header.css("height","6.5vh");
-                                          collapsible_strong.css({"background":"transparent","box-shadow":"0 0 0 0"});
-                                  }
-                        });
+                      //                     flag_m  = 0;
+                      //                     collapsible_header.css('height','6.5vh');
+                      //                     collapsible_strong.css({'background':'transparent','box-shadow':'0 0 0 0'});
+                      //             }
+                      //   });
+                      //   $('li:nth-child(2) .collapsible-header').on('click',function(){
+                      //           collapsible_open = $(this);
+                      //             if($(this).hasClass('active')){
+                      //                     flag_m = 1;
+                      //                     collapsible_header.css('height','22.5vh');
+                      //                     collapsible_strong.css({'background':'black','box-shadow':'2px 2px 30px -1px black'});
+                      //             }
+                      //             else{
+                      //                     flag_m  = 0;
+                      //                     collapsible_header.css('height','6.5vh');
+                      //                     collapsible_strong.css({'background':'transparent','box-shadow':'0 0 0 0'});
+                      //             }
+                      //   });
+                      //   $('li:nth-child(3) .collapsible-header').on('click',function(){
+                      //       collapsible_open = $(this);
+                      //             if($(this).hasClass('active')){
+                      //                     flag_m = 1;
+                      //                     collapsible_header.css('height','22.5vh');
+                      //                     collapsible_strong.css({'background':'black','box-shadow':'2px 2px 30px -1px black'});
+                      //             }
+                      //             else{
+                      //                     flag_m  = 0;
+                      //                     collapsible_header.css('height','6.5vh');
+                      //                     collapsible_strong.css({'background':'transparent','box-shadow':'0 0 0 0'});
+                      //             }
+                      //   });
+                      //   $('li:nth-child(4) .collapsible-header').on('click',function(){
+                      //       collapsible_open = $(this);
+                      //             if($(this).hasClass('active')){
+                      //                     flag_m = 1;
+                      //                     collapsible_header.css('height','22.5vh');
+                      //                     collapsible_strong.css({'background':'black','box-shadow':'2px 2px 30px -1px black'});
+                      //             }
+                      //             else{
+                      //                     flag_m  = 0;
+                      //                     collapsible_header.css("height","6.5vh");
+                      //                     collapsible_strong.css({"background":"transparent","box-shadow":"0 0 0 0"});
+                      //             }
+                      //   });
   
 
  // $('.scroll-nav__home').on('click',function(){
@@ -4130,7 +4146,7 @@ Set in the heart of the city, K. J. Somaiya College of Engineering is located in
 
                 <script src="https://cdnjs.cloudflare.com/ajax/libs/particles.js/2.0.0/particles.min.js">
                 </script> 
-                <script src="js/background.js" type="text/javascript">
+                <script src="js/background.min.js" type="text/javascript">
 
 
                 </script>
