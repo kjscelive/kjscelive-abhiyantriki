@@ -58,19 +58,18 @@ $event_background:black
 
 body
 	width: 100%
+	background:
+		color: black	
+	//font-size: 160%  // for responsive font
 	overflow-scrolling: auto
-	overflow-x: hidden
 	-webkit-overflow-scrolling: auto
 	font-family: 'Roboto',sans-serif
 	font-weight: 400
 	font-style: normal;
-	//padding: 0%
 
 canvas
 	width: 100%;
-//helpers
-.clear-fix
-	+clearfix
+
 .left-modal
 	position: relative
 	padding: 2%
@@ -90,18 +89,18 @@ canvas
 	position: relative
 	bottom: 0
 
-#highlight
-	display: inline
-	height: calc(10vh) !important
-	width:  75px 
-	position: relative
-	margin: 0px !important
-	padding: 0px !important
+// #highlight
+// 	display: inline
+// 	height: calc(10vh) !important
+// 	width:  75px 
+// 	position: relative
+// 	margin: 0px !important
+// 	padding: 0px !important
 
-	z-index: -1
-	transform: translateX(0);
-	background: rgba(255,255,255,0.3);
-	+clearfix
+// 	z-index: -1
+// 	transform: translateX(0);
+// 	background: rgba(255,255,255,0.3);
+// 	+clearfix
 nav
 	background:  darken($navbar_color,30%)
 	position: fixed
@@ -607,14 +606,6 @@ $event_color: white
 $technical_color:  #B71427
    
 $informal_color:  #0f0
-body
-	background:
-		color: black	
-	overflow-x: hidden
-	//font-size: 160%  // for responsive font
-	font-family: 'Roboto',sans-serif
-	font-weight: 400
-	font-style: normal;
 //for reponsive font
 .events ul
 	height: 90vh
