@@ -1313,8 +1313,12 @@ a.active {
 .teamabhiyantriki a img {
   position: absolute;
   padding: 2%;
-  margin-left: -15%;
+  margin-left: 15%;
   width: 29%;
+}
+
+.teamabhiyantriki {
+  width: 50%;
 }
 
 .teamabhiyantriki img:nth-child(2):hover {
@@ -1322,9 +1326,9 @@ a.active {
 }
 
 footer {
-  padding: 1%;
+  padding: 0%;
   background: #363c3d;
-  height: 10vh;
+  height: 11vh;
   width: 100%;
   position: relative;
   bottom: 0;
@@ -1391,10 +1395,11 @@ h1 {
     padding: 14px;
   }
   .teamabhiyantriki a img {
-    width: 71%;
+    position: absolute;
+    width: 66%;
     margin-top: -7vh;
-    height: 11vh;
-    left: 116px;
+    height: 10vh;
+    left: 17px;
   }
   .social-icons-container {
     display: none;
@@ -1517,6 +1522,10 @@ h1 {
     font-size: 8px;
     text-overflow: ellipsis;
     max-width: 50%;
+  }
+  .card-title {
+    padding-left: 6px;
+    padding-left-padding-right: 0px;
   }
   .parvah p {
     font-size: 12px;

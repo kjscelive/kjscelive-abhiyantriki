@@ -3,8 +3,10 @@ var arrow_up = $('up-arrow');
 var arrow_down = $('down-arrow');
 var disp = "flex";
 var offset_s = $(window).height()*0.1;
+var nav;
 
 $(document).ready(function(){
+                 nav = $('nav');
 
  		  aboutChild = $('.current li:nth-child(2)');
                     techChild = $('.current li:nth-child(3)')
@@ -87,12 +89,15 @@ function goUp(){
 }
 
 
-
+function showStuff(){
+    nav.css("opacity","1");
+    $('.arrow-nav-container').css("display","block");
+}
 
 
 function scrollDownTo(t){
 		var html =  $('html,body');
-		var nav = $('nav');
+		
 		
 
          if(flag_m == 1){
@@ -107,7 +112,7 @@ function scrollDownTo(t){
                 nav.css("opacity","0");
                current.css("display","none");
                $('.arrow-nav-container').css("display","none");
-               },1000);
+               },500);
               	
                 break;
           case 2:
@@ -123,10 +128,11 @@ function scrollDownTo(t){
             
 
            setTimeout(function(){
+            showStuff();
            		nav.css("opacity","1");
            		show_nav(aboutChild);	
-               $('.arrow-nav-container').css("display","block");
-               },1000);
+               
+               },500);
             break;
            
           case 3:
@@ -136,6 +142,8 @@ function scrollDownTo(t){
              	current.css("display","none");
            		current = aboutChild;
                	current.css("display","block");
+                showStuff();
+
              	break;
           case 4:
            			scrollT = 4;
@@ -145,6 +153,7 @@ function scrollDownTo(t){
 	             	current.css("display","none");
 	           		current = aboutChild;
 	               	current.css("display","block");
+                 showStuff();
 	               	show_nav(techChild);
 		            break;
 
@@ -152,32 +161,37 @@ function scrollDownTo(t){
             scrollT = 5;
             arrow_down.css("display",disp);
             html.animate({scrollTop: $('.events').offset().top -offset_s}, 500);
+           showStuff();
             show_nav(eventChild);
             break;
           case 6:
           	scrollT = 6;
           	arrow_down.css("display",disp);
              html.animate({scrollTop: $('.speaker-header').offset().top-offset_s}, 500);
+             showStuff();
              show_nav(speakerChild);
              break;
           case 7:
             scrollT = 7;
             arrow_down.css("display",disp);
              html.animate({scrollTop: $('#parvah').offset().top - offset_s}, 500);
+            showStuff();
              show_nav(parvaahChild);
              break;
           case 8:
               scrollT = 8;
               arrow_down.css("display",disp);
              html.animate({scrollTop: $('#sponsors').offset().top - offset_s}, 500);
+             showStuff();
              show_nav(sponsorChild);
              break;
           case 9:
           	 scrollT = 9;
+            showStuff();
           	 arrow_down.css("display","none");
           	 show_nav(contactChild);
              html.animate({scrollTop: $('#contact').offset().top - offset_s}, 500);
-             show_nav(contactChild);
+             // show_nav(contactChild);
              break;
          }
         }
