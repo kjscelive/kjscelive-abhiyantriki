@@ -768,13 +768,13 @@ div {
   background-color: rgba(243, 156, 18, 0.6);
 }
 
-#Ideate .modal-header {
+#ISRO .modal-header {
   background-image: url("../assets/images/events/ISRO.jpg");
   background-position: center;
   background-size: cover;
 }
 
-#Ideate .modal-header h4 {
+#ISRO .modal-header h4 {
   background-color: rgba(243, 156, 18, 0.6);
 }
 
@@ -1393,8 +1393,9 @@ h1 {
 
 @media (min-width: 320px) and (max-width: 550px) {
   .register {
-    left: 12px;
+    left: 0px;
     top: 101px;
+    width: 9%;
   }
   #parvaah-logo {
     -webkit-transform: translate(24vh, 1vh);
