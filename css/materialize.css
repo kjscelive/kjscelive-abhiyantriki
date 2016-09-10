@@ -7398,7 +7398,7 @@ input[type=range]:focus::-ms-fill-upper {
   background-position: center;
 }
 
-.slider .slides li .caption,.slider2 .slides li .caption {
+.slider .slides li .caption {
   color: #fff;
   position: absolute;
   top: 15%;
@@ -7406,6 +7406,15 @@ input[type=range]:focus::-ms-fill-upper {
   width: 70%;
   opacity: 0;
 }
+.slider2 .slides li .caption{
+  color: #fff;
+  position: absolute;
+  left: 15%;
+  width: 70%;
+  opacity: 0;
+  bottom: 18%;
+}
+
 
 .slider .slides li .caption p,.slider2 .slides li .caption p {
   color: #e0e0e0;
