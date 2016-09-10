@@ -1539,6 +1539,7 @@ h1 {
     margin-top: 12px;
     margin-right: 50px;
     font-size: 12px;
+    width: 0%;
   }
   .social-icons-li a img {
     position: absolute;
