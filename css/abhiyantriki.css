@@ -872,6 +872,16 @@ div {
   background-color: rgba(142, 68, 173, 0.6);
 }
 
+#Crucible .modal-header {
+  background-image: url("../assets/images/events/quiz_i.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+#Crucible .modal-header h4 {
+  background-color: rgba(142, 68, 173, 0.6);
+}
+
 #TechHunt .modal-header {
   background-image: url("../assets/images/events/tech_hunt_i.jpeg");
   background-position: center;
