@@ -13,8 +13,7 @@
     <link href="css/materialize.css" rel="stylesheet">
     <link href="css/abhiyantriki.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i" rel="stylesheet"> 
-    <script src="https://code.jquery.com/jquery-2.1.1.min.js" type="text/javascript"></script> 
-    <script src="js/materialize.js" type="text/javascript"></script>  
+   
     <style> 
             html, body{
                max-width:100%;
@@ -147,7 +146,7 @@
                     </li>
 
                     <li class="wave-effect wave-light">
-                        <a class="scroll-nav__techexpo" href="#about" onclick="scrollDownto(3)">Tech Expo</a>
+                        <a class="scroll-nav__techexpo" href="#about" onclick="scrollDownTo(4)">Tech Expo</a>
                     </li>
 
 
@@ -244,13 +243,9 @@
                                     <div class="top">
                                         <a href="#home" id="abhiyantriki-logo" >
                                         <img src="assets/images/logos/logo.png" alt=""
-                                        data-50p-top="transform: translate(1vh,-31vh) scale(0.15); opacity: 1"
+                                        data-50p-top="transform: translate(1vh,-28vh) scale(0.15); opacity: 1"
                                         data-anchor-target=".about-section"
-                                        data-start="transform: translate(0vh,0vh) scale(1); opacity: 1"
-                                        
-                                        
-
-                                        >
+                                        data-start="transform: translate(0vh,0vh) scale(1); opacity: 1">
                                             <!-- <object class="responsive-img" data=
                                         "assets/images/logos/logo.svg"
                                         data-50p-top=
@@ -3827,15 +3822,20 @@ Set in the heart of the city, K. J. Somaiya College of Engineering is located in
                     </div>
                 </div>
 
-    
+    <script src="https://code.jquery.com/jquery-2.1.1.min.js" type="text/javascript"></script>
+    <script>
+      var flag_m1 = 1; 
+        var win = $(window); 
+    </script> 
+    <script src="js/materialize.js" type="text/javascript"></script>  
     <script src="js/skrollr.min.js" type="text/javascript"></script>
     <script src="https://use.fontawesome.com/25112e805e.js"></script>
     <script src="js/abhiyantriki.js" type="text/javascript"></script>
     <script type="text/javascript">  
 
     var activelyScrolling = false;
-    var flag_m = 1;
     var aboutChild;
+    var flag_m = 1;
     var eventChild;
     var parvaahChild;
     var sponsorChild;
@@ -3847,7 +3847,6 @@ Set in the heart of the city, K. J. Somaiya College of Engineering is located in
     var collapsible_open;
     var active_ac;
     var scrollT = 0 ;
-    var win = $(window);
     var win_width = win.width();
     var win_height = win.height();
     current = $(".current li");

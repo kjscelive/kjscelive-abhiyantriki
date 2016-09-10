@@ -347,17 +347,17 @@ if ($) {
             object.parent().removeClass('active');
         }
         if (object.parent().hasClass('active')){
-          object.siblings('.collapsible-body').stop(true,false).slideDown({ duration: 400, easing: "easeOutQuart", queue: false, complete: function() {$(this).css('height', '');}});
+          object.siblings('.collapsible-body').stop(true,false).slideDown({ duration: 350, easing: "easeOutQuart", queue: false, complete: function() {$(this).css('height', '');}});
           // console.log(object );
          	flag_m1 = 0;
          	console.log(flag_m1);
           object.slideDown({ duration: 400, easing: "easeOutQuart", queue: false, complete: function() {$(this).css('height','5vh');}});
-          object.parent().siblings().children('.collapsible-header').slideDown({ duration: 400, easing: "easeOutQuart", queue: false, complete: function() {$(this).css('height','5vh');}});
+          object.parent().siblings().children('.collapsible-header').slideDown({ duration: 350, easing: "easeOutQuart", queue: false, complete: function() {$(this).css('height','5vh');}});
       		$panel_headers.children('p').css({'background':'transparent','box-shadow':'0px 0px 0px 0px black'});
       		 $panel_headers.css("height","6.5vh");
         	}
         else{
-          object.siblings('.collapsible-body').stop(true,false).slideUp({ duration: 400, easing: "easeOutQuart", queue: false, complete: function() {$(this).css('height', '');}});
+          object.siblings('.collapsible-body').stop(true,false).slideUp({ duration: 350, easing: "easeOutQuart", queue: false, complete: function() {$(this).css('height', '');}});
           // object.css("height","22.5vh");
           // object.parent().siblings().children('.collapsible-header').slideDown({ duration: 400, easing: "easeOutQuart", queue: false, complete: function() {$(this).css('height','22.5vh');}});
           $panel_headers.css("height","22.5vh");
@@ -368,7 +368,7 @@ if ($) {
         $panel_headers.not(object).removeClass('active').parent().removeClass('active');
         $panel_headers.not(object).parent().children('.collapsible-body').stop(true,false).slideUp(
           {
-            duration: 400,
+            duration: 350,
             easing: "easeOutQuart",
             queue: false,
             complete:
@@ -387,10 +387,10 @@ if ($) {
             object.parent().removeClass('active');
         }
         if (object.parent().hasClass('active')){
-          object.siblings('.collapsible-body').stop(true,false).slideDown({ duration: 400, easing: "easeOutQuart", queue: false, complete: function() {$(this).css('height', '');}});
+          object.siblings('.collapsible-body').stop(true,false).slideDown({ duration: 350, easing: "easeOutQuart", queue: false, complete: function() {$(this).css('height', '');}});
         }
         else{
-          object.siblings('.collapsible-body').stop(true,false).slideUp({ duration: 400, easing: "easeOutQuart", queue: false, complete: function() {$(this).css('height', '');}});
+          object.siblings('.collapsible-body').stop(true,false).slideUp({ duration: 350, easing: "easeOutQuart", queue: false, complete: function() {$(this).css('height', '');}});
         }
       }
 
@@ -459,7 +459,10 @@ if ($) {
   $(document).ready(function(){
     $('.collapsible').collapsible();
   });
-}( jQuery ));;(function ($) {
+}( jQuery ));
+
+
+;(function ($) {
 
   // Add posibility to scroll to selected option
   // usefull for select for example
@@ -470,8 +473,8 @@ if ($) {
 
   $.fn.dropdown = function (option) {
     var defaults = {
-      inDuration: 400,
-      outDuration: 400,
+      inDuration: 350,
+      outDuration: 350,
       constrain_width: true, // Constrains width of dropdown to the activator
       hover: false,
       gutter: 0, // Spacing from edge
@@ -1889,142 +1892,6 @@ $(document).ready(function(){
     }, false);
 
 })(window);
-;Materialize.toast = function (message, displayLength, className, completeCallback) {
-    className = className || "";
-
-    var container = document.getElementById('toast-container');
-
-    // Create toast container if it does not exist
-    if (container === null) {
-        // create notification container
-        container = document.createElement('div');
-        container.id = 'toast-container';
-        document.body.appendChild(container);
-    }
-
-    // Select and append toast
-    var newToast = createToast(message);
-
-    // only append toast if message is not undefined
-    if(message){
-        container.appendChild(newToast);
-    }
-
-    newToast.style.top = '35px';
-    newToast.style.opacity = 0;
-
-    // Animate toast in
-    Vel(newToast, { "top" : "0px", opacity: 1 }, {duration: 300,
-      easing: 'easeOutCubic',
-      queue: false});
-
-    // Allows timer to be pause while being panned
-    var timeLeft = displayLength;
-    var counterInterval = setInterval (function(){
-
-
-      if (newToast.parentNode === null)
-        window.clearInterval(counterInterval);
-
-      // If toast is not being dragged, decrease its time remaining
-      if (!newToast.classList.contains('panning')) {
-        timeLeft -= 20;
-      }
-
-      if (timeLeft <= 0) {
-        // Animate toast out
-        Vel(newToast, {"opacity": 0, marginTop: '-40px'}, { duration: 375,
-            easing: 'easeOutExpo',
-            queue: false,
-            complete: function(){
-              // Call the optional callback
-              if(typeof(completeCallback) === "function")
-                completeCallback();
-              // Remove toast after it times out
-              this[0].parentNode.removeChild(this[0]);
-            }
-          });
-        window.clearInterval(counterInterval);
-      }
-    }, 20);
-
-
-
-    function createToast(html) {
-
-        // Create toast
-        var toast = document.createElement('div');
-        toast.classList.add('toast');
-        if (className) {
-            var classes = className.split(' ');
-
-            for (var i = 0, count = classes.length; i < count; i++) {
-                toast.classList.add(classes[i]);
-            }
-        }
-        // If type of parameter is HTML Element
-        if ( typeof HTMLElement === "object" ? html instanceof HTMLElement : html && typeof html === "object" && html !== null && html.nodeType === 1 && typeof html.nodeName==="string"
-) {
-          toast.appendChild(html);
-        }
-        else if (html instanceof jQuery) {
-          // Check if it is jQuery object
-          toast.appendChild(html[0]);
-        }
-        else {
-          // Insert as text;
-          toast.innerHTML = html; 
-        }
-        // Bind hammer
-        var hammerHandler = new Hammer(toast, {prevent_default: false});
-        hammerHandler.on('pan', function(e) {
-          var deltaX = e.deltaX;
-          var activationDistance = 80;
-
-          // Change toast state
-          if (!toast.classList.contains('panning')){
-            toast.classList.add('panning');
-          }
-
-          var opacityPercent = 1-Math.abs(deltaX / activationDistance);
-          if (opacityPercent < 0)
-            opacityPercent = 0;
-
-          Vel(toast, {left: deltaX, opacity: opacityPercent }, {duration: 50, queue: false, easing: 'easeOutQuad'});
-
-        });
-
-        hammerHandler.on('panend', function(e) {
-          var deltaX = e.deltaX;
-          var activationDistance = 80;
-
-          // If toast dragged past activation point
-          if (Math.abs(deltaX) > activationDistance) {
-            Vel(toast, {marginTop: '-40px'}, { duration: 375,
-                easing: 'easeOutExpo',
-                queue: false,
-                complete: function(){
-                  if(typeof(completeCallback) === "function") {
-                    completeCallback();
-                  }
-                  toast.parentNode.removeChild(toast);
-                }
-            });
-
-          } else {
-            toast.classList.remove('panning');
-            // Put toast back into original position
-            Vel(toast, { left: 0, opacity: 1 }, { duration: 300,
-              easing: 'easeOutExpo',
-              queue: false
-            });
-
-          }
-        });
-
-        return toast;
-    }
-};
 ;(function ($) {
 
   var methods = {
@@ -2369,290 +2236,7 @@ $(document).ready(function(){
       }
     }; // Plugin end
 }( jQuery ));
-;/**
- * Extend jquery with a scrollspy plugin.
- * This watches the window scroll and fires events when elements are scrolled into viewport.
- *
- * throttle() and getTime() taken from Underscore.js
- * https://github.com/jashkenas/underscore
- *
- * @author Copyright 2013 John Smart
- * @license https://raw.github.com/thesmart/jquery-scrollspy/master/LICENSE
- * @see https://github.com/thesmart
- * @version 0.1.2
- */
-(function($) {
 
-	var jWindow = $(window);
-	var elements = [];
-	var elementsInView = [];
-	var isSpying = false;
-	var ticks = 0;
-	var unique_id = 1;
-	var offset = {
-		top : 1000,
-		right : 0,
-		bottom : 0,
-		left : 0,
-	}
-
-	/**
-	 * Find elements that are within the boundary
-	 * @param {number} top
-	 * @param {number} right
-	 * @param {number} bottom
-	 * @param {number} left
-	 * @return {jQuery}		A collection of elements
-	 */
-	function findElements(top, right, bottom, left) {
-		var hits = $();
-		$.each(elements, function(i, element) {
-			if (element.height() > 0) {
-				var elTop = element.offset().top,
-					elLeft = element.offset().left,
-					elRight = elLeft + element.width(),
-					elBottom = elTop + element.height();
-
-				var isIntersect = !(elLeft > right ||
-					elRight < left ||
-					elTop > bottom ||
-					elBottom < top);
-
-				if (isIntersect) {
-					hits.push(element);
-				}
-			}
-		});
-
-		return hits;
-	}
-
-
-	/**
-	 * Called when the user scrolls the window
-	 */
-	function onScroll() {
-		// unique tick id
-		++ticks;
-
-		// viewport rectangle
-		var top = jWindow.scrollTop(),
-			left = jWindow.scrollLeft(),
-			right = left + jWindow.width(),
-			bottom = top + jWindow.height();
-
-		// determine which elements are in view
-//        + 60 accounts for fixed nav
-		var intersections = findElements(top+offset.top + 200, right+offset.right, bottom+offset.bottom, left+offset.left);
-		$.each(intersections, function(i, element) {
-
-			var lastTick = element.data('scrollSpy:ticks');
-			if (typeof lastTick != 'number') {
-				// entered into view
-				element.triggerHandler('scrollSpy:enter');
-			}
-
-			// update tick id
-			element.data('scrollSpy:ticks', ticks);
-		});
-
-		// determine which elements are no longer in view
-		$.each(elementsInView, function(i, element) {
-			var lastTick = element.data('scrollSpy:ticks');
-			if (typeof lastTick == 'number' && lastTick !== ticks) {
-				// exited from view
-				element.triggerHandler('scrollSpy:exit');
-				element.data('scrollSpy:ticks', null);
-			}
-		});
-
-		// remember elements in view for next tick
-		elementsInView = intersections;
-	}
-
-	/**
-	 * Called when window is resized
-	*/
-	function onWinSize() {
-		jWindow.trigger('scrollSpy:winSize');
-	}
-
-	/**
-	 * Get time in ms
-   * @license https://raw.github.com/jashkenas/underscore/master/LICENSE
-	 * @type {function}
-	 * @return {number}
-	 */
-	var getTime = (Date.now || function () {
-		return new Date().getTime();
-	});
-
-	/**
-	 * Returns a function, that, when invoked, will only be triggered at most once
-	 * during a given window of time. Normally, the throttled function will run
-	 * as much as it can, without ever going more than once per `wait` duration;
-	 * but if you'd like to disable the execution on the leading edge, pass
-	 * `{leading: false}`. To disable execution on the trailing edge, ditto.
-	 * @license https://raw.github.com/jashkenas/underscore/master/LICENSE
-	 * @param {function} func
-	 * @param {number} wait
-	 * @param {Object=} options
-	 * @returns {Function}
-	 */
-	function throttle(func, wait, options) {
-		var context, args, result;
-		var timeout = null;
-		var previous = 0;
-		options || (options = {});
-		var later = function () {
-			previous = options.leading === false ? 0 : getTime();
-			timeout = null;
-			result = func.apply(context, args);
-			context = args = null;
-		};
-		return function () {
-			var now = getTime();
-			if (!previous && options.leading === false) previous = now;
-			var remaining = wait - (now - previous);
-			context = this;
-			args = arguments;
-			if (remaining <= 0) {
-				clearTimeout(timeout);
-				timeout = null;
-				previous = now;
-				result = func.apply(context, args);
-				context = args = null;
-			} else if (!timeout && options.trailing !== false) {
-				timeout = setTimeout(later, remaining);
-			}
-			return result;
-		};
-	};
-
-	/**
-	 * Enables ScrollSpy using a selector
-	 * @param {jQuery|string} selector  The elements collection, or a selector
-	 * @param {Object=} options	Optional.
-        throttle : number -> scrollspy throttling. Default: 100 ms
-        offsetTop : number -> offset from top. Default: 0
-        offsetRight : number -> offset from right. Default: 0
-        offsetBottom : number -> offset from bottom. Default: 0
-        offsetLeft : number -> offset from left. Default: 0
-	 * @returns {jQuery}
-	 */
-	$.scrollSpy = function(selector, options) {
-		var visible = [];
-		selector = $(selector);
-		selector.each(function(i, element) {
-			elements.push($(element));
-			$(element).data("scrollSpy:id", i);
-			// Smooth scroll to section
-		  $('a[href="#' + $(element).attr('id') + '"]').click(function(e) {
-		    e.preventDefault();
-		    var offset = $(this.hash).offset().top + 1;
-
-//          offset - 200 allows elements near bottom of page to scroll
-			
-	    	$('html, body').animate({ scrollTop: offset - 200 }, {duration: 400, queue: false, easing: 'easeOutCubic'});
-			
-		  });
-		});
-		options = options || {
-			throttle: 100
-		};
-
-		offset.top = options.offsetTop || 0;
-		offset.right = options.offsetRight || 0;
-		offset.bottom = options.offsetBottom || 0;
-		offset.left = options.offsetLeft || 0;
-
-		var throttledScroll = throttle(onScroll, options.throttle || 100);
-		var readyScroll = function(){
-			$(document).ready(throttledScroll);
-		};
-
-		if (!isSpying) {
-			jWindow.on('scroll', readyScroll);
-			jWindow.on('resize', readyScroll);
-			isSpying = true;
-		}
-
-		// perform a scan once, after current execution context, and after dom is ready
-		setTimeout(readyScroll, 0);
-
-
-		selector.on('scrollSpy:enter', function() {
-			visible = $.grep(visible, function(value) {
-	      return value.height() != 0;
-	    });
-
-			var $this = $(this);
-
-			if (visible[0]) {
-				$('a[href="#' + visible[0].attr('id') + '"]').removeClass('active');
-				if ($this.data('scrollSpy:id') < visible[0].data('scrollSpy:id')) {
-					visible.unshift($(this));
-				}
-				else {
-					visible.push($(this));
-				}
-			}
-			else {
-				visible.push($(this));
-			}
-
-
-			$('a[href="#' + visible[0].attr('id') + '"]').addClass('active');
-		});
-		selector.on('scrollSpy:exit', function() {
-			visible = $.grep(visible, function(value) {
-	      return value.height() != 0;
-	    });
-
-			if (visible[0]) {
-				$('a[href="#' + visible[0].attr('id') + '"]').removeClass('active');
-				var $this = $(this);
-				visible = $.grep(visible, function(value) {
-	        return value.attr('id') != $this.attr('id');
-	      });
-	      if (visible[0]) { // Check if empty
-					$('a[href="#' + visible[0].attr('id') + '"]').addClass('active');
-	      }
-			}
-		});
-
-		return selector;
-	};
-
-	/**
-	 * Listen for window resize events
-	 * @param {Object=} options						Optional. Set { throttle: number } to change throttling. Default: 100 ms
-	 * @returns {jQuery}		$(window)
-	 */
-	$.winSizeSpy = function(options) {
-		$.winSizeSpy = function() { return jWindow; }; // lock from multiple calls
-		options = options || {
-			throttle: 100
-		};
-		return jWindow.on('resize', throttle(onWinSize, options.throttle || 100));
-	};
-
-	/**
-	 * Enables ScrollSpy on a collection of elements
-	 * e.g. $('.scrollSpy').scrollSpy()
-	 * @param {Object=} options	Optional.
-											throttle : number -> scrollspy throttling. Default: 100 ms
-											offsetTop : number -> offset from top. Default: 0
-											offsetRight : number -> offset from right. Default: 0
-											offsetBottom : number -> offset from bottom. Default: 0
-											offsetLeft : number -> offset from left. Default: 0
-	 * @returns {jQuery}
-	 */
-	$.fn.scrollSpy = function(options) {
-		return $.scrollSpy($(this), options);
-	};
-
-})(jQuery);
 ;(function ($) {
   $(document).ready(function() {
 
@@ -3907,54 +3491,6 @@ $(document).ready(function(){
     // });
   });
 }( jQuery ));
-;(function($) {
-
-  // Input: Array of JSON objects {selector, offset, callback}
-
-  Materialize.scrollFire = function(options) {
-
-    var didScroll = false;
-
-    window.addEventListener("scroll", function() {
-      didScroll = true;
-    });
-
-    // Rate limit to 100ms
-    setInterval(function() {
-      if(didScroll) {
-          didScroll = false;
-
-          var windowScroll = window.pageYOffset + window.innerHeight;
-
-          for (var i = 0 ; i < options.length; i++) {
-            // Get options from each line
-            var value = options[i];
-            var selector = value.selector,
-                offset = value.offset,
-                callback = value.callback;
-
-            var currentElement = document.querySelector(selector);
-            if ( currentElement !== null) {
-              var elementOffset = currentElement.getBoundingClientRect().top + window.pageYOffset;
-
-              if (windowScroll > (elementOffset + offset)) {
-                if (value.done !== true) {
-                  if (typeof(callback) === 'function') {
-                    callback.call(this);
-                  } else if (typeof(callback) === 'string') {
-                    var callbackFunc = new Function(callback);
-                    callbackFunc();
-                  }
-                  value.done = true;
-                }
-              }
-            }
-          }
-      }
-    }, 100);
-  };
-
-})(jQuery);
 ;/*!
  * pickadate.js v3.5.0, 2014/04/13
  * By Amsul, http://amsul.ca
