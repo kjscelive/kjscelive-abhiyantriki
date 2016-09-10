@@ -1,8 +1,8 @@
 @import 'https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i';
 body {
   width: 100%;
+  background-color: black;
   overflow-scrolling: auto;
-  overflow-x: hidden;
   -webkit-overflow-scrolling: auto;
   font-family: 'Roboto',sans-serif;
   font-weight: 400;
@@ -11,12 +11,6 @@ body {
 
 canvas {
   width: 100%;
-}
-
-.clear-fix::after {
-  clear: both;
-  content: "";
-  display: block;
 }
 
 .left-modal {
@@ -44,26 +38,6 @@ canvas {
   bottom: 0;
 }
 
-#highlight {
-  display: inline;
-  height: calc(10vh) !important;
-  width: 75px;
-  position: relative;
-  margin: 0px !important;
-  padding: 0px !important;
-  z-index: -1;
-  -webkit-transform: translateX(0);
-      -ms-transform: translateX(0);
-          transform: translateX(0);
-  background: rgba(255, 255, 255, 0.3);
-}
-
-#highlight::after {
-  clear: both;
-  content: "";
-  display: block;
-}
-
 nav {
   background: #363c3d;
   position: fixed;
@@ -88,6 +62,39 @@ nav .current-nav ul li {
 
 nav .side-nav {
   background: black;
+}
+
+.register {
+  background: white;
+  display: -ms-flexbox;
+  display: flex;
+  display: -webkit-flex;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: fixed;
+  left: 0;
+  bottom: 45px;
+  width: 3%;
+  height: 7vh;
+  z-index: 1000;
+  color: white;
+}
+
+.register span {
+  opacity: 0;
+  color: white;
+  background: rgba(255, 255, 255, 0.2);
+  padding: 5px;
+  border-radius: 18px;
+  transition: all 0.2s ease-in-out;
+}
+
+.register:hover span {
+  opacity: 1;
 }
 
 .current li {
@@ -215,10 +222,6 @@ div {
   width: 50px;
   height: 50px;
   padding: 10px;
-  -webkit-transition: all 0.6s ease-in-out;
-  -moz-transition: all 0.6s ease-in-out;
-  -moz-transition--o-transition: all 0.6s ease-in-out;
-  -moz-transition--ms-transition: all 0.6s ease-in-out;
   transition: all 0.6s ease-in-out;
 }
 
@@ -240,10 +243,6 @@ div {
   background: white;
   width: 50px;
   height: 50px;
-  -webkit-transition: all 0.6s ease-in-out;
-  -moz-transition: all 0.6s ease-in-out;
-  -moz-transition--o-transition: all 0.6s ease-in-out;
-  -moz-transition--ms-transition: all 0.6s ease-in-out;
   transition: all 0.6s ease-in-out;
 }
 
@@ -626,14 +625,6 @@ div {
 
 .modal-footer .row .col {
   padding: 0 !important;
-}
-
-body {
-  background-color: black;
-  overflow-x: hidden;
-  font-family: 'Roboto',sans-serif;
-  font-weight: 400;
-  font-style: normal;
 }
 
 .events ul {
@@ -1082,6 +1073,11 @@ li:nth-child(4) .collapsible-header {
   height: auto;
 }
 
+.modal-text strong {
+  font-weight: 900;
+  font-family: 'Roboto',sans-serif;
+}
+
 .modal .tab {
   color: white;
   overflow: hidden;
@@ -1129,9 +1125,9 @@ a.active {
   padding: 0px;
 }
 
-.speaker-container {
+.speakers-container {
   display: block;
-  height: 50vh;
+  height: 90vh;
   width: 100%;
   background: white;
 }
@@ -1147,10 +1143,6 @@ a.active {
   background: transparent;
   height: 60vh;
   overflow: hidden;
-  -webkit-transition: all 0.02s ease-in-out;
-  -moz-transition: all 0.02s ease-in-out;
-  -moz-transition--o-transition: all 0.02s ease-in-out;
-  -moz-transition--ms-transition: all 0.02s ease-in-out;
   transition: all 0.02s ease-in-out;
 }
 
@@ -1202,10 +1194,6 @@ a.active {
   overflow: hidden;
   width: 100%;
   background: white;
-  -webkit-transition: all 1s ease-in-out;
-  -moz-transition: all 1s ease-in-out;
-  -moz-transition--o-transition: all 1s ease-in-out;
-  -moz-transition--ms-transition: all 1s ease-in-out;
   transition: all 1s ease-in-out;
 }
 
@@ -1215,10 +1203,6 @@ a.active {
   overflow-x: hidden;
   text-align: center;
   height: 65vh;
-  -webkit-transition: all 1s ease-in-out;
-  -moz-transition: all 1s ease-in-out;
-  -moz-transition--o-transition: all 1s ease-in-out;
-  -moz-transition--ms-transition: all 1s ease-in-out;
   transition: all 1s ease-in-out;
 }
 
@@ -1349,6 +1333,22 @@ footer {
 #Webteam {
   margin-top: -1%;
   padding: 2%;
+  width: 40%;
+}
+
+#Webteam img {
+  opacity: 0;
+  -webkit-transform: translate(0vh, 1vh);
+      -ms-transform: translate(0vh, 1vh);
+          transform: translate(0vh, 1vh);
+  transition: all 0.3s ease-in-out;
+}
+
+#Webteam:hover img {
+  opacity: 1;
+  -webkit-transform: translate(0vh, 0vh);
+      -ms-transform: translate(0vh, 0vh);
+          transform: translate(0vh, 0vh);
 }
 
 p {
@@ -1382,6 +1382,10 @@ h1 {
 }
 
 @media (min-width: 320px) and (max-width: 550px) {
+  .register {
+    left: 12px;
+    top: 101px;
+  }
   #parvaah-logo {
     -webkit-transform: translate(24vh, 1vh);
         -ms-transform: translate(24vh, 1vh);
@@ -1552,6 +1556,12 @@ h1 {
   a.svg {
     position: relative;
     display: inline-block;
+  }
+  #iottext {
+    font-size: 14px;
+  }
+  #iottext2 {
+    font-size: 11px;
   }
   a.svg:after {
     content: "";

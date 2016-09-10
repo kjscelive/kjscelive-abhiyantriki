@@ -8,10 +8,10 @@ $navbar_color : #7f8c8d
 
 @mixin transform($value)
     -webkit-transform: $value
-    -moz-transform: $value
-    -ms-transform: $value
-    -o-transform: $value
-    transform: $value
+    -moz-transform:    $value
+    -ms-transform:     $value
+    -o-transform:      $value
+    transform:         $value
 
 @mixin border-radius($radius)
  	
@@ -21,12 +21,13 @@ $navbar_color : #7f8c8d
 	-o-border-radius: $radius
 	border-radius: $radius
 
-@mixin transition($value)
-	-webkit-transition: $value
-	-moz-transition: $value
-    -o-transition: $value
-    -ms-transition: $value
-	transition: $value
+@mixin transition($transition) 
+    -moz-transition:    $transition
+    -o-transition:      $transition
+    -webkit-transition: $transition
+    -ms-transition: $transition
+    transition:         $transition
+
 
 @mixin box-shadow($value)
 	-webkit-box-shadow: $value
@@ -121,8 +122,35 @@ nav .current-nav
 nav .side-nav
 	background: darken(#2c3e50,30%)
 
+.register
+	background: white
+	display: flex;
+	display: -webkit-flex
+	justify-content: center
+	align-items: center
+	position: fixed 
+	left: 0;
+	bottom: 45px;
+	width: 3%
+	height: 7vh
+	z-index: 1000
+	color: white
+
+	span
+		opacity: 0
+		//transform: translate(3vh,1vh)
+		color: white
+		background: rgba(255,255,255,0.2)
+		padding: 5px
+		border-radius: 18px
+		transition: all 0.2s ease-in-out
+
+	&:hover span
+		opacity: 1
+		//transform: translate(6vh,0vh)
+
 	
-	
+
 .current li 
 	display: none
 // .current li
@@ -918,6 +946,7 @@ $informal_color:  #0f0
 		background:
 			color: rgba($Pre,0.6)
 
+
 #SixthSense .modal-header
 	background:
 		image: url('../assets/images/events/sixth_sense_p.jpg')
@@ -1046,6 +1075,11 @@ li:nth-child(4) .collapsible-header
 .modal-text
 	padding: 10px
 	height: auto
+
+	strong
+		font-weight: 900
+		font-family: 'Roboto',sans-serif
+
 	//overflow-y: auto
 .modal .tab 
 	color: white
@@ -1086,9 +1120,9 @@ a.active
 
 //speaker
 
-.speaker-container
+.speakers-container
 	display: block
-	height: 50vh
+	height: 90vh
 	width: 100%
 	background: white
 
@@ -1254,6 +1288,10 @@ a.active
 #lastYear .container .box div
 	// display: inline-block
 #lastYear .container .box h4
+
+
+
+
 	//margin: 0
 	//font-size: 25px
 	//padding: 2%
@@ -1322,6 +1360,15 @@ footer
 #Webteam
 	margin-top: -1%
 	padding: 2%
+	width: 40%
+
+	& img
+		opacity: 0
+		transform: translate(0vh,1vh);
+		transition: all 0.3s ease-in-out
+	&:hover img
+		opacity: 1
+		transform: translate(0vh,0vh)
 	//margin-right: 3%
 	//width: 40%
 // .about_stuco
@@ -1354,7 +1401,9 @@ h1
 @media (min-width: 320px) and (max-width: 550px)
 
 
-	
+	.register
+		left: 12px
+		top: 101px	
 	
 
 	
@@ -1541,6 +1590,11 @@ h1
 	a.svg 
 	 	position: relative;
 	 	display: inline-block; 
+
+	#iottext
+		font-size: 14px
+	#iottext2
+		font-size: 11px
 
 	a.svg:after 
 		content: "" 

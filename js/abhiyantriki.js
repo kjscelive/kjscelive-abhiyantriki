@@ -122,7 +122,7 @@ function scrollDownTo(t){
           case 6:
             scrollT = 6;
             arrow_down.css("display",disp);
-            html.animate({scrollTop: $('.speaker-header').offset().top-offset_s}, 500);
+            html.animate({scrollTop: $('.speakers-container').offset().top-offset_s}, 500);
             showStuff();
             show_nav(speakerChild);
             break;
@@ -207,8 +207,12 @@ $(document).ready(function(){
 
       $(".slider").slider({
             full_width: true,
-            height: win_height*0.84
+            height: win_height*0.9
       });
+      $('.slider2').slider({
+          full_width: true,
+          height: win_height*0.9
+});
       $(".slider").slider("pause"); 
 
     	

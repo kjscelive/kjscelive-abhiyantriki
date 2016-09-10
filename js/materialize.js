@@ -353,19 +353,23 @@ if ($) {
          	console.log(flag_m1);
           object.slideDown({ duration: 400, easing: "easeOutQuart", queue: false, complete: function() {$(this).css('height','5vh');}});
           object.parent().siblings().children('.collapsible-header').slideDown({ duration: 350, easing: "easeOutQuart", queue: false, complete: function() {$(this).css('height','5vh');}});
-      		$panel_headers.children('p').css({'background':'transparent','box-shadow':'0px 0px 0px 0px black'});
+      		$panel_headers.children('p').css({'background':'transparent','box-shadow':'0px 0px 0px 0px black',"width":"100%"});
       		 $panel_headers.css("height","6.5vh");
+      		 object.children("div").css("display","block");
+
         	}
         else{
           object.siblings('.collapsible-body').stop(true,false).slideUp({ duration: 350, easing: "easeOutQuart", queue: false, complete: function() {$(this).css('height', '');}});
           // object.css("height","22.5vh");
           // object.parent().siblings().children('.collapsible-header').slideDown({ duration: 400, easing: "easeOutQuart", queue: false, complete: function() {$(this).css('height','22.5vh');}});
           $panel_headers.css("height","22.5vh");
-          $panel_headers.children('p').css({'background':'black','box-shadow':'2px 2px 30px -1px black'});
+          $panel_headers.children('p').css({'background':'black','box-shadow':'2px 2px 30px -1px black',"width":""});
+           object.children("div").css("display","none");
           flag_m1 = 1;
         }
 
         $panel_headers.not(object).removeClass('active').parent().removeClass('active');
+        $panel_headers.not(object).children('div').css("display","none");
         $panel_headers.not(object).parent().children('.collapsible-body').stop(true,false).slideUp(
           {
             duration: 350,
