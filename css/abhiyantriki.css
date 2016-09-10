@@ -862,13 +862,13 @@ div {
   background-color: rgba(142, 68, 173, 0.6);
 }
 
-#TakeshisCastle .modal-header {
+#CastleMath .modal-header {
   background-image: url("../assets/images/events/TakeshisCastle.jpg");
   background-position: center;
   background-size: cover;
 }
 
-#TakeshisCastle .modal-header h4 {
+#CastleMath .modal-header h4 {
   background-color: rgba(142, 68, 173, 0.6);
 }
 
