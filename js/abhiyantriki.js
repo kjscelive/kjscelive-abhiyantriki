@@ -329,3 +329,24 @@ win.bind("wheel", function(e){
       }
         
 });
+
+ // var lastScrollTop = 0;
+ // $(document).on("scroll",function(){
+
+ //      if(flag_m1==1){
+ //         alert("here");
+ //       var st = $(this).scrollTop();
+ //       if (st > lastScrollTop){
+          
+ //           goDown();
+ //          return false;
+          
+ //       } else {
+ //          // upscroll code
+ //          goUp();
+ //         return false;
+ //       }
+ //       lastScrollTop = st;
+ //    }
+ //      }
+ //  );
