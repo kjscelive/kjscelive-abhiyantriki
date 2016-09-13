@@ -637,25 +637,25 @@ div {
 }
 
 .life3 {
-  background-image: url("../assets/images/pattern3.png");
+  background-image: url("../assets/images/eventsbg/pattern3.jpg");
   background-size: cover;
   background-attachment: fixed;
 }
 
 .life4 {
-  background-image: url("../assets/images/pattern4.png");
+  background-image: url("../assets/images/eventsbg/pattern4.jpg");
   background-size: cover;
   background-attachment: fixed;
 }
 
 .life2 {
-  background-image: url("../assets/images/pattern2.png");
+  background-image: url("../assets/images/eventsbg/pattern2.jpg");
   background-size: cover;
   background-attachment: fixed;
 }
 
 .life1 {
-  background: url("../assets/images/pattern1.png");
+  background: url("../assets/images/eventsbg/pattern1.jpg");
   background-size: cover;
   background-attachment: fixed;
 }
