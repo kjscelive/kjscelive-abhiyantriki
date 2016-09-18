@@ -182,7 +182,7 @@ div {
 }
 
 #abhiyantriki-logo img {
-  height: 36vh;
+  height: 39vh;
   margin-right: 2vw;
 }
 
@@ -408,6 +408,7 @@ div {
 }
 
 .arrow-container {
+  margin-top: -8%;
   display: inline-block;
   width: 100%;
   text-align: center;
