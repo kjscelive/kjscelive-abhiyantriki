@@ -42,7 +42,7 @@ nav {
   background: #363c3d;
   position: fixed;
   top: 0;
-  z-index: 1000;
+  z-index: 1002;
 }
 
 nav li {
@@ -1463,8 +1463,8 @@ h1 {
     z-index: -1;
   }
   #abhiyantriki-logo img {
-    height: 36vh;
-    margin-left: -5vw;
+    height: 34vh;
+    margin-left: -4vw;
   }
   #test h5 {
     color: white;
