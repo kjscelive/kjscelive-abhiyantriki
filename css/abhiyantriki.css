@@ -251,6 +251,10 @@ div {
   color: white;
 }
 
+.arrow-nav-container .arrow-navigation .hello {
+  font-size: 30px;
+}
+
 .col {
   height: 10vh;
 }
