@@ -1226,9 +1226,9 @@ a.active {
 }
 
 #parvaah-logo {
-  -webkit-transform: translate(10vh, 10vh);
-      -ms-transform: translate(10vh, 10vh);
-          transform: translate(10vh, 10vh);
+  -webkit-transform: translate(50vh, 10vh);
+      -ms-transform: translate(50vh, 10vh);
+          transform: translate(50vh, 10vh);
   position: relative;
   z-index: 500;
   width: 50%;
