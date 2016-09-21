@@ -773,6 +773,16 @@ div {
   background-color: rgba(243, 156, 18, 0.6);
 }
 
+#Hackathon .modal-header {
+  background-image: url("../assets/images/events/hackathon_c.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+#Hackathon .modal-header h4 {
+  background-color: rgba(243, 156, 18, 0.6);
+}
+
 #ISRO .modal-header {
   background-image: url("../assets/images/events/ISRO.jpg");
   background-position: center;
@@ -1017,6 +1027,16 @@ div {
   background-color: rgba(26, 188, 156, 0.6);
 }
 
+#CodeWars .modal-header {
+  background-image: url("../assets/images/events/code_spree_cp.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+#CodeWars .modal-header h4 {
+  background-color: rgba(26, 188, 156, 0.6);
+}
+
 #LanGaming .modal-header {
   background-image: url("../assets/images/events/lan_gaming_i.jpeg");
   background-position: center;
@@ -1024,6 +1044,16 @@ div {
 }
 
 #LanGaming .modal-header h4 {
+  background-color: rgba(142, 68, 173, 0.6);
+}
+
+#Picomania .modal-header {
+  background-image: url("../assets/images/events/picomania.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+#Picomania .modal-header h4 {
   background-color: rgba(142, 68, 173, 0.6);
 }
 

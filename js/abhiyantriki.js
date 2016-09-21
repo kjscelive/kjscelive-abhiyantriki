@@ -207,7 +207,7 @@ $(document).ready(function(){
 
       $(".slider").slider({
             full_width: true,
-            height: win_height*0.87
+            height: win_height*0.9
       });
       $('.slider2').slider({
           full_width: true,
