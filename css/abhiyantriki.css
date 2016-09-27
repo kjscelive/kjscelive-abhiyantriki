@@ -38,6 +38,11 @@ canvas {
   bottom: 0;
 }
 
+#main_image {
+  height: 18vh;
+  margin-top: 6px;
+}
+
 nav {
   background: #363c3d;
   position: fixed;
@@ -794,7 +799,7 @@ div {
 }
 
 #TechShield .modal-header {
-  background-image: url("../assets/images/events/ideate_f.jpg");
+  background-image: url("../assets/images/events/TechShield.jpg");
   background-position: center;
   background-size: cover;
 }
@@ -1028,7 +1033,7 @@ div {
 }
 
 #CodeWars .modal-header {
-  background-image: url("../assets/images/events/code_wars.jpg");
+  background-image: url("../assets/images/events/code_spree_cp.jpg");
   background-position: center;
   background-size: cover;
 }
@@ -1613,6 +1618,11 @@ h1 {
   a.svg {
     position: relative;
     display: inline-block;
+  }
+  #main_image {
+    width: auto;
+    height: 12vh !important;
+    margin-top: 6px;
   }
   #iottext {
     font-size: 14px;
