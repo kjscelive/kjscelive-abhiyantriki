@@ -416,6 +416,10 @@ div {
   left: 0;
 }
 
+#intern .col {
+  height: auto;
+}
+
 .arrow-container {
   display: inline-block;
   width: 100%;
