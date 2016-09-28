@@ -21,10 +21,20 @@
                overflow:hidden;
                /*font-size: 6px !important;*/
             }
+            #composite{
+              width: auto; 
+              height: 46vh; 
+              margin-left: -2%;
+            }
             @media (min-width: 320px) and (max-width: 550px) {
               html,body{
                overflow-y:scroll;
               }
+               #composite{
+              width: auto; 
+              height: 19vh; 
+              margin-left: -2%;
+            }
             }
             .loader {
               position: fixed;
@@ -282,12 +292,12 @@
 
 
                             <div class="down" style="text-align: center" style="height: 20vh;">
-                            <div style="height: 20vh;"><img src="assets/titlesponsor.svg" alt="" style="width: auto; height: 19vh; margin-left: -2%">
+                            <div style="height: 20vh;"><img id="composite" src="assets/composite.png" alt="" style="">
 
     
                             </div>
-                             <img class="responsive-img" id="main_image" src="assets/images/logos/sponsors/2016/prodigymain.png" alt="" style="">
-                              <img class="responsive-img" id="main_image" src="assets/images/logos/sponsors/2016/telexmain.png" alt="" style="">
+                            <!--  <img class="responsive-img" id="main_image" src="assets/images/logos/sponsors/2016/prodigymain.png" alt="" style="">
+                              <img class="responsive-img" id="main_image" src="assets/images/logos/sponsors/2016/telexmain.png" alt="" style=""> -->
                                 <!-- <object data=
                                 "assets/abhiyantriki_dates.svg"
                                 style=
@@ -310,7 +320,7 @@
          -->
 
 
-                                <div class="social" style="margin-top:-2%;">
+                                <div class="social" style="">
                                     <div class="social-icons-container">
                                         <div class="" id="social-icons-li">
                                             <a href="https://www.facebook.com/kjsceabhiyantriki/" target="_blank" class="facebook">
@@ -1582,7 +1592,7 @@ src="https://www.youtube.com/embed/_WRzGZKgST8">
                                                
                                             </div>
 
-                                             <!-- <div class="box col s12 m6 l6">
+                                             <div class="box col s12 m6 l6">
                                                
                                                 <h6>Powered By</h6>
                                                 <a href="https://prodigyfinance.com/" target="_blank">
@@ -1592,7 +1602,7 @@ src="https://www.youtube.com/embed/_WRzGZKgST8">
                                                
                                             </div>
 
-                                             <div class="box col s12 m6 l6">
+                                             <!-- <div class="box col s12 m6 l6">
                                                
                                                 <h6>In association with</h6>
                                                 <a href="https://prodigyfinance.com/" target="_blank">
