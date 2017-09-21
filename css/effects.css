@@ -650,6 +650,13 @@ body{
   background-size: cover;
   background-position: center;
 }
+.darkerskybluex {
+  background-image: url("../images/bg_images/sexpo.png");
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+}
 .carousel-indicators {
   bottom: 0;
 }
