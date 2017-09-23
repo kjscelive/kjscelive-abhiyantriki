@@ -5,7 +5,8 @@
 //         clearInterval(interval);
 //         done();
 //     }
-// }, 100);
+// }, 10000);
+
 $("#myCarousel").swipe({
 
   swipe: function(event, direction, distance, duration, fingerCount, fingerData) {
