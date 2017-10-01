@@ -657,6 +657,13 @@ body{
   background-size: cover;
   background-position: center;
 }
+.darkerskybluey {
+  background-image: url("../images/bg_images/auto-expo.png");
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+}
 .carousel-indicators {
   bottom: 0;
 }
@@ -1171,4 +1178,53 @@ body.on
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+#specialsection1
+{
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+  background: url('../images/bg_images/d-bg.png');
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#overlayspecial1
+{
+  height: 100%;
+  width: 100%;
+  background: rgba(0,0,0,0.7);
+}
+#headerimage1
+{
+  text-align: center;
+  padding-top: 10vh;
+  padding-left: 10px;
+  padding-right: 10px;
+  min-height: 40vh;
+}
+#specialcontent1
+{
+  position: relative;
+  height: 50vh;
+}
+#actualcontent1
+{
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  color: white;
+  text-align: center;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+@media screen and (min-width: 992px)
+{
+  #actualcontent1
+  {
+    font-size: 1.3em;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
 }
