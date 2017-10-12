@@ -8,6 +8,10 @@
   background-repeat: no-repeat;
   background-size: cover;
 }*/
+article
+{
+    cursor: pointer;
+}
 @font-face {
     font-family: Coves;
     src: url('../fonts/Coves-Light.otf') format('opentype');
