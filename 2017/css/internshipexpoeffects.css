@@ -1,0 +1,149 @@
+@font-face {
+    font-family: Coves;
+    src: url('../fonts/Coves-Light.otf') format('opentype');
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: Coves;
+    src: url('../fonts/Coves-Bold.otf') format('opentype');
+    font-weight: bold;
+}
+#form{
+    position: fixed;
+    top: 70px;
+    left: 0px;
+    z-index: 9999;
+    width: 40px;
+    height: 40px;
+    border-radius: 0px 10px 10px 0px;
+    text-align: center;
+    line-height: 41.5px;
+    background: rgba(0,0,0,0.5);
+    color: #fff;
+    cursor: pointer;
+    border: 0;
+    font-size: 25px;
+    text-decoration: none;
+}
+*
+{
+  font-family: "Roboto";
+}
+* h1,h2,h3,h4,h5,h6
+{
+  font-family: Coves !important;
+  font-weight: bold !important;
+}
+.centercontainer
+{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+
+.dropdown-menu>.active>a, .dropdown-menu>.active>a:focus, .dropdown-menu>.active>a:hover
+{
+  background: #a8518a !important;
+  color: #fff !important;
+}
+.navbar-right .dropdown-menu
+{
+    left:0 !important;
+    right:auto !important;
+    /*margin-right:-10px !important;*/
+}
+.dropdown-menu>li>a
+{
+  color: #9d9d9d !important;
+  background: #222;
+}
+.dropdown-menu>li>a:hover
+{
+  background: #a8518a !important;
+  color: #fff !important;
+}
+.dropdown-menu
+{
+  border-color:#080808;
+  padding: 0px !important;
+}
+
+body
+{
+    overflow-x: hidden;
+}
+body::-webkit-scrollbar-track
+{
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.6);
+  /*border-radius: 10px;*/
+  background-color: #333;
+}
+
+body::-webkit-scrollbar
+{
+  width: 1em;
+  background-color: #F5F5F5;
+}
+
+body::-webkit-scrollbar-thumb
+{
+  /*border-radius: 10px;*/
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.6);
+  background-color: #a8518a;
+}
+.navbar-inverse .navbar-nav>li>a:hover {
+    background: #a8518a !important;
+}
+.navbar-inverse .navbar-nav>.active>a
+{
+    background: #a8518a !important;
+}
+#logo {
+    height: 48px;
+    padding: 3px 10px 5px 0px;
+}
+.headimage
+{
+  height:50vh;
+  position:relative;
+  background: url('../images/bg_images/internshipexpo_bg.png');
+  /*background-attachment: fixed;*/
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.centerer
+{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+h1
+{
+  text-align: center;
+}
+hr{
+    border: 0;
+    height: 1px !important;
+    background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0)), color-stop(rgba(0, 0, 0, 0.75)), to(rgba(0, 0, 0, 0)));
+    background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+    background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}

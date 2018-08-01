@@ -1,0 +1,110 @@
+html {
+    height: 100%;
+}
+
+body {
+
+
+    /*overflow: scroll;*/
+    /*vertical-align: middle;*/
+    /*display: flex;*/
+    /*justify-content: center;*/
+    /*align-items: center;*/
+    height: 100%;
+    overflow-x:hidden;
+}
+
+.container {
+    /*display: flex;*/
+    /*justify-content: space-around;*/
+    /*justify-content: center;*/
+    /*align-items: center;*/
+    height: 100%;
+    /*margin: 20px 20px 20px 20px;*/
+}
+
+
+.row {
+    position: relative !important;
+}
+
+@font-face {
+    font-family: Coves;
+    src: url('Coves-Light.otf') format('opentype');
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: Coves;
+    src: url('Coves-Bold.otf') format('opentype');
+    font-weight: bold;
+}
+
+strong {
+    font-weight: bold;
+}
+
+.brand {
+    font-family: Coves;
+}
+
+.cred {
+    display: inline: ;
+    color: #dc6038;
+}
+
+.cpurple {
+    color: #a8518a;
+}
+
+#social a:hover span i {
+    color: #a8518a;
+}
+#social{
+    min-width: 100%;
+}
+
+.logo{
+  padding: 1%;
+}
+
+.content{
+  margin: 0 auto;
+}
+.fullscreen-bg {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+    z-index: -100;
+}
+
+.fullscreen-bg__video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: auto;
+    height: auto;
+    min-width: 100%;
+    min-height: 100%;
+    -webkit-transform: translate(-50%, -50%);
+       -moz-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+}
+
+@media (max-width: 767px) {
+    .fullscreen-bg {
+        background: url('https://preview.ibb.co/dALv25/cs_bg.png') center center / cover no-repeat;
+    }
+
+    .fullscreen-bg__video:nth-child(2){
+        display: none;
+    }
+}
+.fullscreen-bg__video:nth-child(1){
+    background: rgba(0,0,0,0.6);
+    z-index: 1000;
+}

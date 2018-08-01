@@ -1,0 +1,1660 @@
+@import 'https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i';
+body {
+  width: 100%;
+  background-color: black;
+  overflow-scrolling: auto;
+  -webkit-overflow-scrolling: auto;
+  font-family: 'Roboto',sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+canvas {
+  width: 100%;
+}
+
+.left-modal {
+  position: relative;
+  padding: 2%;
+  margin: auto 0;
+  z-index: 10000;
+  float: left;
+}
+
+.right-modal {
+  position: relative;
+  padding: 2%;
+  z-index: 100000;
+  float: right;
+}
+
+.top {
+  position: relative;
+  top: 0;
+}
+
+.down {
+  position: relative;
+  bottom: 0;
+}
+
+#main_image {
+  height: 18vh;
+  margin-top: 6px;
+}
+
+nav {
+  background: #363c3d;
+  position: fixed;
+  top: 0;
+  z-index: 1002;
+}
+
+nav li {
+  max-height: 75px;
+}
+
+nav .current-nav {
+  background: transparent;
+  height: 100%;
+  width: 20%;
+}
+
+nav .current-nav ul li {
+  position: absolute;
+  padding-left: 10px;
+}
+
+nav .side-nav {
+  background: black;
+}
+
+.register {
+  background: white;
+  display: -ms-flexbox;
+  display: flex;
+  display: -webkit-flex;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: fixed;
+  left: 0;
+  bottom: 45px;
+  width: 3%;
+  height: 7vh;
+  z-index: 1000;
+  color: white;
+}
+
+.register span {
+  opacity: 0;
+  color: white;
+  background: rgba(255, 255, 255, 0.2);
+  padding: 5px;
+  border-radius: 18px;
+  transition: all 0.2s ease-in-out;
+}
+
+.register:hover span {
+  opacity: 1;
+}
+
+.current li {
+  display: none;
+}
+
+.current {
+  display: -ms-flexbox;
+  display: flex;
+  display: -webkit-flex;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100%;
+}
+
+canvas {
+  overflow: hidden;
+}
+
+#particles-js {
+  overflow: hidden;
+}
+
+div {
+  display: block;
+}
+
+.test {
+  color: white;
+}
+
+.nav-wrappers {
+  padding: 10px;
+}
+
+.button-collapse {
+  display: -ms-flexbox;
+  display: flex;
+  display: -webkit-flex;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100%;
+}
+
+.button-collapse ul li a {
+  position: fixed;
+  z-index: 10000;
+}
+
+.brand-logo {
+  height: 5vh;
+  width: 50%;
+  display: none;
+}
+
+.brand-logo img {
+  position: relative;
+  top: 6px;
+  margin-left: 0%;
+  height: 7vh;
+  width: 20%;
+}
+
+.fix {
+  position: fixed;
+  z-index: 0;
+}
+
+.logo-img {
+  height: 40%;
+  width: 40%;
+  min-width: 250px;
+  min-height: 250px;
+}
+
+#abhiyantriki-logo {
+  position: fixed;
+  z-index: 1003;
+  text-align: center;
+  margin-left: -8vw;
+  width: 50vw;
+  height: 0vh;
+}
+
+#abhiyantriki-logo img {
+  height: 39vh;
+  margin-right: 2vw;
+}
+
+.arrow-nav-container {
+  display: none;
+  cursor: pointer;
+}
+
+.arrow-nav-container .arrow-navigation {
+  display: -ms-flexbox;
+  display: flex;
+  display: -webkit-flex;
+  -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  z-index: 920;
+  padding: 10px;
+}
+
+.arrow-nav-container .arrow-navigation .up-arrow {
+  display: -ms-flexbox;
+  display: flex;
+  display: -webkit-flex;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: white;
+  width: 50px;
+  height: 50px;
+  padding: 10px;
+  transition: all 0.6s ease-in-out;
+}
+
+.arrow-nav-container .arrow-navigation .up-arrow:hover {
+  background: black;
+  color: white;
+}
+
+.arrow-nav-container .arrow-navigation .down-arrow {
+  display: -ms-flexbox;
+  display: flex;
+  display: -webkit-flex;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: white;
+  width: 50px;
+  height: 50px;
+  transition: all 0.6s ease-in-out;
+}
+
+.arrow-nav-container .arrow-navigation .down-arrow:hover {
+  background: black;
+  color: white;
+}
+
+.arrow-nav-container .arrow-navigation .hello {
+  font-size: 30px;
+}
+
+.col {
+  height: 10vh;
+}
+
+.container {
+  height: 80vh;
+  width: 100%;
+}
+
+.animate {
+  position: relative;
+  -webkit-transform: translate(-264px, -250px) scale(0.2);
+  -ms-transform: translate(-264px, -250px) scale(0.2);
+  transform: translate(-264px, -250px) scale(0.2);
+}
+
+@-webkit-keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    -webkit-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0);
+  }
+  40% {
+    -webkit-transform: translateY(-30px);
+    -ms-transform: translateY(-30px);
+    transform: translateY(-30px);
+  }
+  60% {
+    -webkit-transform: translateY(-15px);
+    -ms-transform: translateY(-15px);
+    transform: translateY(-15px);
+  }
+}
+
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    -webkit-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0);
+  }
+  40% {
+    -webkit-transform: translateY(-30px);
+    -ms-transform: translateY(-30px);
+    transform: translateY(-30px);
+  }
+  60% {
+    -webkit-transform: translateY(-15px);
+    -ms-transform: translateY(-15px);
+    transform: translateY(-15px);
+  }
+}
+
+#college-logo {
+  height: 10vh;
+  width: 4vw;
+  margin-left: 1%;
+}
+
+#college-name {
+  font-family: 'Roboto:900',sans-serif;
+  font-weight: 900;
+}
+
+.social-icons-container {
+  display: -ms-flexbox;
+  display: flex;
+  display: -webkit-flex;
+  position: relative;
+  -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  background: transparent;
+  margin-right: 4%;
+  z-index: 1000;
+  width: 14%;
+  height: auto;
+  cursor: pointer;
+  float: right;
+}
+
+#social-icons-li {
+  display: inline;
+  height: auto;
+  width: 100%;
+}
+
+#social-icons-li a {
+  display: block;
+  position: relative;
+  height: 7vh;
+  width: 100%;
+}
+
+#social-icons-li a img {
+  position: absolute;
+}
+
+.facebook img:nth-child(2):hover, .twitter:hover img:nth-child(2), .insta:hover img:nth-child(2), .youtube:hover img:nth-child(2) {
+  opacity: 0;
+}
+
+#social-icons-li img {
+  display: inline;
+  height: 100%;
+  margin-left: -50%;
+}
+
+.social {
+  position: relative;
+  right: 0;
+  z-index: 10;
+  margin-top: 3%;
+}
+
+.social-mobile {
+  display: none;
+  width: 100%;
+  z-index: -1;
+  margin-top: 12%;
+}
+
+#social-left {
+  float: left;
+  display: -ms-flexbox;
+  display: flex;
+  display: -webkit-flex;
+  -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  z-index: 1000;
+}
+
+#social-right {
+  float: right;
+  z-index: 1000;
+}
+
+.social-mobile-left, .social-mobile-right {
+  position: relative;
+  z-index: 1000;
+  margin: 3%;
+  display: -ms-flexbox;
+  display: flex;
+  display: -webkit-flex;
+  z-index: -1;
+}
+
+#social-icons-mobile a:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+#intern .col {
+  height: auto;
+}
+
+.arrow-container {
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  cursor: pointer;
+}
+
+.arrow {
+  position: relative;
+  z-index: 00;
+  display: inline-block;
+  background: transparent;
+  -webkit-animation: bounce 2s 5s infinite;
+  animation: bounce 2s 5s infinite;
+}
+
+.arrow img {
+  width: 15vh;
+  height: 10vh;
+}
+
+#social-icons {
+  display: inline;
+  padding: 0;
+  margin: 0;
+  height: 8vh;
+}
+
+#social-icons-li {
+  display: inline-block;
+  padding: 0;
+  margin: 0;
+  cursor: pointer;
+  margin: -1px;
+}
+
+.about-section {
+  background-color: transparent;
+  position: aboslute;
+  height: 200vh;
+  width: 100%;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.fixed {
+  height: 100vh;
+  width: 100%;
+  position: relative;
+  top: 0vh;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+
+.left-container {
+  height: 100vh;
+}
+
+.right-container {
+  height: 100vh;
+}
+
+.left-scroll, .right-scroll {
+  width: 100%;
+}
+
+.aboutus {
+  position: aboslute;
+  display: block;
+  height: 100vh;
+  width: 100%;
+}
+
+.about {
+  height: 100vh;
+  width: 100%;
+  position: relative;
+}
+
+.a-1 {
+  background: rgba(41, 128, 185, 0.6);
+}
+
+.a-2 {
+  background: white;
+  height: 195vh;
+}
+
+.a-3 {
+  background: rgba(127, 140, 141, 0.6);
+}
+
+#kjsce-img {
+  padding: 3%;
+  position: relative;
+  width: 90%;
+  height: 80vh;
+}
+
+#abhiyantriki-img {
+  padding: 3%;
+  position: relative;
+  -webkit-transform: translateY(100vh);
+  -ms-transform: translateY(100vh);
+  transform: translateY(100vh);
+  width: 90%;
+  height: 80vh;
+}
+
+.a-4 {
+  height: 200vh;
+}
+
+#about-kjsce {
+  background-image: url("../assets/images/kjsce2.png");
+  background-size: auto;
+  background-position: center top;
+}
+
+#about-abhiyantriki {
+  background-image: url("../assets/images/abhiyantriki.jpg");
+  background-size: 150% 100vh;
+  background-position: center top;
+}
+
+.events {
+  display: block;
+  height: 90vh;
+  width: 100%;
+}
+
+.about-para-head {
+  font-family: 'Roboto',sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.about-para {
+  padding: 4%;
+  text-align: justify;
+  color: white;
+  font-family: 'Roboto',sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.about h3, .about h4 {
+  font-family: 'Roboto',sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  text-align: center;
+  padding: 3%;
+  color: white;
+}
+
+.about-container {
+  display: none;
+  height: 100vh;
+  margin: 0;
+}
+
+.about-container div img {
+  height: 50vh;
+  width: 100%;
+}
+
+.aboutkjsce, .aboutabhi {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 45vh;
+  width: 100vw;
+  margin: 0;
+  color: white;
+  background: url("../assets/images/abhiyantriki.jpg");
+  background-size: cover;
+  font-family: 'Roboto',sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.aboutkjsce {
+  background: url("../assets/images/kjsce.jpg");
+  background-size: cover;
+}
+
+.aboutkjsce p {
+  padding: 2%;
+  background: rgba(127, 127, 155, 0.3);
+}
+
+.aboutkjsce p:hover {
+  background: rgba(127, 127, 155, 0.6);
+}
+
+.aboutabhi p {
+  padding: 2%;
+  background: rgba(41, 128, 185, 0.3);
+  font-family: 'Roboto',sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.aboutabhi p:hover {
+  background: rgba(41, 128, 185, 0.6);
+}
+
+.modal-footer .row .col {
+  padding: 0 !important;
+}
+
+.events ul {
+  height: 90vh;
+}
+
+.collapsible {
+  height: 90vh;
+  widows: 100%;
+}
+
+.life3 {
+  background-image: url("../assets/images/eventsbg/pattern3.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.life4 {
+  background-image: url("../assets/images/eventsbg/pattern4.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.life2 {
+  background-image: url("../assets/images/eventsbg/pattern2.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.life1 {
+  background: url("../assets/images/eventsbg/pattern1.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.container {
+  height: 90vh;
+  width: 100%;
+}
+
+.container-cards {
+  background: black;
+  margin: 0 10px;
+  max-height: 60vh;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.container-cards a {
+  color: black;
+  text-decoration: none;
+}
+
+.card-title {
+  padding: 20px;
+  padding-left: 10px;
+}
+
+.collapsible-header {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: white;
+  text-align: center;
+  height: 22.5vh;
+  padding: 1%;
+}
+
+.collapsible-body {
+  background: black;
+  max-height: 64vh;
+  min-height: 64vh;
+  overflow-y: auto;
+  overflow-x: hidden;
+  overflow-scrolling: touch;
+  -webkit-overflow-scrolling: touch;
+}
+
+#featured1 .card {
+  background: #f39c12;
+}
+
+#featured2 .card {
+  background: #f39c12;
+}
+
+#featured3 .card {
+  background: #3498db;
+}
+
+#featured4 .card {
+  background: #f39c12;
+}
+
+.modal-header {
+  position: absolute;
+  height: 35vh;
+  width: 100%;
+  padding: 0;
+}
+
+.modal-header h4 {
+  height: 35vh;
+  width: 100%;
+  padding: 20px;
+}
+
+#Internship .modal-header {
+  background-image: url("../assets/images/events/internship_expo_f.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+#Internship .modal-header h4 {
+  background-color: rgba(243, 156, 18, 0.6);
+}
+
+#Carobar .modal-header {
+  background-image: url("../assets/images/events/Carobar.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+#Carobar .modal-header h4 {
+  background-color: rgba(211, 84, 0, 0.6);
+}
+
+#Ideate .modal-header {
+  background-image: url("../assets/images/events/ideate_f.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+#Ideate .modal-header h4 {
+  background-color: rgba(243, 156, 18, 0.6);
+}
+
+#Hackathon .modal-header {
+  background-image: url("../assets/images/events/hackathon_c.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+#Hackathon .modal-header h4 {
+  background-color: rgba(243, 156, 18, 0.6);
+}
+
+#ISRO .modal-header {
+  background-image: url("../assets/images/events/ISRO.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+#ISRO .modal-header h4 {
+  background-color: rgba(243, 156, 18, 0.6);
+}
+
+#TechShield .modal-header {
+  background-image: url("../assets/images/events/TechShield.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+#TechShield .modal-header h4 {
+  background-color: rgba(52, 152, 219, 0.6);
+}
+
+#BTG .modal-header {
+  background-image: url("../assets/images/events/bridge_the_gap_c.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+#BTG .modal-header h4 {
+  background-color: rgba(211, 84, 0, 0.6);
+}
+
+#TPP .modal-header {
+  background-image: url("../assets/images/events/tpp_c.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+#TPP .modal-header h4 {
+  background-color: rgba(127, 140, 141, 0.6);
+}
+
+#Mechanical .card {
+  background-color: #d35400;
+}
+
+#Others .card {
+  background-color: #7f8c8d;
+}
+
+#Circuit .modal-header {
+  background-image: url("../assets/images/events/circuit_in_the_box_c.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+#Circuit .modal-header h4 {
+  background-color: rgba(127, 140, 141, 0.6);
+}
+
+#Coding .card {
+  background-color: #27ae60;
+}
+
+#Crakathon .modal-header {
+  background-image: url("../assets/images/events/crakathon_c.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+#Crakathon .modal-header h4 {
+  background-color: rgba(39, 174, 96, 0.6);
+}
+
+#Robotics .card {
+  background-color: #c0392b;
+}
+
+#Preevent .card {
+  background-color: #1abc9c;
+}
+
+#Informal .card {
+  background-color: #8e44ad;
+}
+
+#Minute .modal-header {
+  background-image: url("../assets/images/events/minute_to_win_it_i.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+#Minute .modal-header h4 {
+  background-color: rgba(142, 68, 173, 0.6);
+}
+
+#CastleMath .modal-header {
+  background-image: url("../assets/images/events/TakeshisCastle.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+#CastleMath .modal-header h4 {
+  background-color: rgba(142, 68, 173, 0.6);
+}
+
+#Crucible .modal-header {
+  background-image: url("../assets/images/events/quiz_i.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+#Crucible .modal-header h4 {
+  background-color: rgba(142, 68, 173, 0.6);
+}
+
+#TechHunt .modal-header {
+  background-image: url("../assets/images/events/tech_hunt_i.jpeg");
+  background-position: center;
+  background-size: cover;
+}
+
+#TechHunt .modal-header h4 {
+  background-color: rgba(142, 68, 173, 0.6);
+}
+
+#LaserTag .modal-header {
+  background-image: url("../assets/images/events/laser_tag_i.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+#LaserTag .modal-header h4 {
+  background-color: rgba(142, 68, 173, 0.6);
+}
+
+#FIFAManager .modal-header {
+  background-image: url("../assets/images/events/fifa_manager_i.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+#FIFAManager .modal-header h4 {
+  background-color: rgba(142, 68, 173, 0.6);
+}
+
+#Pokemon .modal-header {
+  background-image: url("../assets/images/events/pokemon.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+#Pokemon .modal-header h4 {
+  background-color: rgba(39, 174, 96, 0.6);
+}
+
+#VrBooth .modal-header {
+  background-image: url("../assets/images/events/vr_booth_i.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+#VrBooth .modal-header h4 {
+  background-color: rgba(142, 68, 173, 0.6);
+}
+
+#RoboCode .modal-header {
+  background-image: url("../assets/images/events/robo_code_c.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+#RoboCode .modal-header h4 {
+  background-color: rgba(192, 57, 43, 0.6);
+}
+
+#RoboSprint .modal-header {
+  background-image: url("../assets/images/events/robo_sprint_c.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+#RoboSprint .modal-header h4 {
+  background-color: rgba(192, 57, 43, 0.6);
+}
+
+#RoboChallenge .modal-header {
+  background-image: url("../assets/images/events/robo_sprint_c.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+#RoboChallenge .modal-header h4 {
+  background-color: rgba(192, 57, 43, 0.6);
+}
+
+#IOT .modal-header {
+  background-image: url("../assets/images/events/Internet_of_Things_p.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+#IOT .modal-header h4 {
+  background-color: rgba(26, 188, 156, 0.6);
+}
+
+#SixthSense .modal-header {
+  background-image: url("../assets/images/events/sixth_sense_p.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+#SixthSense .modal-header h4 {
+  background-color: rgba(26, 188, 156, 0.6);
+}
+
+#SCMU .modal-header {
+  background-image: url("../assets/images/events/scmu_kjsce_open_16_p.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+#SCMU .modal-header h4 {
+  background-color: rgba(26, 188, 156, 0.6);
+}
+
+#Quiz .modal-header {
+  background-image: url("../assets/images/events/quiz_i.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+#Quiz .modal-header h4 {
+  background-color: rgba(142, 68, 173, 0.6);
+}
+
+#CodeSpree .modal-header {
+  background-image: url("../assets/images/events/code_spree_cp.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+#CodeSpree .modal-header h4 {
+  background-color: rgba(26, 188, 156, 0.6);
+}
+
+#CodeWars .modal-header {
+  background-image: url("../assets/images/events/code_spree_cp.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+#CodeWars .modal-header h4 {
+  background-color: rgba(26, 188, 156, 0.6);
+}
+
+#LanGaming .modal-header {
+  background-image: url("../assets/images/events/lan_gaming_i.jpeg");
+  background-position: center;
+  background-size: cover;
+}
+
+#LanGaming .modal-header h4 {
+  background-color: rgba(142, 68, 173, 0.6);
+}
+
+#Picomania .modal-header {
+  background-image: url("../assets/images/events/picomania.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+#Picomania .modal-header h4 {
+  background-color: rgba(142, 68, 173, 0.6);
+}
+
+ul {
+  margin: 0px;
+}
+
+.collapsible-header p {
+  -o-box-shadow: 2px 2px 30px -1px black;
+  -ms-box-shadow: 2px 2px 30px -1px black;
+  box-shadow: 2px 2px 30px -1px black;
+  text-align: center;
+  display: block;
+  color: white;
+  background: black;
+  padding: 10px;
+  padding-left: 7.5%;
+  padding-right: 7.5%;
+  max-height: 60px;
+  border-radius: 10px;
+  font-family: 'Roboto',sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.container-cards .col {
+  height: auto;
+}
+
+li:nth-child(1) .collapsible-header {
+  background: transparent;
+}
+
+li:nth-child(2) .collapsible-header {
+  background: transparent;
+}
+
+li:nth-child(3) .collapsible-header {
+  background: transparent;
+}
+
+li:nth-child(4) .collapsible-header {
+  background: transparent;
+}
+
+.image-fix {
+  background: url("../assets/images/events/vr_booth_i.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 26vh;
+  overflow: auto;
+}
+
+.modal-footer {
+  overflow-x: hidden;
+}
+
+.modal-img {
+  position: relative;
+  top: 0;
+  bottom: 0;
+}
+
+.modal-content {
+  padding: 0px;
+  overflow: hidden;
+  overflow-y: hidden !important;
+}
+
+.modal-text {
+  padding: 10px;
+  height: auto;
+}
+
+.modal-text strong {
+  font-weight: 900;
+  font-family: 'Roboto',sans-serif;
+}
+
+.modal .tab {
+  color: white;
+  overflow: hidden;
+  background: black;
+}
+
+.modal .tab ul li a {
+  color: white !important;
+  text-decoration: none;
+}
+
+.modal {
+  background: black;
+  color: white;
+  width: 100%;
+  height: 100vh;
+}
+
+a.active {
+  background: white !important;
+  color: black !important;
+}
+
+#test1 {
+  padding: 0;
+}
+
+#test2 {
+  padding: 0;
+}
+
+#test3 {
+  padding: 0;
+}
+
+#test4 {
+  padding: 0;
+}
+
+.spacing {
+  padding: 0;
+}
+
+.modal-header {
+  padding: 0px;
+}
+
+.speakers-container {
+  display: block;
+  height: 90vh;
+  width: 100%;
+  background: white;
+}
+
+.speaker-header, .speaker-footer {
+  background: white;
+  height: 15vh;
+  width: 100%;
+}
+
+.parvah {
+  display: block;
+  background: transparent;
+  height: 60vh;
+  overflow: hidden;
+  transition: all 0.02s ease-in-out;
+}
+
+.section {
+  position: relative;
+  z-index: 100;
+  padding: 0;
+}
+
+.above {
+  display: inline-block;
+  position: relative;
+  z-index: 1000;
+}
+
+.parvaah-heading {
+  height: 15vh;
+}
+
+.parvaah-footer {
+  height: 15vh;
+}
+
+.selected-section {
+  color: black;
+}
+
+#parvaah-logo {
+  -webkit-transform: translate(50vh, 10vh);
+      -ms-transform: translate(50vh, 10vh);
+          transform: translate(50vh, 10vh);
+  position: relative;
+  z-index: 500;
+  width: 50%;
+  height: 35vh;
+  padding: 2%;
+}
+
+.sponsor-container {
+  height: 90vh;
+  background: white;
+  overflow: hidden;
+}
+
+.sponsors {
+  padding: 0;
+  margin: 0;
+  height: 77vh;
+  overflow: hidden;
+  width: 100%;
+  background: white;
+  transition: all 1s ease-in-out;
+}
+
+#lastYear .container, #thisYear .container {
+  padding-top: 0%;
+  overflow: hidden;
+  overflow-x: hidden;
+  text-align: center;
+  height: 65vh;
+  transition: all 1s ease-in-out;
+}
+
+#lastYear .container .box, #thisYear .container .box {
+  background: transparent;
+  display: block;
+  padding: 0%;
+}
+
+#lastYear .container .box img, #thisYear .container .box img {
+  max-width: 66%;
+}
+
+#lastYear .container .box .row, #thisYear .container .box .row {
+  overflow-x: hidden;
+}
+
+#lastYear .container .box h6, #thisYear .container .box h6 {
+  font-weight: 900;
+}
+
+#lastYear .container h3, #thisYear .container h3 {
+  margin: 5%;
+  font-family: 'Roboto',sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.viewMore {
+  position: relative;
+  display: -ms-flexbox;
+  display: flex;
+  display: -webkit-flex;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  bottom: 0;
+  height: 10vh;
+  width: 100%;
+  background: white;
+  padding: 3%;
+  font-weight: 400;
+  font-style: normal;
+  cursor: pointer;
+}
+
+.viewMore h5 {
+  padding: 10px;
+  border: 1px black solid;
+  font-family: 'Roboto',sans-serif;
+}
+
+.viewMore .l {
+  display: none;
+}
+
+#otherpartner img {
+  width: 20% !important;
+}
+
+.box {
+  height: auto;
+  display: block;
+}
+
+.more {
+  overflow-y: scroll !important;
+}
+
+.more .viewMore {
+  height: 10vh;
+  width: 50%;
+}
+
+.contact {
+  background: #1F1B20;
+  color: white;
+  height: 80vh;
+  width: 100%;
+  display: -ms-flexbox;
+  display: flex;
+  display: -webkit-flex;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.about_stuco img {
+  height: 50vh;
+  margin-top: -20%;
+}
+
+.teamabhiyantriki a img {
+  position: absolute;
+  padding: 2%;
+  margin-left: 11%;
+  width: 29%;
+}
+
+.teamabhiyantriki {
+  width: 50%;
+}
+
+.teamabhiyantriki img:nth-child(2):hover {
+  opacity: 0;
+}
+
+footer {
+  padding: 0%;
+  background: #363c3d;
+  height: 11vh;
+  width: 100%;
+  position: relative;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+
+#Webteam {
+  margin-top: -1%;
+  padding: 2%;
+  width: 40%;
+}
+
+#Webteam img {
+  opacity: 0;
+  -webkit-transform: translate(0vh, 1vh);
+      -ms-transform: translate(0vh, 1vh);
+          transform: translate(0vh, 1vh);
+  transition: all 0.3s ease-in-out;
+}
+
+#Webteam:hover img {
+  opacity: 1;
+  -webkit-transform: translate(0vh, 0vh);
+      -ms-transform: translate(0vh, 0vh);
+          transform: translate(0vh, 0vh);
+}
+
+p {
+  font-size: 130%;
+}
+
+h1 {
+  font-size: 7vw;
+}
+
+.parvah p {
+  padding-top: 20px;
+  margin-top: 6%;
+}
+
+#college-name {
+  color: white;
+  display: inline-block;
+}
+
+.social-footer {
+  -webkit-transform: translate(-81vw, 1vh);
+      -ms-transform: translate(-81vw, 1vh);
+          transform: translate(-81vw, 1vh);
+}
+
+@media (min-width: 320px) and (max-width: 550px) {
+  .about-container {
+    display: none;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 550px) {
+  .register {
+    left: 0px;
+    top: 101px;
+    width: 9%;
+  }
+  #parvaah-logo {
+    -webkit-transform: translate(24vh, 1vh);
+        -ms-transform: translate(24vh, 1vh);
+            transform: translate(24vh, 1vh);
+    position: relative;
+    z-index: 500;
+    width: 25%;
+    height: 15vh;
+    padding: 1%;
+  }
+  .arrow-nav-container .arrow-navigation .up-arrow:hover {
+    background: white;
+    color: black;
+  }
+  .arrow-nav-container .arrow-navigation .down-arrow:hover {
+    background: white;
+    color: black;
+  }
+  .about_stuco img {
+    width: 100% !important;
+    padding: 14px;
+  }
+  .teamabhiyantriki a img {
+    position: absolute;
+    width: 66%;
+    margin-top: -7vh;
+    height: 10vh;
+    left: 17px;
+  }
+  .social-icons-container {
+    display: none;
+  }
+  #about {
+    display: none;
+  }
+  #home {
+    height: 100vh;
+    overflow: hidden;
+  }
+  nav {
+    display: block;
+    position: fixed;
+    top: 0;
+    height: 10vh;
+  }
+  .brand-logo {
+    display: block;
+    position: relative;
+    z-index: -1;
+  }
+  #abhiyantriki-logo {
+    position: relative;
+    z-index: -1;
+  }
+  #abhiyantriki-logo img {
+    height: 32vh;
+    margin-left: 3vw;
+  }
+  #test h5 {
+    color: white;
+    display: inline-block;
+    position: relative;
+    top: 0;
+    border: 0;
+    margin: 0;
+    padding: 10px;
+    font-family: 'Roboto',sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  #college-name {
+    font-size: 18px;
+    font-weight: 100;
+  }
+  #college-logo {
+    height: 10vh;
+    width: 12vw;
+    -webkit-transform: translate(2vw, 0);
+        -ms-transform: translate(2vw, 0);
+            transform: translate(2vw, 0);
+    font-family: 'Roboto',sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .down {
+    margin-top: -50px;
+  }
+  .social-icons-container {
+    display: none;
+  }
+  .social-left, .social-right {
+    display: -ms-flexbox;
+    display: flex;
+    display: -webkit-flex;
+  }
+  .social-left {
+    position: relative;
+    float: left;
+  }
+  .social-right {
+    position: relative;
+    float: right;
+  }
+  .about-container {
+    display: block;
+  }
+  .social-mobile {
+    display: block;
+  }
+  .about-section {
+    display: none;
+  }
+  footer {
+    margin-top: -17%;
+    height: 21vh;
+  }
+  footer .social-footer {
+    width: 100%;
+    margin-left: 46px;
+  }
+  footer .row {
+    width: 100%;
+  }
+  footer .social-icons-container {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+  }
+  .social-footer {
+    -webkit-transform: translate(0, 0);
+        -ms-transform: translate(0, 0);
+            transform: translate(0, 0);
+    display: -ms-flexbox;
+    display: flex;
+    display: -webkit-flex;
+    padding: 10px;
+  }
+  #Webteam {
+    margin-top: 12px;
+    margin-right: 50px;
+    font-size: 12px;
+    width: 85%;
+  }
+  .social-icons-li a img {
+    position: absolute;
+  }
+  .container-cards > span {
+    font-size: 8px;
+    text-overflow: ellipsis;
+    max-width: 50%;
+  }
+  .card-title {
+    padding-left: 6px;
+    padding-left-padding-right: 0px;
+  }
+  .parvah p {
+    font-size: 12px;
+    padding: 12px;
+    margin-left: 5%;
+    margin-top: 0%;
+  }
+  .btg {
+    font-size: 12px;
+  }
+  #crack {
+    font-size: 12px;
+  }
+  a.svg {
+    position: relative;
+    display: inline-block;
+  }
+  #main_image {
+    width: auto;
+    height: 12vh !important;
+    margin-top: 6px;
+  }
+  #iottext {
+    font-size: 14px;
+  }
+  #iottext2 {
+    font-size: 11px;
+  }
+  a.svg:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+  }
+}
+
+nav {
+  margin: 0;
+  position: fixed;
+  top: 0;
+  height: 10vh;
+}
+
+#test h5 {
+  font-family: 'Roboto',sans-serif;
+  font-weight: 400;
+  font-style: bold;
+  -webkit-transform: translateY(-4vh);
+  -ms-transform: translateY(-4vh);
+  transform: translateY(-4vh);
+}

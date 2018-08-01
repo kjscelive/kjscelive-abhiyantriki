@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW X7 -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="81.4492mm" height="90.8472mm" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 8145 9085"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <style type="text/css">
+   <![CDATA[
+    .str7 {stroke:#FFF4F0;stroke-width:84.65;stroke-linecap:round;stroke-linejoin:round}
+    .str10 {stroke:#FFF4F0;stroke-width:84.65;stroke-linecap:round;stroke-linejoin:round}
+    .str8 {stroke:#FFF4F0;stroke-width:84.65;stroke-linecap:round;stroke-linejoin:round}
+    .str9 {stroke:#FFF4F0;stroke-width:84.65;stroke-linecap:round;stroke-linejoin:round}
+    .str6 {stroke:#61003F;stroke-width:84.65;stroke-linecap:round;stroke-linejoin:round}
+    .str2 {stroke:#61003F;stroke-width:84.65;stroke-linecap:round;stroke-linejoin:round}
+    .str0 {stroke:#61003F;stroke-width:84.65;stroke-linecap:round;stroke-linejoin:round}
+    .str3 {stroke:#61003F;stroke-width:84.65;stroke-linecap:round;stroke-linejoin:round}
+    .str4 {stroke:#61003F;stroke-width:84.66;stroke-linecap:round;stroke-linejoin:round}
+    .str5 {stroke:#61003F;stroke-width:84.66;stroke-linecap:round;stroke-linejoin:round}
+    .str1 {stroke:#61003F;stroke-width:84.67;stroke-linecap:round;stroke-linejoin:round}
+    .fil1 {fill:none}
+    .fil2 {fill:#61003F}
+    .fil0 {fill:#FFF4F0}
+   ]]>
+  </style>
+ </defs>
+ <g id="Layer_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <g id="_2512748926368">
+   <g>
+    <polygon class="fil0 str0" points="112,7022 4798,4317 4798,66 112,2771 "/>
+    <polygon class="fil0 str1" points="112,2771 4798,66 4686,1 0,2707 "/>
+    <g>
+     <polygon class="fil0 str0" points="3459,8955 112,7022 4798,4317 8145,6249 "/>
+     <polygon class="fil0 str0" points="4798,4703 781,7022 2455,7988 6471,5670 "/>
+     <polygon class="fil0 str2" points="4647,6928 3978,7314 4982,7894 5651,7508 5651,7508 5651,7508 6321,7121 5317,6542 "/>
+     <line class="fil1 str3" x1="4814" y1="7798" x2="6153" y2= "7025" />
+     <line class="fil1 str3" x1="5651" y1="7508" x2="5484" y2= "7411" />
+     <polygon class="fil0 str4" points="4598,4584 4304,4753 4427,4824 4721,4654 "/>
+     <polygon class="fil0 str5" points="307,6732 4602,4252 4602,356 307,2835 "/>
+     <polygon class="fil0 str1" points="112,2771 112,7022 0,6958 0,2707 "/>
+     <polygon class="fil0 str1" points="112,7022 3459,8955 3459,9084 112,7151 "/>
+     <polygon class="fil0 str1" points="3459,8955 8145,6249 8145,6378 3459,9084 "/>
+    </g>
+   </g>
+   <g>
+    <polygon class="fil2 str6" points="5395,259 3067,1603 3067,4575 5395,3231 "/>
+    <line class="fil1 str7" x1="3261" y1="4102" x2="5007" y2= "3093" />
+    <line class="fil1 str8" x1="3261" y1="1812" x2="4619" y2= "1028" />
+    <polygon class="fil0 str8" points="4231,1476 3261,2036 3261,3156 4231,2596 4231,1700 "/>
+    <line class="fil1 str8" x1="4425" y1="1364" x2="4813" y2= "1140" />
+    <line class="fil1 str8" x1="4425" y1="1588" x2="5007" y2= "1252" />
+    <line class="fil1 str8" x1="4425" y1="1812" x2="4813" y2= "1588" />
+    <polyline class="fil1 str9" points="3261,3380 5007,2372 5007,2596 "/>
+    <polyline class="fil1 str9" points="5007,2596 3261,3604 3261,3380 "/>
+    <line class="fil1 str10" x1="3261" y1="3892" x2="4037" y2= "3444" />
+   </g>
+  </g>
+ </g>
+</svg>
