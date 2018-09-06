@@ -1,0 +1,1699 @@
+
+@import 'plugins/bourbon/bourbon'
+@import 'https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i';
+
+$navbar_color : #7f8c8d
+
+//mixins
+
+@mixin transform($value)
+    -webkit-transform: $value
+    -moz-transform:    $value
+    -ms-transform:     $value
+    -o-transform:      $value
+    transform:         $value
+
+@mixin border-radius($radius)
+ 	
+	-webkit-border-radius: $radius
+	-moz-border-radius: $radius
+	-ms-border-radius: $radius
+	-o-border-radius: $radius
+	border-radius: $radius
+
+@mixin transition($transition) 
+    -moz-transition:    $transition
+    -o-transition:      $transition
+    -webkit-transition: $transition
+    -ms-transition: $transition
+    transition:         $transition
+
+
+@mixin box-shadow($value)
+	-webkit-box-shadow: $value
+	-moz-box-shadow: $value
+	-o-box-shadow: $value
+	-ms-box-shadow: $value
+	box-shadow: $value
+
+@mixin keyframes($name)
+  @-webkit-keyframes #{$name}
+    @content
+  @-moz-keyframes #{$name}
+    @content
+  @-ms-keyframes #{$name}
+    @content
+  @keyframes #{$name}
+    @content
+
+
+@mixin animation($value)
+	-webkit-animation: $value 
+	-moz-animation:    $value 	
+	-o-animation:      $value 
+	animation:         $value 
+
+
+
+$event_background:black
+
+body
+	width: 100%
+	background:
+		color: black	
+	//font-size: 160%  // for responsive font
+	overflow-scrolling: auto
+	-webkit-overflow-scrolling: auto
+	font-family: 'Roboto',sans-serif
+	font-weight: 400
+	font-style: normal;
+
+canvas
+	width: 100%;
+
+.left-modal
+	position: relative
+	padding: 2%
+	margin: auto 0	
+	z-index: 10000
+	float: left
+.right-modal
+	position: relative
+	padding: 2%	
+	z-index: 100000
+	float: right
+
+.top
+	position: relative
+	top:0
+.down
+	position: relative
+	bottom: 0
+
+
+#main_image
+	height: 18vh
+	margin-top: 6px
+
+
+
+// #highlight
+// 	display: inline
+// 	height: calc(10vh) !important
+// 	width:  75px 
+// 	position: relative
+// 	margin: 0px !important
+// 	padding: 0px !important
+
+// 	z-index: -1
+// 	transform: translateX(0);
+// 	background: rgba(255,255,255,0.3);
+// 	+clearfix
+nav
+	background:  darken($navbar_color,30%)
+	position: fixed
+	top: 0
+	z-index: 1002
+
+	li
+		max-height: 75px
+		//min-height: 70px
+nav .current-nav
+	background: transparent
+	height: 100%
+	width: 20%
+	ul li
+		position: absolute
+		padding-left: 10px
+
+nav .side-nav
+	background: darken(#2c3e50,30%)
+
+.register
+	background: white
+	display: flex;
+	display: -webkit-flex
+	justify-content: center
+	align-items: center
+	position: fixed 
+	left: 0;
+	bottom: 45px;
+	width: 3%
+	height: 7vh
+	z-index: 1000
+	color: white
+
+	span
+		opacity: 0
+		//transform: translate(3vh,1vh)
+		color: white
+		background: rgba(255,255,255,0.2)
+		padding: 5px
+		border-radius: 18px
+		transition: all 0.2s ease-in-out
+
+	&:hover span
+		opacity: 1
+		//transform: translate(6vh,0vh)
+
+	
+
+.current li 
+	display: none
+// .current li
+// 	-webkit-backface-visibility: hidden;
+// 	-moz-backface-visibility: hidden;
+// 	+transform( rotateX(180deg) )
+// 	+transition( all 1s ease-in-out)
+// 	-webkit-transform-style: preserve-3d;
+// 	-moz-transform-style: preserve-3d;
+// 	& .show 
+// 		+transform( rotateX(0deg) )
+
+.current
+	display: flex
+	display: -webkit-flex
+	align-items: center
+	height: 100%
+
+canvas
+	overflow: hidden
+#particles-js
+	overflow: hidden
+
+div
+	display: block
+
+.mobile-logo
+.test
+	color: white
+.nav-wrappers
+	padding: 10px
+
+.button-collapse
+	display: flex
+	display: -webkit-flex
+	align-items: center
+	height: 100%
+
+	& ul li a
+		position: fixed
+		z-index: 10000
+
+.brand-logo
+	height: 5vh
+	width: 50%;
+	display: none
+	& img
+		position: relative
+		top : 6px
+		//margin-top: -10vh
+		margin-left: 0%
+		height: 7vh
+		width: 20%
+
+.fix
+	position: fixed
+	z-index: 0
+.logo-img
+	height: 40%
+	width: 40%
+	min-width: 250px
+	min-height: 250px
+	//tranform: scale(0.2)
+#abhiyantriki-logo
+	position: fixed
+	z-index: 1003
+	text-align: center
+	margin-left:-8vw
+	width: 50vw
+	height: 0vh
+	& img
+		height:39vh
+		margin-right: 2vw
+	
+
+.arrow-nav-container
+	display: none
+	cursor: pointer
+	.arrow-navigation
+		display: flex
+		display: -webkit-flex
+		flex-direction: row
+		justify-content: space-between
+		position: fixed
+		right: 0
+		bottom: 0
+		z-index: 920
+		padding: 10px
+		.up-arrow
+			display: flex
+			display: -webkit-flex
+			justify-content: center
+			align-items: center
+			background: white
+			width: 50px
+			height: 50px
+			padding: 10px
+			+transition(all 0.6s ease-in-out)
+			&:hover
+				background: black
+				color: white
+
+			
+		.down-arrow
+			display: flex
+			display: -webkit-flex
+			justify-content: center
+			align-items: center
+			background: white
+			width: 50px
+			height: 50px
+			+transition(all 0.6s ease-in-out)
+			&:hover
+				background: black
+				color: white
+
+		.hello
+			font-size: 30px;
+
+
+.col
+	height: 10vh
+.container
+	height: 80vh
+	width: 100%	
+
+.animate
+	position: relative
+	+transform( translate(-264px,-250px) scale(0.2) )
+	//transform:  
++keyframes(bounce)
+	0%, 20%, 50%, 80%, 100% 
+    	+transform(translateY(0))
+  
+	40% 
+    	+transform(translateY(-30px))
+  
+	60% 
+    	+transform(translateY(-15px))
+ 
+	
+#college-logo
+	height:10vh 
+	width: 4vw
+	margin-left:1%
+
+#college-name	
+	font-family: 'Roboto:900',sans-serif;
+	font-weight: 900
+.social-icons-container
+	display: flex
+	display: -webkit-flex
+	position: relative
+	flex-direction: row
+	background: transparent
+	margin-right: 4%
+	z-index: 1000
+	width: 14%
+	height: auto
+	cursor: pointer
+	float:right
+
+#social-icons-li
+	display: inline
+	height: auto
+	width: 100%
+
+#social-icons-li a
+	display: block
+	position: relative
+	height: 7vh
+	width: 100%
+	& img
+		position: absolute
+
+
+.facebook img:nth-child(2):hover,.twitter:hover img:nth-child(2),.insta:hover img:nth-child(2),.youtube:hover img:nth-child(2)
+	opacity: 0;
+
+
+#social-icons-li img 
+	display: inline
+	height: 100%
+	margin-left: -50%
+	
+
+// .social-footer
+// 	width: 40%
+// 	height: 5vh
+// 	& a
+// 		position: absolute
+// 		float: left
+// 		width: 25%
+// 		height: 5vh
+// 	& a img
+// 		position: absolute
+// 		width: 100%
+// 		height: 8vh
+	
+
+
+.social
+	//float: right
+	//margin-left: -100%
+	position: relative
+	right: 0
+	z-index: 10
+	margin-top: 3%
+	// z-index: 10
+	// margin-right: 10px 
+
+//social icons mobile
+.social-mobile
+		display: none
+		width: 100%
+		z-index: -1
+		margin-top: 12%
+#social-left
+		float: left
+		display:flex;
+		display: -webkit-flex
+		flex-direction: row
+		z-index: 1000
+#social-right
+	 	float: right
+	 	z-index: 1000
+
+.social-mobile-left
+	position: relative
+	z-index: 1000
+	margin: 3%
+	display: flex
+	display: -webkit-flex
+	z-index: -1
+.social-mobile-right
+	@extend .social-mobile-left
+
+
+#social-icons-mobile a:after 
+	  content: ""; 
+	  position: absolute; 
+	  top: 0; 
+	  right: 0; 
+	  bottom: 0; 
+	  left: 0;
+
+#intern
+	.col 
+		height: auto
+
+
+
+.arrow-container
+	//margin-top: -8%
+	display: inline-block
+	width: 100%
+	text-align: center
+	cursor: pointer
+.arrow
+	position: relative
+	z-index: 00
+	display: inline-block
+	//margin-top: -3vh
+
+	background: transparent
+	+animation(bounce 2s 5s infinite) 
+	//animation-delay: 5s
+
+	& img 
+		width: 15vh
+		height: 10vh
+#social-icons
+	display:inline
+	padding: 0
+	margin: 0
+	//margin-bottom: -10vh
+	height: 8vh
+	//width: 100%
+
+#social-icons-li
+	display: inline-block
+	padding: 0
+	margin: 0
+	cursor: pointer
+	margin: -1px
+
+
+
+//about section
+
+
+$height: 100vh
+$width: 100%
+$About_abhi_color :#2980b9
+$About_kjsce_color:#7f8c8d
+
+.about-section
+	background:
+		color: transparent
+	position: aboslute
+	height: 200vh
+	width: 100%
+	top: 0		
+	bottom: 0
+	left: 0
+	right: 0
+
+	//overflow: auto
+.fixed
+	height: 100vh
+	width: 100%
+	position: relative
+	top: 0vh
+	bottom: 0
+	right: 0
+	left: 0
+	//overflow: hidden
+.row
+	//overflow: hidden
+.left-container
+	height: 100vh
+.right-container
+	height: 100vh
+.left-scroll,.right-scroll
+	width: 100%
+.aboutus 
+
+	position:  aboslute
+	display: block
+	height: 100vh
+	width: 100%
+.about
+	height: $height
+	width: $width
+	position: relative
+.a-1
+	background: rgba($About_abhi_color,0.6)
+	
+.a-2
+	background: white
+	height: 195vh
+	
+	
+.a-3
+	background: rgba($About_kjsce_color,0.6)
+	
+
+#kjsce-img
+	padding: 3%
+	position: relative
+	
+	width: 90%
+	height: 80vh
+#abhiyantriki-img
+	padding: 3%
+	position: relative
+	+transform(translateY(100vh))
+	width: 90%
+	height: 80vh
+.a-4
+	//background: black
+	height: 200vh
+
+
+
+#about-kjsce
+	// background-image: url('http://kjsce-abhiyantriki.org/img/aboutkjsce-min.png')
+	background-image: url('../assets/images/kjsce2.png');
+	background-size: auto
+	background-position: center top
+#about-abhiyantriki
+	// background-image: url('http://kjsce-abhiyantriki.org/img/aboutabhiyantriki-min.png')
+	background-image: url('../assets/images/abhiyantriki.jpg');
+	background-size: 150% 100vh
+	background-position: center top
+
+.events
+	display: block
+	height: 90vh
+	width: 100%
+
+.about-para-head
+	font-family: 'Roboto',sans-serif
+	font-weight: 100
+	font-style: normal
+
+.about-para
+	
+	//font-size: 19px
+	padding: 4%
+	text-align: justify
+	color: white
+	font-family: 'Roboto',sans-serif
+	font-weight: 400
+	font-style: normal;
+.about h3,.about h4
+	font-family: 'Roboto',sans-serif
+	font-weight: 700
+	font-style: normal;
+	text-align: center
+	padding: 3%
+	color: white
+
+//for mobile
+
+// about
+
+.about-container
+	display: none
+	height: 100vh
+	margin: 0
+	
+.about-container div img
+	height: 50vh
+	width: 100%
+
+
+.aboutkjsce, .aboutabhi
+
+	display: flex
+	justify-content: center
+	align-items: center
+	height: 45vh
+	width: 100vw
+	margin: 0
+	//font-size: 35px
+	color: white
+	background: url('../assets/images/abhiyantriki.jpg');
+	background-size: cover
+	font-family: 'Roboto',sans-serif
+	font-weight: 400
+	font-style: normal;
+	
+
+	
+
+.aboutkjsce
+	background: url('../assets/images/kjsce.jpg')
+	background-size: cover
+.aboutkjsce p
+
+	padding: 2%
+	background: rgba(127,127,155,0.3)
+	&:hover
+		background: rgba(127,127,155,0.6)
+.aboutabhi p
+
+	padding: 2%
+	background: rgba($About_abhi_color,0.3)
+	font-family: 'Roboto',sans-serif
+	font-weight: 400
+	font-style: normal;
+	&:hover
+		background: rgba($About_abhi_color,0.6)
+
+
+.modal-footer .row .col
+	padding: 0 !important
+
+
+//Events
+
+
+
+$featured: #f39c12  //orange
+$f_o: rgba($featured,0.6)
+$Robotics: #c0392b  //pomegranate
+$r_o: rgba($Robotics,0.6)
+$Coding:  #27ae60   //nephritis 
+$c_o: rgba($Coding,0.6)
+$Mech:    #d35400   //pumpkin
+$m_o: rgba($Mech,0.6)
+$Others:     #7f8c8d //asbestos
+$o_o: rgba($Others,0.6)
+$Shield:     #3498db  //peter river
+$s_s: rgba($Shield,0.6)
+$Pre:        #1abc9c  //turquoise 
+$p_o: rgba($Pre,0.6)
+$Workshops:   #2c3e50 //midnight blue
+$w_o: rgba($Workshops,0.6)
+$Informals:    #8e44ad //wisteria
+$i_o: rgba($Informals,0.6)
+$all_color: #404040
+$main_color: #6DBDD6
+$event_background: black
+$event_color: white
+$technical_color:  #B71427
+   
+$informal_color:  #0f0
+//for reponsive font
+.events ul
+	height: 90vh
+.collapsible
+	height::90vh
+	widows: 100%
+
+.life3
+	background: 
+		image: url("../assets/images/eventsbg/pattern3.jpg")
+		size: cover
+		attachment: fixed
+.life4
+	background: 	
+		image: url("../assets/images/eventsbg/pattern4.jpg")
+		size: cover
+		attachment: fixed
+.life2
+	background: 
+		image: url("../assets/images/eventsbg/pattern2.jpg")
+		size: cover
+		attachment: fixed
+.life1
+	background: url("../assets/images/eventsbg/pattern1.jpg")
+		size: cover
+		attachment: fixed
+.container
+	height: 90vh
+	width: 100%
+
+.container-cards
+	background: $event_background
+	margin: 0 10px
+	max-height: 60vh
+	overflow-y: auto
+	overflow-x: hidden
+
+	a
+		color: black
+		text-decoration: none
+
+
+.card-title
+	padding: 20px
+	padding-left: 10px
+.collapsible-header
+
+	display: flex
+	justify-content: center
+	align-items: center
+	//font-size:  20px
+	color: white 
+	text-align: center
+	height: 22.5vh
+	padding: 1% 
+.collapsible-body
+	background: $event_background
+	max-height: 64vh
+	min-height: 64vh
+	overflow-y: auto
+	overflow-x: hidden
+	overflow-scrolling: touch
+	-webkit-overflow-scrolling: touch
+	//transition: all 400ms ease-in-out
+
+
+
+#featured1 .card
+	background: $featured
+
+
+#featured2 .card
+	background: $featured
+
+#featured3 .card
+	background: $Shield
+
+#featured4 .card
+	background: $featured
+
+
+//event modals
+
+.modal-header
+	position: absolute
+	height: 35vh
+	width: 100%
+	padding: 0
+
+.modal-header h4
+	height: 35vh
+	width: 100%
+	padding: 20px
+	
+	
+
+
+	
+
+
+
+#Internship .modal-header
+	background:
+		image: url('../assets/images/events/internship_expo_f.jpg')
+		position: center
+		size: cover
+	h4
+		background:
+			color: rgba($featured,0.6)
+
+
+#Carobar .modal-header
+	background:
+		image: url('../assets/images/events/Carobar.jpg')
+		position: center
+		size: cover
+	h4
+		background:
+			color: rgba($Mech,0.6)
+
+#Ideate .modal-header
+	background:
+		image: url('../assets/images/events/ideate_f.jpg')
+		position: center
+		size: cover
+	h4
+		background:
+			color: rgba($featured,0.6)
+
+#Hackathon .modal-header
+	background:
+		image: url('../assets/images/events/hackathon_c.jpg')
+		position: center
+		size: cover
+	h4
+		background:
+			color: rgba($featured,0.6)
+
+
+#ISRO .modal-header
+	background:
+		image: url('../assets/images/events/ISRO.jpg')
+		position: center
+		size: cover
+	h4
+		background:
+			color: rgba($featured,0.6)
+
+
+
+#TechShield .modal-header
+	background:
+		image: url('../assets/images/events/TechShield.jpg')
+		position: center
+		size: cover
+	h4
+		background:
+			color: rgba($Shield,0.6)
+
+
+#BTG .modal-header
+	background:
+		image: url('../assets/images/events/bridge_the_gap_c.jpg')
+		position: center
+		size: cover
+	h4
+		background:
+			color: rgba($Mech,0.6)
+
+
+#TPP .modal-header
+	background:
+		image: url('../assets/images/events/tpp_c.jpg')
+		position: center
+		size: cover
+	h4
+		background:
+			color: rgba($Others,0.6)
+
+#Mechanical .card
+	background: 
+		color: $Mech
+
+#Others .card	
+	background:
+		color: $Others
+
+#Circuit .modal-header
+	background:
+		image: url('../assets/images/events/circuit_in_the_box_c.jpg')
+		position: center
+		size: cover
+	h4
+		background:
+			color: rgba($Others,0.6)
+
+#Coding .card	
+	background:
+		color: $Coding
+
+
+#Crakathon .modal-header
+	background:
+		image: url('../assets/images/events/crakathon_c.jpg')
+		position: center
+		size: cover
+	h4
+		background:
+			color: rgba($Coding,0.6)
+
+
+#Robotics .card
+	background:
+		color: $Robotics
+
+
+#Preevent .card
+	background:
+		color: $Pre
+
+#Informal .card
+	background:
+		color: $Informals
+
+
+#Minute .modal-header
+	background:
+		image: url('../assets/images/events/minute_to_win_it_i.jpg')
+		position: center
+		size: cover
+	h4
+		background:
+			color: rgba($Informals,0.6)
+
+#CastleMath .modal-header
+	background:
+		image: url('../assets/images/events/TakeshisCastle.jpg')
+		position: center
+		size: cover
+	h4
+		background:
+			color: rgba($Informals,0.6)
+
+#Crucible .modal-header
+	background:
+		image: url('../assets/images/events/quiz_i.jpg')
+		position: center
+		size: cover
+	h4
+		background:
+			color: rgba($Informals,0.6)
+
+
+#TechHunt .modal-header
+	background:
+		image: url('../assets/images/events/tech_hunt_i.jpeg')
+		position: center
+		size: cover
+	h4
+		background:
+			color: rgba($Informals,0.6)
+
+
+#LaserTag .modal-header
+	background:
+		image: url('../assets/images/events/laser_tag_i.jpg')
+		position: center
+		size: cover
+	h4
+		background:
+			color: rgba($Informals,0.6)
+
+#FIFAManager .modal-header
+	background:
+		image: url('../assets/images/events/fifa_manager_i.jpg')
+		position: center
+		size: cover
+	h4
+		background:
+			color: rgba($Informals,0.6)
+
+#Pokemon .modal-header
+	background:
+		image: url('../assets/images/events/pokemon.jpg')
+		position: center
+		size: cover
+	h4
+		background:
+			color: rgba($Coding,0.6)
+
+
+
+#VrBooth .modal-header
+	background:
+		image: url('../assets/images/events/vr_booth_i.jpg')
+		position: center
+		size: cover
+	h4
+		background:
+			color: rgba($Informals,0.6)
+
+
+#RoboCode .modal-header
+	background:
+		image: url('../assets/images/events/robo_code_c.jpg')
+		position: center
+		size: cover
+	h4
+		background:
+			color: rgba($Robotics,0.6)
+
+
+#RoboSprint .modal-header
+	background:
+		image: url('../assets/images/events/robo_sprint_c.jpg')
+		position: center
+		size: cover
+	h4
+		background:
+			color: rgba($Robotics,0.6)
+
+
+#RoboChallenge .modal-header
+	background:
+		image: url('../assets/images/events/robo_sprint_c.jpg')
+		position: center
+		size: cover
+	h4
+		background:
+			color: rgba($Robotics,0.6)
+
+#IOT .modal-header
+	background:
+		image: url('../assets/images/events/Internet_of_Things_p.jpg')
+		position: center
+		size: cover
+	h4
+		background:
+			color: rgba($Pre,0.6)
+
+
+#SixthSense .modal-header
+	background:
+		image: url('../assets/images/events/sixth_sense_p.jpg')
+		position: center
+		size: cover
+	h4
+		background:
+			color: rgba($Pre,0.6)
+
+#SCMU .modal-header
+	background:
+		image: url('../assets/images/events/scmu_kjsce_open_16_p.jpg')
+		position: center
+		size: cover
+	h4
+		background:
+			color: rgba($Pre,0.6)
+
+#Quiz .modal-header
+	background:
+		image: url('../assets/images/events/quiz_i.jpg')
+		position: center
+		size: cover
+	h4
+		background:
+			color: rgba($Informals,0.6)
+
+#CodeSpree .modal-header
+	background:
+		image: url('../assets/images/events/code_spree_cp.jpg')
+		position: center
+		size: cover
+	h4
+		background:
+			color: rgba($Pre,0.6)
+
+#CodeWars .modal-header
+	background:
+		image: url('../assets/images/events/code_spree_cp.jpg')
+		position: center
+		size: cover
+	h4
+		background:
+			color: rgba($Pre,0.6)
+
+
+#LanGaming .modal-header
+	background:
+		image: url('../assets/images/events/lan_gaming_i.jpeg')
+		position: center
+		size: cover
+	h4
+		background:
+			color: rgba($Informals,0.6)
+
+#Picomania .modal-header
+	background:
+		image: url('../assets/images/events/picomania.jpg')
+		position: center
+		size: cover
+	h4
+		background:
+			color: rgba($Informals,0.6)
+
+ul
+	margin: 0px
+//div:not(.collapsible-header .active)
+	//height: 10vh 
+.row
+
+.collapsible-header p
+		+box-shadow(2px 2px 30px -1px black)
+		text-align: center
+		display: block
+		color: white
+		//justify-content: center
+		//align-items: center
+		background: black
+		padding: 10px
+		
+		padding-left: 7.5%
+		padding-right: 7.5%
+		max-height: 60px
+		+border-radius(10px) 
+		font-family: 'Roboto',sans-serif
+		font-weight: 900
+		font-style: normal
+		//+transition(all 0.5s ease-in-out)
+.container-cards .col
+	height: auto
+
+li 
+	//+transition(all 0.5s ease-in-out)
+
+li:nth-child(1) .collapsible-header 
+	//background: rgba(255, 0, 0, 0.5)
+	background: transparent
+	
+
+	//strong
+		//color: black
+		//display: inline-block
+	
+li:nth-child(2) .collapsible-header 
+	//background:  rgba(0, 0, 255, 0.5)
+	background: transparent
+	
+li:nth-child(3) .collapsible-header 
+	background:  transparent
+	
+
+li:nth-child(4) .collapsible-header 
+	background: transparent
+	
+.collapsible-header .active
+	//+transition(all 0.5s ease-in-out)
+	
+
+	
+
+.image-fix
+	background: url("../assets/images/events/vr_booth_i.jpg")
+	background-size: cover
+	background-position: center
+	height: 26vh
+	overflow: auto
+
+
+
+//modal styling
+
+.modal-footer
+	overflow-x: hidden
+
+.modal-img
+	position: relative
+	top: 0
+	bottom: 0
+
+.modal-content
+	padding: 0px
+	overflow: hidden
+	overflow-y: hidden !important
+.modal-text
+	padding: 10px
+	height: auto
+
+	strong
+		font-weight: 900
+		font-family: 'Roboto',sans-serif
+
+	//overflow-y: auto
+.modal .tab 
+	color: white
+	overflow: hidden
+	background: black
+	//font-size: 100%
+
+	ul li a
+		color: white !important
+		text-decoration: none
+
+.modal
+	background: $event_background
+	color: white
+	//margin: 0
+	//transform: scale(1.5)
+	//position: fixed
+	width: 100%
+	height: 100vh
+	//+transition(all 1s ease-in-out)
+
+a.active 
+	background: white !important
+	color: black !important
+#test1
+	padding: 0
+#test2
+	padding: 0
+#test3
+	padding: 0
+#test4
+	padding: 0
+.spacing
+	padding: 0
+
+.modal-header
+	padding: 0px	
+
+//speaker
+
+.speakers-container
+	display: block
+	height: 90vh
+	width: 100%
+	background: white
+
+.speaker-header
+	background: white
+	height: 15vh
+	width: 100%
+.speaker-footer
+	@extend .speaker-header
+
+
+
+
+//parvaah parallax
+.parvah
+	display: block
+	background: transparent
+	height: 60vh
+	overflow: hidden
+	+transition(all 0.02s ease-in-out)
+.parallax-container
+	img
+		// height: 100vh
+		// width: 100%
+
+.section
+	position: relative
+	z-index: 100
+	padding: 0
+.above
+	display: inline-block
+	position: relative
+	z-index: 1000
+//parvaah heading
+
+.parvaah-heading
+	height: 15vh
+.parvaah-footer
+	height: 15vh
+.selected-section
+	color: black
+
+#parvaah-logo
+	transform: translate(50vh,10vh); 
+	position: relative; 
+	z-index: 500; 
+	width:50%; 
+	height: 35vh; 
+	padding: 2%
+	 
+
+//sponsor section
+// .scroll
+// 	background: transparent
+// 	height: 100vh
+// 	width: 100%
+// .scroll-1
+// 	background: transparent
+// 	height: 100vh
+// 	width: 100%
+.sponsor-container
+	height: 90vh
+	background: white
+	overflow: hidden
+
+
+.sponsors
+	
+	padding: 0
+	margin: 0 
+	//z-index: 100
+	height: 77vh
+	overflow : hidden
+	//height: auto
+	width: 100%
+	background: white
+	+transition(all 1s ease-in-out)
+
+
+
+	
+#lastYear .container,#thisYear .container
+	//padding: 10%
+	padding-top: 0%
+	overflow: hidden
+	overflow-x: hidden
+	text-align: center
+	height: 65vh
+	& .box
+		//height: 20vh
+		//width: 50%
+		background: transparent
+		display: block
+		padding: 0%
+		//margin: 3%
+		//margin-bottom: 2%
+		//margin-right: 10%
+		& img
+			max-width: 66%
+			//display: block
+			//width: 60%
+			//height: 10vh
+
+		& .row
+			overflow-x: hidden
+		h6
+			font-weight: 900
+	//height: 64vh
+	//overflow: hidden
+
+
+
+
+	+transition(all 1s ease-in-out)
+	& h3
+		margin: 5%
+		font-family: 'Roboto',sans-serif
+		font-weight: 400
+		font-style: normal;
+	
+.viewMore
+	position: relative
+	display: flex;
+	display: -webkit-flex
+	justify-content: center
+	align-items: center
+	bottom: 0
+	height: 10vh
+	width: 100%
+	background: white;
+	padding: 3%
+	& h5
+
+		padding: 10px
+		border: 1px black solid
+		font-family: 'Roboto',sans-serif
+	font-weight: 400
+	font-style: normal;
+	cursor: pointer
+	& .l 
+		display: none 
+
+
+
+#otherpartner img
+	width: 20% !important
+	//height: 20vh
+
+
+.box 
+	height: auto
+	display: block
+	//height: 200vh
+.more 
+	overflow-y: scroll !important;
+
+	& .viewMore
+		height: 10vh
+		width: 50%
+
+#lastYear .container .box div
+	// display: inline-block
+#lastYear .container .box h4
+
+
+
+
+	//margin: 0
+	//font-size: 25px
+	//padding: 2%
+	//margin-left: 1%
+// #Title_Sponsor
+// 	height: 2vh
+// 	width: 400px
+// #Powered
+// 	height: 5vh
+// 	width: 400px
+// #Apparel
+// 	width: 200px
+
+
+//body footer
+
+// #page-footer
+// 	margin: 0
+// 	background: #2B2B2B
+// footer
+// 	padding: 0
+// 	margin: 0
+// 	background: #2B2B2B
+// footer .container
+// 	height: 30vh
+// footer h5 
+// 	margin: 0
+// 	padding: 0
+
+.contact
+	background: #1F1B20
+	color: white
+	height: 80vh
+	width: 100%
+	display: flex
+	display: -webkit-flex
+	justify-content: center
+	flex-direction: column
+	align-items: center
+.about_stuco img
+	height: 50vh
+	margin-top: -20%
+.teamabhiyantriki a img
+	position: absolute
+	padding: 2%
+	margin-left: 11%
+	width: 29%
+	//height: 10vh
+	//width: 50%
+.teamabhiyantriki
+	width: 50%
+
+.teamabhiyantriki img:nth-child(2):hover
+	opacity: 0
+
+footer
+	padding: 0%
+	background: darken($navbar_color,30%)
+	height: 11vh
+	width: 100%
+	position: relative
+	bottom: 0
+	right: 0
+	left: 0
+
+#Webteam
+	margin-top: -1%
+	padding: 2%
+	width: 40%
+
+	& img
+		opacity: 0
+		transform: translate(0vh,1vh);
+		transition: all 0.3s ease-in-out
+	&:hover img
+		opacity: 1
+		transform: translate(0vh,0vh)
+	//margin-right: 3%
+	//width: 40%
+// .about_stuco
+// 	img:nth-child(2)
+// 		display: none
+
+p
+	font-size: 130%
+h1
+	font-size: 7vw
+
+.parvah p
+	padding-top: 20px
+	margin-top: 6%
+
+
+#college-name	
+	color:white
+	display: inline-block; 
+	//transform: translateY(-4vh);
+
+.social-footer
+	transform: translate(-81vw,1vh);
+	// width: 13%
+
+@media (min-width: 320px) and (max-width: 550px)
+	.about-container
+		display:  none
+
+@media (min-width: 320px) and (max-width: 550px)
+
+
+	.register
+		left: 0px
+		top: 101px
+		width: 9%	
+	
+
+	
+
+
+	#parvaah-logo
+	   		transform: translate(24vh, 1vh)
+		    position: relative
+		    z-index: 500
+		    width: 25%
+		    height: 15vh
+		    padding: 1%
+		   
+	
+	
+	.arrow-nav-container
+		.arrow-navigation
+			.up-arrow
+				&:hover
+					background: white
+					color: black
+			
+			.down-arrow
+					&:hover
+						background: white
+						color: black
+
+
+	.about_stuco img
+	 	width: 100% !important
+	 	padding: 14px;
+	// .about_stuco img:nth-child(2)
+	// 	width: 100%
+	// 	height: 100vh
+	// 	display: block
+
+	.teamabhiyantriki a img
+		position: absolute;
+		width: 66%;
+		margin-top: -7vh;
+		height: 10vh;
+		left: 17px;
+	.social-icons-container
+		display: none
+
+		
+	#about
+		display: none
+	
+	
+	#home
+		height: 100vh
+		overflow: hidden
+	nav
+		display: block
+		position: fixed
+		top: 0
+		height: 10vh
+	.brand-logo
+		display: block
+		position: relative
+		z-index: -1
+
+
+	#abhiyantriki-logo
+		position: relative
+		z-index: -1
+
+		& img
+			height: 32vh
+			margin-left: 3vw
+			//margin-right: 2vw
+
+
+
+
+	#test h5
+		color: white; 
+		display: inline-block;
+		position: relative; 
+		top: 0; 
+		border: 0; 
+		margin: 0; 
+		//transform: translate(0,-4vh)
+		padding: 10px
+		font-family: 'Roboto',sans-serif
+		font-weight: 400
+		font-style: normal;
+	
+	#college-name
+ 		font-size: 18px
+ 		font-weight:  100
+	#college-logo
+		height: 10vh 
+		width: 12vw
+		transform: translate(2vw,0)
+		font-family: 'Roboto',sans-serif
+		font-weight: 400
+		font-style: normal;
+	#kjsce-logo
+		//margin-top: -40px
+	.down
+		margin-top: -50px
+	.social
+		
+	.social-icons-container
+		display: none
+
+	.social-left,.social-right	
+		display: flex;
+
+		display: -webkit-flex;
+	.social-left
+		position: relative
+		float: left
+	.social-right
+		position: relative
+		float: right
+	.about-container
+		display:  block
+	.social-mobile
+		display: block
+	.about-section
+		display: none
+
+	footer
+		margin-top: -17%;
+		height: 21vh;
+		// margin-top: -17%
+
+		& .social-footer
+			width: 100%
+			margin-left: 46px
+		& .row
+			width: 100%
+		& .social-icons-container
+			display: flex
+			width: 100%
+
+
+	.social-footer
+		transform: translate(0,0);
+		display: flex
+		display: -webkit-flex
+		padding: 10px
+
+
+	#Webteam
+		margin-top: 12px;
+		margin-right: 50px;
+		font-size: 12px
+		width: 85%
+	
+
+
+	.social-icons-li a img
+		position: absolute
+
+	.parvah .parallax-container img
+		// height: 60vh
+		// width: 60% 
+
+	.container-cards > span 
+		font-size: 8px
+		text-overflow: ellipsis
+		max-width: 50%
+	
+	.card-title
+		padding-left: 6px
+    	padding-right: 0px
+	.Robochallenge > span
+		//font-size: 6px
+
+
+	.parvah p
+		font-size: 12px;
+		padding: 12px;
+		margin-left: 5%;
+		margin-top: 0%
+	.btg
+		font-size: 12px;
+
+	#crack
+		font-size: 12px;
+
+
+	a.svg 
+	 	position: relative;
+	 	display: inline-block; 
+
+
+	#main_image
+		width: auto
+		height: 12vh !important
+		margin-top: 6px
+
+	#iottext
+		font-size: 14px
+	#iottext2
+		font-size: 11px
+
+	a.svg:after 
+		content: "" 
+		position: absolute;
+		top: 0;
+		right: 0;
+		bottom: 0;
+		left:0;
+
+
+	
+	
+
+
+
+
+
+
+nav
+	margin: 0
+	position: fixed
+	top: 0
+	height: 10vh
+
+
+
+#test h5
+	font-family: 'Roboto',sans-serif
+	font-weight: 400
+	font-style: bold
+	+transform( translateY(-4vh))                        
+
+
+
+
