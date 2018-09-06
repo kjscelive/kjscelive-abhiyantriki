@@ -1,0 +1,464 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW X7 -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="98.3826mm" height="15.4938mm" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 9838 1549"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <style type="text/css">
+   <![CDATA[
+    .str11 {stroke:#61003F;stroke-width:16.93;stroke-linecap:round;stroke-linejoin:round}
+    .str9 {stroke:#61003F;stroke-width:50.79;stroke-linecap:round;stroke-linejoin:round}
+    .str17 {stroke:#61003F;stroke-width:11.65}
+    .str35 {stroke:#61003F;stroke-width:13.48;stroke-linecap:round;stroke-linejoin:round}
+    .str38 {stroke:#61003F;stroke-width:13.48;stroke-linecap:round;stroke-linejoin:round}
+    .str37 {stroke:#61003F;stroke-width:13.48;stroke-linecap:round;stroke-linejoin:round}
+    .str40 {stroke:#61003F;stroke-width:13.48;stroke-linecap:round;stroke-linejoin:round}
+    .str36 {stroke:#61003F;stroke-width:13.48;stroke-linecap:round;stroke-linejoin:round}
+    .str39 {stroke:#61003F;stroke-width:13.48;stroke-linecap:round;stroke-linejoin:round}
+    .str52 {stroke:#61003F;stroke-width:11.1;stroke-linecap:round;stroke-linejoin:round}
+    .str53 {stroke:#61003F;stroke-width:11.1;stroke-linecap:round;stroke-linejoin:round}
+    .str77 {stroke:#61003F;stroke-width:11.11;stroke-linecap:round;stroke-linejoin:round}
+    .str57 {stroke:#61003F;stroke-width:11.11;stroke-linecap:round;stroke-linejoin:round}
+    .str90 {stroke:#61003F;stroke-width:11.11;stroke-linecap:round;stroke-linejoin:round}
+    .str89 {stroke:#61003F;stroke-width:11.11;stroke-linecap:round;stroke-linejoin:round}
+    .str91 {stroke:#61003F;stroke-width:11.11;stroke-linecap:round;stroke-linejoin:round}
+    .str56 {stroke:#61003F;stroke-width:11.11;stroke-linecap:round;stroke-linejoin:round}
+    .str58 {stroke:#61003F;stroke-width:11.11;stroke-linecap:round;stroke-linejoin:round}
+    .str76 {stroke:#61003F;stroke-width:11.11;stroke-linecap:round;stroke-linejoin:round}
+    .str78 {stroke:#61003F;stroke-width:11.11;stroke-linecap:round;stroke-linejoin:round}
+    .str88 {stroke:#61003F;stroke-width:11.11;stroke-linecap:round;stroke-linejoin:round}
+    .str45 {stroke:#61003F;stroke-width:11.11;stroke-linecap:round;stroke-linejoin:round}
+    .str66 {stroke:#61003F;stroke-width:11.11;stroke-linecap:round;stroke-linejoin:round}
+    .str67 {stroke:#61003F;stroke-width:11.11;stroke-linecap:round;stroke-linejoin:round}
+    .str47 {stroke:#61003F;stroke-width:11.11;stroke-linecap:round;stroke-linejoin:round}
+    .str51 {stroke:#61003F;stroke-width:11.11;stroke-linecap:round;stroke-linejoin:round}
+    .str64 {stroke:#61003F;stroke-width:11.11;stroke-linecap:round;stroke-linejoin:round}
+    .str63 {stroke:#61003F;stroke-width:11.11;stroke-linecap:round;stroke-linejoin:round}
+    .str65 {stroke:#61003F;stroke-width:11.11;stroke-linecap:round;stroke-linejoin:round}
+    .str48 {stroke:#61003F;stroke-width:11.11;stroke-linecap:round;stroke-linejoin:round}
+    .str69 {stroke:#61003F;stroke-width:11.11;stroke-linecap:round;stroke-linejoin:round}
+    .str49 {stroke:#61003F;stroke-width:11.11;stroke-linecap:round;stroke-linejoin:round}
+    .str46 {stroke:#61003F;stroke-width:11.11;stroke-linecap:round;stroke-linejoin:round}
+    .str54 {stroke:#61003F;stroke-width:11.11;stroke-linecap:round;stroke-linejoin:round}
+    .str55 {stroke:#61003F;stroke-width:11.11;stroke-linecap:round;stroke-linejoin:round}
+    .str82 {stroke:#61003F;stroke-width:11.11;stroke-linecap:round;stroke-linejoin:round}
+    .str79 {stroke:#61003F;stroke-width:11.11;stroke-linecap:round;stroke-linejoin:round}
+    .str70 {stroke:#61003F;stroke-width:11.11;stroke-linecap:round;stroke-linejoin:round}
+    .str87 {stroke:#61003F;stroke-width:11.11;stroke-linecap:round;stroke-linejoin:round}
+    .str85 {stroke:#61003F;stroke-width:11.11;stroke-linecap:round;stroke-linejoin:round}
+    .str72 {stroke:#61003F;stroke-width:11.11;stroke-linecap:round;stroke-linejoin:round}
+    .str84 {stroke:#61003F;stroke-width:11.11;stroke-linecap:round;stroke-linejoin:round}
+    .str81 {stroke:#61003F;stroke-width:11.11;stroke-linecap:round;stroke-linejoin:round}
+    .str74 {stroke:#61003F;stroke-width:11.11;stroke-linecap:round;stroke-linejoin:round}
+    .str75 {stroke:#61003F;stroke-width:11.11;stroke-linecap:round;stroke-linejoin:round}
+    .str59 {stroke:#61003F;stroke-width:11.11;stroke-linecap:round;stroke-linejoin:round}
+    .str44 {stroke:#61003F;stroke-width:11.11;stroke-linecap:round;stroke-linejoin:round}
+    .str60 {stroke:#61003F;stroke-width:11.11;stroke-linecap:round;stroke-linejoin:round}
+    .str41 {stroke:#61003F;stroke-width:11.11;stroke-linecap:round;stroke-linejoin:round}
+    .str42 {stroke:#61003F;stroke-width:11.11;stroke-linecap:round;stroke-linejoin:round}
+    .str61 {stroke:#61003F;stroke-width:11.11;stroke-linecap:round;stroke-linejoin:round}
+    .str62 {stroke:#61003F;stroke-width:11.11;stroke-linecap:round;stroke-linejoin:round}
+    .str43 {stroke:#61003F;stroke-width:11.11;stroke-linecap:round;stroke-linejoin:round}
+    .str86 {stroke:#61003F;stroke-width:11.11;stroke-linecap:round;stroke-linejoin:round}
+    .str83 {stroke:#61003F;stroke-width:11.11;stroke-linecap:round;stroke-linejoin:round}
+    .str71 {stroke:#61003F;stroke-width:11.11;stroke-linecap:round;stroke-linejoin:round}
+    .str80 {stroke:#61003F;stroke-width:11.11;stroke-linecap:round;stroke-linejoin:round}
+    .str73 {stroke:#61003F;stroke-width:11.11;stroke-linecap:round;stroke-linejoin:round}
+    .str68 {stroke:#61003F;stroke-width:11.11;stroke-linecap:round;stroke-linejoin:round}
+    .str50 {stroke:#61003F;stroke-width:11.11;stroke-linecap:round;stroke-linejoin:round}
+    .str22 {stroke:#61003F;stroke-width:13.68;stroke-linecap:round;stroke-linejoin:round}
+    .str33 {stroke:#61003F;stroke-width:13.68;stroke-linecap:round;stroke-linejoin:round}
+    .str24 {stroke:#61003F;stroke-width:13.68;stroke-linecap:round;stroke-linejoin:round}
+    .str27 {stroke:#61003F;stroke-width:13.68;stroke-linecap:round;stroke-linejoin:round}
+    .str18 {stroke:#61003F;stroke-width:13.68;stroke-linecap:round;stroke-linejoin:round}
+    .str20 {stroke:#61003F;stroke-width:13.68;stroke-linecap:round;stroke-linejoin:round}
+    .str19 {stroke:#61003F;stroke-width:13.68;stroke-linecap:round;stroke-linejoin:round}
+    .str21 {stroke:#61003F;stroke-width:13.68;stroke-linecap:round;stroke-linejoin:round}
+    .str25 {stroke:#61003F;stroke-width:13.68;stroke-linecap:round;stroke-linejoin:round}
+    .str26 {stroke:#61003F;stroke-width:13.68;stroke-linecap:round;stroke-linejoin:round}
+    .str30 {stroke:#61003F;stroke-width:13.68;stroke-linecap:round;stroke-linejoin:round}
+    .str31 {stroke:#61003F;stroke-width:13.68;stroke-linecap:round;stroke-linejoin:round}
+    .str28 {stroke:#61003F;stroke-width:13.68;stroke-linecap:round;stroke-linejoin:round}
+    .str29 {stroke:#61003F;stroke-width:13.68;stroke-linecap:round;stroke-linejoin:round}
+    .str32 {stroke:#61003F;stroke-width:13.68;stroke-linecap:round;stroke-linejoin:round}
+    .str23 {stroke:#61003F;stroke-width:13.68;stroke-linecap:round;stroke-linejoin:round}
+    .str34 {stroke:#61003F;stroke-width:13.68;stroke-linecap:round;stroke-linejoin:round}
+    .str7 {stroke:#61003F;stroke-width:11.65;stroke-linecap:round;stroke-linejoin:round}
+    .str14 {stroke:#61003F;stroke-width:11.65;stroke-linecap:round;stroke-linejoin:round}
+    .str5 {stroke:#61003F;stroke-width:11.65;stroke-linecap:round;stroke-linejoin:round}
+    .str6 {stroke:#61003F;stroke-width:11.65;stroke-linecap:round;stroke-linejoin:round}
+    .str4 {stroke:#61003F;stroke-width:11.65;stroke-linecap:round;stroke-linejoin:round}
+    .str0 {stroke:#61003F;stroke-width:11.65;stroke-linecap:round;stroke-linejoin:round}
+    .str3 {stroke:#61003F;stroke-width:11.65;stroke-linecap:round;stroke-linejoin:round}
+    .str1 {stroke:#61003F;stroke-width:11.65;stroke-linecap:round;stroke-linejoin:round}
+    .str2 {stroke:#61003F;stroke-width:11.65;stroke-linecap:round;stroke-linejoin:round}
+    .str15 {stroke:#61003F;stroke-width:11.65;stroke-linecap:round;stroke-linejoin:round}
+    .str10 {stroke:#61003F;stroke-width:11.65;stroke-linecap:round;stroke-linejoin:round}
+    .str13 {stroke:#61003F;stroke-width:11.65;stroke-linecap:round;stroke-linejoin:round}
+    .str12 {stroke:#61003F;stroke-width:11.65;stroke-linecap:round;stroke-linejoin:round}
+    .str16 {stroke:#61003F;stroke-width:11.65;stroke-linecap:round;stroke-linejoin:round}
+    .str8 {stroke:#61003F;stroke-width:11.65;stroke-linecap:round;stroke-linejoin:round}
+    .fil1 {fill:none}
+    .fil3 {fill:#61003F}
+    .fil0 {fill:#FFF4F0}
+    .fil2 {fill:white}
+    .fil4 {fill:#61003F;fill-rule:nonzero}
+   ]]>
+  </style>
+      <clipPath id="id0">
+       <path d="M6600 935c-20,12 -41,15 -56,6 -16,-9 -23,-28 -24,-52 0,-23 8,-51 24,-78 15,-27 35,-47 56,-59 20,-12 40,-14 56,-5 16,9 23,28 23,51 0,23 -7,51 -23,78 -15,27 -36,48 -56,59z"/>
+      </clipPath>
+     <clipPath id="id1">
+      <path d="M5225 1085c15,9 31,11 42,4 12,-6 18,-21 18,-38 0,-18 -6,-39 -17,-59 -12,-20 -27,-36 -43,-45 -15,-9 -30,-11 -42,-4 -12,7 -18,21 -18,39 0,18 6,39 18,59 12,20 27,35 42,44z"/>
+     </clipPath>
+     <clipPath id="id2">
+      <path d="M5544 1269c15,9 30,11 42,4 12,-6 18,-21 18,-38 0,-18 -6,-39 -18,-59 -11,-20 -27,-36 -42,-45 -15,-8 -31,-11 -42,-4 -12,7 -18,21 -18,39 0,18 6,39 18,59 11,20 27,35 42,44z"/>
+     </clipPath>
+     <clipPath id="id3">
+      <path d="M6015 1290c-20,12 -40,14 -56,5 -16,-9 -23,-28 -23,-51 0,-24 7,-51 23,-78 15,-27 36,-48 56,-59 20,-12 41,-15 56,-6 16,9 24,28 24,51 0,24 -8,52 -24,79 -15,26 -35,47 -56,59z"/>
+     </clipPath>
+ </defs>
+ <g id="Layer_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <g id="_2595059448608">
+   <g>
+    <g>
+     <g>
+      <polygon class="fil0 str0" points="5604,407 6082,683 6560,407 6560,591 6082,867 6082,683 6560,407 6082,131 "/>
+      <g>
+       <g>
+        <polygon class="fil0 str1" points="5126,1143 5126,1051 5165,844 5644,1120 5604,1327 5604,1419 "/>
+        <polygon class="fil0 str1" points="5165,844 5644,1120 5923,959 5444,683 "/>
+        <path class="fil0 str2" d="M5644 1120l-40 207 0 92 272 -158c0,-5 -1,-12 -1,-18 0,-32 11,-71 32,-107 5,-9 10,-17 16,-24l0 -153 -279 161z"/>
+        <polygon class="fil0 str1" points="5604,407 5444,683 5923,959 6082,683 "/>
+        <polygon class="fil0 str1" points="5923,959 6082,683 6082,867 "/>
+        <polygon class="fil0 str1" points="6560,591 6560,407 6719,499 "/>
+        <polygon class="fil0 str1" points="6241,223 6719,499 6879,407 6401,131 "/>
+        <path class="fil0 str3" d="M6560 591l0 114c3,-2 6,-3 9,-5 27,-16 55,-20 77,-8l31 18 0 0c21,13 32,39 32,71l170 -98 0 -276 -319 184z"/>
+        <path class="fil0 str4" d="M5923 959l0 153c18,-25 39,-45 61,-57 28,-17 56,-20 77,-8l21 12 0 -192 -159 92z"/>
+       </g>
+       <path class="fil0 str5" d="M6082 867l0 192 10 6 0 0c18,10 28,30 31,54l198 -114 0 -276 -239 138z"/>
+       <path class="fil0 str6" d="M6321 729l0 276 143 -83c-3,-10 -4,-21 -4,-34 0,-32 10,-70 32,-107 19,-33 43,-59 68,-76l0 -114 -239 138z"/>
+      </g>
+     </g>
+     <g>
+      <path class="fil0 str7" d="M6569 951c-13,8 -27,13 -39,15l-7 11 -31 -18c-21,-12 -32,-38 -32,-71 0,-32 10,-70 32,-107 21,-37 49,-65 77,-81 27,-16 55,-20 77,-8l31 18 -7 12c5,12 8,26 8,41 0,32 -11,70 -32,107 -21,37 -49,65 -77,81z"/>
+      <path class="fil0 str8" d="M6600 969c-28,16 -56,20 -77,8 -21,-12 -32,-38 -32,-71 0,-32 11,-70 32,-107 21,-37 49,-65 77,-81 28,-16 56,-20 77,-8 21,13 32,39 32,71 0,32 -11,70 -32,107 -21,37 -49,65 -77,81z"/>
+     </g>
+     <path class="fil0" d="M6600 935c-20,12 -41,15 -56,6 -16,-9 -23,-28 -24,-52 0,-23 8,-51 24,-78 15,-27 35,-47 56,-59 20,-12 40,-14 56,-5 16,9 23,28 23,51 0,23 -7,51 -23,78 -15,27 -36,48 -56,59z"/>
+     <g style="clip-path:url(#id0)">
+      <g>
+       <path id="1" class="fil1 str9" d="M6577 923c-20,11 -40,14 -56,5 -16,-9 -23,-28 -23,-51 0,-24 7,-52 23,-79 15,-26 36,-47 56,-59 20,-11 41,-14 56,-5 16,9 23,28 23,51 1,24 -7,52 -23,78 -15,27 -35,48 -56,60z"/>
+      </g>
+     </g>
+     <path class="fil1 str10" d="M6600 935c-20,12 -41,15 -56,6 -16,-9 -23,-28 -24,-52 0,-23 8,-51 24,-78 15,-27 35,-47 56,-59 20,-12 40,-14 56,-5 16,9 23,28 23,51 0,23 -7,51 -23,78 -15,27 -36,48 -56,59z"/>
+    </g>
+    <path class="fil0" d="M5225 1085c15,9 31,11 42,4 12,-6 18,-21 18,-38 0,-18 -6,-39 -17,-59 -12,-20 -27,-36 -43,-45 -15,-9 -30,-11 -42,-4 -12,7 -18,21 -18,39 0,18 6,39 18,59 12,20 27,35 42,44z"/>
+    <g style="clip-path:url(#id1)">
+     <g>
+      <path id="1" class="fil1 str11" d="M5259 1059c15,9 30,11 42,4 12,-6 17,-21 17,-38 1,-18 -5,-39 -17,-59 -12,-20 -27,-36 -42,-45 -15,-8 -31,-11 -42,-4 -12,7 -18,21 -18,39 0,18 6,39 17,59 12,20 27,35 43,44z"/>
+     </g>
+    </g>
+    <path class="fil1 str12" d="M5225 1085c15,9 31,11 42,4 12,-6 18,-21 18,-38 0,-18 -6,-39 -17,-59 -12,-20 -27,-36 -43,-45 -15,-9 -30,-11 -42,-4 -12,7 -18,21 -18,39 0,18 6,39 18,59 12,20 27,35 42,44z"/>
+    <path class="fil0" d="M5544 1269c15,9 30,11 42,4 12,-6 18,-21 18,-38 0,-18 -6,-39 -18,-59 -11,-20 -27,-36 -42,-45 -15,-8 -31,-11 -42,-4 -12,7 -18,21 -18,39 0,18 6,39 18,59 11,20 27,35 42,44z"/>
+    <g style="clip-path:url(#id2)">
+     <g>
+      <path id="1" class="fil1 str11" d="M5579 1243c15,8 30,11 42,4 12,-7 18,-21 18,-39 0,-18 -6,-39 -18,-59 -11,-20 -27,-35 -42,-44 -15,-9 -31,-11 -42,-4 -12,6 -18,21 -18,38 0,18 6,39 18,59 11,20 27,36 42,45z"/>
+     </g>
+    </g>
+    <path class="fil1 str13" d="M5544 1269c15,9 30,11 42,4 12,-6 18,-21 18,-38 0,-18 -6,-39 -18,-59 -11,-20 -27,-36 -42,-45 -15,-8 -31,-11 -42,-4 -12,7 -18,21 -18,39 0,18 6,39 18,59 11,20 27,35 42,44z"/>
+    <g>
+     <path class="fil0 str14" d="M5984 1306c-13,8 -27,13 -39,14l-7 11 -31 -18c-21,-12 -32,-38 -32,-70 0,-32 11,-71 32,-107 21,-37 49,-65 77,-81 28,-17 56,-20 77,-8l31 18 -6 11c4,12 7,26 7,42 0,32 -11,70 -32,107 -21,36 -49,65 -77,81z"/>
+     <path class="fil0 str15" d="M6015 1324c-28,16 -55,20 -77,7 -21,-12 -32,-38 -32,-70 0,-32 11,-71 32,-107 21,-37 49,-65 77,-81 28,-17 56,-20 77,-8 21,12 32,38 32,71 0,32 -11,70 -32,107 -21,36 -49,65 -77,81z"/>
+    </g>
+    <path class="fil2" d="M6015 1290c-20,12 -40,14 -56,5 -16,-9 -23,-28 -23,-51 0,-24 7,-51 23,-78 15,-27 36,-48 56,-59 20,-12 41,-15 56,-6 16,9 24,28 24,51 0,24 -8,52 -24,79 -15,26 -35,47 -56,59z"/>
+    <g style="clip-path:url(#id3)">
+     <g>
+      <path id="1" class="fil0 str9" d="M5992 1277c-20,12 -40,15 -56,6 -15,-9 -23,-28 -23,-52 0,-23 8,-51 23,-78 16,-27 36,-48 56,-59 20,-12 41,-15 56,-6 16,9 24,28 24,52 0,23 -8,51 -23,78 -16,27 -36,47 -57,59z"/>
+     </g>
+    </g>
+    <path class="fil1 str16" d="M6015 1290c-20,12 -40,14 -56,5 -16,-9 -23,-28 -23,-51 0,-24 7,-51 23,-78 15,-27 36,-48 56,-59 20,-12 41,-15 56,-6 16,9 24,28 24,51 0,24 -8,52 -24,79 -15,26 -35,47 -56,59z"/>
+    <g>
+     <polygon class="fil3" points="5285,1145 5285,1145 5325,938 5484,1030 5444,1237 5444,1237 "/>
+     <polygon class="fil3" points="6204,874 6201,892 6281,846 6281,829 "/>
+     <polygon class="fil3" points="6443,736 6441,754 6520,708 6520,691 "/>
+     <polygon class="fil3" points="5397,979 5319,935 5597,773 5678,819 "/>
+     <polygon class="fil3" points="5492,1034 5414,989 5692,828 5772,874 "/>
+     <polygon class="fil3" points="6472,359 6394,314 6553,220 6633,267 "/>
+     <polygon class="fil3" points="6566,414 6489,369 6648,275 6728,322 "/>
+    </g>
+    <line class="fil1 str17" x1="6321" y1="729" x2="6321" y2= "545" />
+   </g>
+   <g>
+    <g>
+     <polygon class="fil0 str18" points="7984,1001 7984,391 8060,434 8060,1045 "/>
+     <line class="fil1 str18" x1="7984" y1="478" x2="8060" y2= "522" />
+     <line class="fil1 str18" x1="7984" y1="565" x2="8060" y2= "609" />
+     <line class="fil1 str18" x1="7984" y1="652" x2="8060" y2= "696" />
+     <line class="fil1 str19" x1="7984" y1="740" x2="8060" y2= "783" />
+     <line class="fil1 str20" x1="7984" y1="827" x2="8060" y2= "870" />
+     <line class="fil1 str21" x1="7984" y1="914" x2="8060" y2= "958" />
+    </g>
+    <path class="fil0 str22" d="M7302 448c-8,-5 -12,-15 -12,-27 0,-12 4,-26 12,-40 7,-14 18,-24 28,-30 11,-6 21,-8 29,-3l225 129c0,0 0,1 1,1 8,4 12,14 12,26 0,12 -4,27 -12,40 -8,14 -19,25 -29,31 -11,6 -21,7 -29,3l-225 -130z"/>
+    <path class="fil0 str23" d="M7556 575c-11,6 -21,7 -29,3 -8,-5 -12,-15 -12,-27 0,-12 4,-26 12,-40 8,-14 18,-24 29,-30 10,-6 21,-8 29,-3 8,4 12,14 12,26 0,12 -4,27 -12,40 -8,14 -19,25 -29,31z"/>
+    <g>
+     <path class="fil0" d="M7879 171l0 0 0 0zm-462 818l76 43 -76 -43zm0 0c-65,-38 -97,-117 -97,-216 0,-98 32,-215 97,-327 64,-112 149,-198 234,-247 82,-48 164,-60 228,-28 29,15 62,36 91,53 -93,-41 -151,-35 -243,18 -85,49 -170,136 -235,248 -65,112 -97,229 -97,327 0,99 22,156 98,215 -25,-15 -51,-29 -76,-43z"/>
+     <path id="1" class="fil1 str24" d="M7879 171l0 0m-462 818l76 43m-76 -43c-65,-38 -97,-117 -97,-216 0,-98 32,-215 97,-327 64,-112 149,-198 234,-247 82,-48 164,-60 228,-28 29,15 62,36 91,53 -93,-41 -151,-35 -243,18 -85,49 -170,136 -235,248 -65,112 -97,229 -97,327 0,99 22,156 98,215 -25,-15 -51,-29 -76,-43z"/>
+    </g>
+    <path class="fil0 str25" d="M7728 1009c-85,49 -170,61 -235,23 -65,-37 -98,-117 -98,-215 0,-98 32,-215 97,-327 65,-112 150,-199 235,-248 85,-49 170,-61 235,-23 65,38 98,117 98,215 0,98 -32,215 -97,327 -65,113 -150,199 -235,248z"/>
+    <line class="fil1 str26" x1="7362" y1="940" x2="7442" y2= "987" />
+    <line class="fil1 str27" x1="7324" y1="831" x2="7399" y2= "875" />
+    <line class="fil1 str27" x1="7321" y1="742" x2="7396" y2= "786" />
+    <line class="fil1 str27" x1="7332" y1="662" x2="7408" y2= "705" />
+    <line class="fil1 str27" x1="7353" y1="586" x2="7428" y2= "630" />
+    <line class="fil1 str27" x1="7381" y1="516" x2="7457" y2= "559" />
+    <line class="fil1 str27" x1="7416" y1="448" x2="7491" y2= "492" />
+    <line class="fil1 str27" x1="7456" y1="384" x2="7532" y2= "428" />
+    <line class="fil1 str27" x1="7503" y1="324" x2="7577" y2= "367" />
+    <line class="fil1 str27" x1="7557" y1="269" x2="7633" y2= "312" />
+    <line class="fil1 str27" x1="7621" y1="218" x2="7696" y2= "262" />
+    <line class="fil1 str27" x1="7698" y1="175" x2="7773" y2= "218" />
+    <line class="fil1 str27" x1="7811" y1="154" x2="7887" y2= "197" />
+    <g>
+     <polygon class="fil0 str28" points="7321,1353 7321,742 7396,786 7396,1396 "/>
+     <line class="fil1 str28" x1="7321" y1="829" x2="7396" y2= "873" />
+     <line class="fil1 str28" x1="7321" y1="917" x2="7396" y2= "960" />
+     <line class="fil1 str28" x1="7321" y1="1004" x2="7396" y2= "1047" />
+     <line class="fil1 str29" x1="7321" y1="1091" x2="7396" y2= "1135" />
+     <line class="fil1 str30" x1="7321" y1="1178" x2="7396" y2= "1222" />
+     <line class="fil1 str31" x1="7321" y1="1265" x2="7396" y2= "1309" />
+    </g>
+    <path class="fil0 str32" d="M7730 958c-73,43 -147,53 -204,20 -56,-32 -84,-101 -84,-186 0,-86 28,-187 84,-284 56,-97 130,-172 203,-215 74,-43 148,-53 205,-20 56,32 84,102 84,187 0,85 -28,186 -84,283 -56,98 -130,173 -204,215z"/>
+    <path class="fil0 str33" d="M7701 677c-8,-5 -12,-15 -12,-27 0,-12 4,-26 12,-40 8,-14 18,-24 29,-30 10,-6 21,-8 29,-3l224 129c0,1 1,1 1,1 8,5 12,14 12,26 0,12 -4,27 -12,41 -8,13 -18,24 -29,30 -10,6 -21,7 -29,3l-225 -130z"/>
+    <path class="fil0 str34" d="M7955 804c-10,6 -21,7 -29,3 -8,-5 -12,-15 -12,-27 0,-12 4,-26 12,-40 8,-14 19,-24 29,-30 11,-6 21,-8 29,-3 8,5 12,14 12,26 0,12 -4,27 -12,41 -8,13 -18,24 -29,30z"/>
+   </g>
+   <g id="_2595057234048">
+    <polygon class="fil0 str35" points="8489,1191 9275,737 9275,24 8489,478 "/>
+    <polygon class="fil0 str36" points="8489,478 9275,24 9256,13 8471,467 "/>
+    <g>
+     <polygon class="fil0 str35" points="9051,1515 8489,1191 9275,737 9836,1061 "/>
+     <polygon class="fil0 str35" points="9275,802 8602,1191 8882,1353 9556,964 "/>
+     <polygon class="fil0 str37" points="9250,1175 9138,1240 9306,1337 9418,1272 9418,1272 9418,1272 9530,1207 9362,1110 "/>
+     <line class="fil1 str38" x1="9278" y1="1321" x2="9502" y2= "1191" />
+     <line class="fil1 str38" x1="9418" y1="1272" x2="9390" y2= "1256" />
+     <polygon class="fil0 str39" points="9242,782 9192,810 9213,822 9262,793 "/>
+     <polygon class="fil0 str40" points="8522,1142 9242,726 9242,73 8522,488 "/>
+     <polygon class="fil0 str36" points="8489,478 8489,1191 8471,1180 8471,467 "/>
+     <polygon class="fil0 str36" points="8489,1191 9051,1515 9051,1536 8489,1212 "/>
+     <polygon class="fil0 str36" points="9051,1515 9836,1061 9836,1083 9051,1536 "/>
+    </g>
+   </g>
+   <g id="_2595057192864">
+    <polygon class="fil0 str11" points="4340,901 4340,468 4715,540 "/>
+    <polygon class="fil0 str11" points="3965,1118 4340,684 3965,684 "/>
+    <polygon class="fil0 str11" points="3965,684 3965,1118 3902,1081 3902,648 4277,648 4277,432 4652,504 4715,540 4340,468 4340,684 "/>
+    <polygon class="fil0 str11" points="4340,684 4340,901 4277,865 4280,753 "/>
+    <line class="fil1 str11" x1="4277" y1="648" x2="4340" y2= "684" />
+    <line class="fil1 str11" x1="3902" y1="648" x2="3965" y2= "684" />
+    <line class="fil1 str11" x1="4277" y1="432" x2="4340" y2= "468" />
+   </g>
+   <g id="_2595057186208">
+    <polygon class="fil3 str11" points="2974,524 2974,350 3136,438 3136,619 "/>
+    <polygon class="fil0 str11" points="2271,930 2271,755 2433,844 2433,1025 "/>
+    <path class="fil0 str11" d="M2272 931c-90,-52 -145,-124 -145,-203 0,-31 8,-60 23,-88 24,44 66,84 121,115l0 0 0 175 1 1zm-122 -291c4,-7 8,-14 13,-20 -5,6 -9,13 -13,20zm17 -27c4,-5 8,-9 12,-14 -4,5 -8,9 -12,14zm28 -31c3,-2 5,-5 8,-7 -3,2 -5,5 -8,7z"/>
+    <polygon class="fil0" points="2127,593 2150,594 2150,644 2153,648 2150,654 2150,728 2129,727 "/>
+    <path class="fil3 str11" d="M2622 265c138,0 262,33 352,85l0 175c-90,-52 -214,-85 -352,-85 -221,0 -408,84 -472,200 -15,-27 -23,-57 -23,-87 0,-159 222,-288 495,-288zm-419 441c-3,-3 -5,-5 -8,-8 3,3 5,5 8,8zm-19 -19c-6,-7 -12,-13 -17,-20 5,7 11,13 17,20zm-21 -26c-5,-7 -9,-13 -13,-20 4,7 8,13 13,20z"/>
+    <line class="fil1 str11" x1="2127" y1="553" x2="2127" y2= "728" />
+    <line class="fil1 str11" x1="2271" y1="755" x2="2271" y2= "930" />
+    <line class="fil1 str11" x1="2974" y1="350" x2="2974" y2= "526" />
+    <path class="fil0 str11" d="M2605 1087c-51,29 -101,36 -140,13 -39,-22 -58,-69 -58,-127 0,-59 19,-128 58,-194 38,-67 89,-118 139,-147l0 0 394 -228 0 0c51,-29 101,-36 140,-14 38,23 58,70 58,128 0,58 -19,127 -58,194 -38,67 -89,118 -139,147l0 0 0 0 -394 227 0 1z"/>
+    <polygon class="fil0" points="2465,779 3138,390 3434,561 2761,1271 2465,1100 "/>
+    <line class="fil1 str11" x1="2465" y1="779" x2="2760" y2= "949" />
+    <line class="fil1 str11" x1="2407" y1="973" x2="2703" y2= "1143" />
+    <line class="fil1 str11" x1="2465" y1="1100" x2="2761" y2= "1271" />
+    <line class="fil1 str11" x1="3120" y1="382" x2="3434" y2= "561" />
+    <path class="fil0 str11" d="M2851 1229c-50,29 -101,36 -140,14 -38,-23 -57,-70 -57,-128 0,-58 19,-128 57,-194 39,-67 89,-118 139,-147l0 0 394 -228 1 0c50,-29 101,-36 139,-13 39,22 58,69 58,127 0,58 -19,128 -57,194 -39,67 -89,118 -140,147l0 0 0 0 -393 228 -1 0z"/>
+    <path class="fil0 str11" d="M2900 1257c-50,29 -101,36 -139,14 -39,-22 -58,-69 -58,-128 0,-58 19,-127 57,-194 39,-66 89,-118 140,-147l0 0 394 -227 0 0c50,-29 101,-36 140,-14 38,22 57,69 57,128 0,58 -19,127 -57,194 -39,66 -89,118 -139,147l-1 0 0 0 -393 227 -1 0z"/>
+    <line class="fil1 str11" x1="3097" y1="689" x2="3097" y2= "1144" />
+    <ellipse class="fil0 str11" cx="2741" cy="687" rx="42" ry="24"/>
+    <line class="fil1 str11" x1="3143" y1="723" x2="3286" y2= "640" />
+    <line class="fil1 str11" x1="3143" y1="743" x2="3321" y2= "640" />
+    <line class="fil1 str11" x1="3143" y1="764" x2="3250" y2= "702" />
+    <line class="fil1 str11" x1="3143" y1="784" x2="3303" y2= "692" />
+   </g>
+   <g id="_2595059449024">
+    <path class="fil0 str41" d="M680 1136c-30,17 -60,21 -83,8 -23,-13 -34,-41 -34,-75 0,-35 11,-76 34,-115 23,-39 52,-70 82,-87l0 0 233 -134 0 0c30,-18 60,-22 83,-9 23,14 34,41 34,76 0,34 -11,75 -34,115 -23,39 -53,69 -82,86l-1 1 0 0 -232 134 0 0z"/>
+    <polygon class="fil0" points="597,954 995,724 1170,825 772,1245 597,1144 "/>
+    <line class="fil1 str42" x1="597" y1="954" x2="772" y2= "1055" />
+    <line class="fil1 str42" x1="563" y1="1069" x2="738" y2= "1170" />
+    <line class="fil1 str42" x1="597" y1="1144" x2="772" y2= "1245" />
+    <line class="fil1 str42" x1="984" y1="720" x2="1170" y2= "825" />
+    <path class="fil0 str43" d="M825 1220c-30,17 -59,21 -82,8 -23,-13 -34,-41 -34,-75 0,-35 11,-76 34,-115 22,-39 52,-70 82,-87l0 0 233 -134 0 0c30,-18 60,-22 83,-8 22,13 34,41 34,75 0,34 -12,75 -34,115 -23,39 -53,69 -83,87l0 0 0 0 -232 134 -1 0z"/>
+    <path class="fil3 str44" d="M854 1237c-29,17 -59,21 -82,8 -23,-13 -34,-41 -34,-75 0,-35 11,-76 34,-115 22,-39 52,-70 82,-87l0 0 233 -134 0 -1c30,-17 60,-21 83,-8 22,14 34,41 34,76 0,34 -11,75 -34,115 -23,39 -53,69 -82,86l-1 1 0 0 -232 134 -1 0z"/>
+    <line class="fil1 str45" x1="573" y1="1009" x2="718" y2= "1093" />
+    <line class="fil1 str45" x1="633" y1="905" x2="778" y2= "989" />
+    <line class="fil1 str45" x1="679" y1="867" x2="825" y2= "951" />
+    <line class="fil1 str45" x1="796" y1="800" x2="941" y2= "884" />
+    <line class="fil1 str45" x1="956" y1="717" x2="1103" y2= "801" />
+    <line class="fil1 str46" x1="924" y1="726" x2="1070" y2= "810" />
+    <line class="fil1 str47" x1="891" y1="742" x2="1037" y2= "826" />
+    <line class="fil1 str48" x1="853" y1="761" x2="999" y2= "845" />
+    <line class="fil1 str49" x1="828" y1="781" x2="974" y2= "865" />
+    <line class="fil1 str50" x1="758" y1="821" x2="903" y2= "904" />
+    <line class="fil1 str51" x1="718" y1="844" x2="864" y2= "928" />
+    <polygon class="fil0 str52" points="1176,1313 840,1119 1176,926 1511,1119 "/>
+    <polygon class="fil0 str53" points="1176,1216 840,1023 1176,829 1511,1023 "/>
+    <polygon class="fil0 str53" points="1176,1216 840,1023 840,1119 1176,1313 "/>
+    <polygon class="fil0 str53" points="1176,1313 1176,1216 1511,1023 1511,1119 "/>
+    <polygon class="fil0 str54" points="1176,1161 949,1030 1176,899 1403,1030 "/>
+    <polygon class="fil0 str55" points="1176,1096 949,964 1176,833 1403,964 "/>
+    <polygon class="fil0 str55" points="1176,1096 949,964 949,1030 1176,1161 "/>
+    <polygon class="fil0 str55" points="1176,1161 1176,1096 1403,964 1403,1030 "/>
+    <g>
+     <path class="fil0" d="M724 6l0 0 0 0zm-101 178l17 10 -17 -10zm0 0c-14,-8 -21,-25 -21,-47 0,-21 7,-47 21,-71 14,-25 33,-44 51,-54 18,-11 36,-13 50,-6 6,3 14,8 20,11 -20,-9 -33,-7 -53,4 -19,11 -37,30 -51,54 -15,25 -22,50 -22,72 0,21 5,34 22,47 -6,-4 -11,-7 -17,-10z"/>
+     <path id="1" class="fil1 str56" d="M724 6l0 0m-101 178l17 10m-17 -10c-14,-8 -21,-25 -21,-47 0,-21 7,-47 21,-71 14,-25 33,-44 51,-54 18,-11 36,-13 50,-6 6,3 14,8 20,11 -20,-9 -33,-7 -53,4 -19,11 -37,30 -51,54 -15,25 -22,50 -22,72 0,21 5,34 22,47 -6,-4 -11,-7 -17,-10z"/>
+    </g>
+    <path class="fil0 str57" d="M691 189c-18,10 -37,13 -51,5 -15,-8 -22,-26 -22,-47 0,-22 7,-47 22,-72 14,-24 32,-43 51,-54 18,-11 37,-13 51,-5 14,8 22,26 22,47 0,22 -8,47 -22,72 -14,24 -32,43 -51,54z"/>
+    <line class="fil1 str58" x1="612" y1="174" x2="630" y2= "184" />
+    <line class="fil1 str58" x1="603" y1="150" x2="619" y2= "159" />
+    <line class="fil1 str58" x1="602" y1="130" x2="619" y2= "140" />
+    <line class="fil1 str58" x1="605" y1="113" x2="621" y2= "122" />
+    <line class="fil1 str58" x1="609" y1="96" x2="626" y2= "106" />
+    <line class="fil1 str58" x1="615" y1="81" x2="632" y2= "90" />
+    <line class="fil1 str58" x1="623" y1="66" x2="639" y2= "76" />
+    <line class="fil1 str58" x1="632" y1="52" x2="648" y2= "62" />
+    <line class="fil1 str58" x1="642" y1="39" x2="658" y2= "48" />
+    <line class="fil1 str58" x1="654" y1="27" x2="670" y2= "36" />
+    <line class="fil1 str58" x1="668" y1="16" x2="684" y2= "25" />
+    <line class="fil1 str58" x1="685" y1="7" x2="701" y2= "16" />
+    <line class="fil1 str58" x1="709" y1="2" x2="726" y2= "11" />
+    <path class="fil0 str59" d="M1191 1432c-29,17 -59,21 -82,8 -23,-13 -34,-41 -34,-76 0,-34 11,-75 34,-114 22,-40 52,-70 82,-87l0 0 233 -135 0 0c30,-17 60,-21 83,-8 23,13 34,41 34,75 0,35 -11,76 -34,115 -23,40 -53,70 -82,87l-1 0 0 0 -232 134 -1 1z"/>
+    <polygon class="fil0" points="1109,1250 1507,1020 1682,1121 1284,1541 1109,1440 "/>
+    <line class="fil1 str60" x1="1109" y1="1250" x2="1284" y2= "1350" />
+    <line class="fil1 str60" x1="1075" y1="1364" x2="1250" y2= "1465" />
+    <line class="fil1 str60" x1="1109" y1="1440" x2="1284" y2= "1541" />
+    <line class="fil1 str60" x1="1496" y1="1015" x2="1682" y2= "1121" />
+    <path class="fil0 str61" d="M1337 1516c-30,17 -60,21 -82,8 -23,-13 -35,-41 -35,-76 0,-34 12,-75 34,-114 23,-40 53,-70 83,-87l0 0 233 -135 0 0c30,-17 60,-21 82,-8 23,13 35,41 35,76 0,34 -12,75 -34,114 -23,40 -53,70 -83,87l0 0 0 0 -233 135 0 0z"/>
+    <path class="fil0 str62" d="M1366 1533c-30,17 -59,21 -82,8 -23,-14 -34,-41 -34,-76 0,-34 11,-75 34,-115 22,-39 52,-69 82,-86l0 0 233 -135 0 0c30,-17 60,-21 83,-8 22,13 34,41 34,75 0,35 -12,76 -34,115 -23,39 -53,70 -83,87l0 0 0 0 -232 134 -1 1z"/>
+    <line class="fil1 str63" x1="1084" y1="1305" x2="1230" y2= "1389" />
+    <line class="fil1 str63" x1="1144" y1="1201" x2="1290" y2= "1285" />
+    <line class="fil1 str63" x1="1191" y1="1163" x2="1337" y2= "1247" />
+    <line class="fil1 str63" x1="1308" y1="1095" x2="1453" y2= "1180" />
+    <line class="fil1 str63" x1="1468" y1="1013" x2="1615" y2= "1097" />
+    <line class="fil1 str64" x1="1436" y1="1022" x2="1582" y2= "1106" />
+    <line class="fil1 str65" x1="1403" y1="1038" x2="1549" y2= "1122" />
+    <line class="fil1 str66" x1="1365" y1="1056" x2="1511" y2= "1140" />
+    <line class="fil1 str67" x1="1339" y1="1077" x2="1486" y2= "1161" />
+    <line class="fil1 str68" x1="1270" y1="1116" x2="1415" y2= "1199" />
+    <line class="fil1 str69" x1="1230" y1="1140" x2="1376" y2= "1224" />
+    <g>
+     <path class="fil0" d="M1181 597l0 0 0 0zm-106 187l17 11 -17 -11zm0 0c-15,-8 -23,-26 -23,-49 0,-23 8,-49 23,-75 14,-26 34,-46 54,-57 18,-11 37,-14 52,-6 7,3 14,8 21,12 -22,-10 -35,-8 -56,4 -20,11 -39,31 -54,57 -15,26 -22,52 -22,75 0,23 5,36 22,50 -6,-4 -12,-7 -17,-11z"/>
+     <path id="1" class="fil1 str70" d="M1181 597l0 0m-106 187l17 11m-17 -11c-15,-8 -23,-26 -23,-49 0,-23 8,-49 23,-75 14,-26 34,-46 54,-57 18,-11 37,-14 52,-6 7,3 14,8 21,12 -22,-10 -35,-8 -56,4 -20,11 -39,31 -54,57 -15,26 -22,52 -22,75 0,23 5,36 22,50 -6,-4 -12,-7 -17,-11z"/>
+    </g>
+    <path class="fil0 str71" d="M1146 789c-19,11 -39,14 -54,6 -15,-9 -22,-27 -22,-50 0,-23 7,-49 22,-75 15,-26 34,-46 54,-57 19,-11 39,-14 54,-5 15,8 22,26 22,49 0,23 -7,49 -22,75 -15,26 -34,46 -54,57z"/>
+    <line class="fil1 str72" x1="1063" y1="774" x2="1082" y2= "785" />
+    <line class="fil1 str72" x1="1053" y1="748" x2="1071" y2= "758" />
+    <line class="fil1 str72" x1="1052" y1="728" x2="1070" y2= "738" />
+    <line class="fil1 str72" x1="1055" y1="709" x2="1072" y2= "719" />
+    <line class="fil1 str72" x1="1060" y1="692" x2="1077" y2= "702" />
+    <line class="fil1 str72" x1="1066" y1="676" x2="1084" y2= "686" />
+    <line class="fil1 str72" x1="1074" y1="660" x2="1092" y2= "670" />
+    <line class="fil1 str72" x1="1084" y1="646" x2="1101" y2= "656" />
+    <line class="fil1 str72" x1="1094" y1="632" x2="1111" y2= "642" />
+    <line class="fil1 str72" x1="1107" y1="619" x2="1124" y2= "629" />
+    <line class="fil1 str72" x1="1121" y1="607" x2="1139" y2= "617" />
+    <line class="fil1 str72" x1="1139" y1="598" x2="1156" y2= "607" />
+    <line class="fil1 str72" x1="1165" y1="592" x2="1183" y2= "603" />
+    <path class="fil0 str73" d="M1269 955c0,30 -42,55 -94,55 -51,0 -93,-25 -93,-55l0 -232c0,-30 42,-54 93,-54 52,0 94,24 94,54l0 232z"/>
+    <g>
+     <path class="fil0" d="M1175 669c52,0 94,24 94,54 0,30 -42,55 -94,55 -51,0 -93,-25 -93,-55 0,-30 42,-54 93,-54z"/>
+     <path id="1" class="fil4" d="M1274 723l-11 0 0 0 0 -2 0 -2 -1 -2 0 -3 -1 -2 -1 -2 -2 -2 -1 -2 -2 -3 -2 -2 -2 -2 -2 -2 -2 -2 -3 -2 -3 -1 -2 -2 -3 -2 -4 -1 -3 -2 -4 -1 -3 -2 -4 -1 -4 -1 -4 -1 -4 -1 -4 -1 -4 -1 -5 0 -4 -1 -5 0 -4 0 -5 0 0 -11 5 0 5 0 5 0 5 1 4 0 5 1 5 1 4 1 4 1 5 1 4 2 4 1 3 2 4 2 4 1 3 2 3 2 4 2 3 3 2 2 3 2 3 3 2 2 2 3 2 3 1 3 2 3 1 3 1 3 1 3 0 3 0 3 0 0zm-99 60l0 -11 0 0 5 0 4 0 5 0 4 -1 5 0 4 -1 4 -1 4 -1 4 -1 4 -1 4 -1 4 -2 3 -1 3 -2 4 -1 3 -2 2 -2 3 -2 3 -1 2 -2 2 -2 2 -2 2 -3 2 -2 1 -2 2 -2 1 -2 1 -2 0 -3 1 -2 0 -2 0 -3 11 0 0 4 0 3 -1 3 -1 3 -1 3 -2 3 -1 3 -2 3 -2 2 -2 3 -3 3 -3 2 -2 2 -3 2 -4 3 -3 2 -3 1 -4 2 -4 2 -3 2 -4 1 -4 1 -5 2 -4 1 -4 1 -5 1 -5 0 -4 1 -5 1 -5 0 -5 0 -5 0 0 0zm-99 -60l11 0 0 0 0 3 1 2 0 2 1 3 1 2 1 2 1 2 2 2 1 2 2 3 2 2 2 2 3 2 2 1 3 2 3 2 3 2 3 1 3 2 4 1 4 2 3 1 4 1 4 1 4 1 4 1 5 1 4 0 4 1 5 0 5 0 4 0 0 11 -5 0 -5 0 -5 0 -4 -1 -5 -1 -5 0 -4 -1 -5 -1 -4 -1 -4 -2 -4 -1 -4 -1 -4 -2 -4 -2 -3 -2 -4 -1 -3 -2 -3 -3 -3 -2 -3 -2 -3 -2 -2 -3 -2 -3 -2 -2 -2 -3 -2 -3 -1 -3 -2 -3 -1 -3 0 -3 -1 -3 0 -4 0 0zm99 -59l0 11 0 0 -4 0 -5 0 -5 0 -4 1 -4 0 -5 1 -4 1 -4 1 -4 1 -4 1 -3 1 -4 2 -4 1 -3 2 -3 1 -3 2 -3 2 -3 1 -2 2 -3 2 -2 2 -2 2 -2 2 -1 3 -2 2 -1 2 -1 2 -1 2 -1 3 0 2 -1 2 0 2 -11 0 0 -3 1 -3 0 -3 1 -3 2 -3 1 -3 2 -3 2 -3 2 -3 2 -2 2 -3 3 -2 3 -2 3 -3 3 -2 3 -2 4 -2 3 -1 4 -2 4 -2 4 -1 4 -2 4 -1 4 -1 5 -1 4 -1 5 -1 5 0 4 -1 5 0 5 0 5 0 0 0z"/>
+    </g>
+    <polygon class="fil0 str74" points="280,401 280,268 742,1 1204,668 1088,734 684,168 "/>
+    <polygon class="fil0 str75" points="280,401 280,268 366,318 366,451 "/>
+    <polygon class="fil0 str75" points="366,318 280,268 742,1 828,51 "/>
+    <polygon class="fil0 str75" points="735,238 1088,734 1175,784 771,218 "/>
+    <polygon class="fil0 str75" points="366,451 366,318 828,51 1290,718 1175,784 771,218 "/>
+    <g>
+     <path class="fil0" d="M843 63l0 0 0 0zm-101 178l16 10 -16 -10zm0 0c-14,-8 -21,-25 -21,-47 0,-21 7,-47 21,-71 14,-25 32,-44 51,-54 18,-11 36,-13 50,-6 6,3 13,8 20,11 -21,-9 -33,-7 -54,4 -18,11 -37,30 -51,54 -14,25 -21,50 -21,72 0,21 5,34 21,47 -5,-4 -11,-7 -16,-10z"/>
+     <path id="1" class="fil1 str76" d="M843 63l0 0m-101 178l16 10m-16 -10c-14,-8 -21,-25 -21,-47 0,-21 7,-47 21,-71 14,-25 32,-44 51,-54 18,-11 36,-13 50,-6 6,3 13,8 20,11 -21,-9 -33,-7 -54,4 -18,11 -37,30 -51,54 -14,25 -21,50 -21,72 0,21 5,34 21,47 -5,-4 -11,-7 -16,-10z"/>
+    </g>
+    <path class="fil0 str77" d="M810 246c-19,10 -37,13 -52,5 -14,-8 -21,-26 -21,-47 0,-22 7,-47 21,-72 14,-24 33,-43 51,-54 19,-11 38,-13 52,-5 14,8 21,26 21,47 0,22 -7,47 -21,72 -14,24 -33,43 -51,54z"/>
+    <line class="fil1 str78" x1="731" y1="231" x2="748" y2= "241" />
+    <line class="fil1 str78" x1="721" y1="207" x2="738" y2= "216" />
+    <line class="fil1 str78" x1="721" y1="187" x2="737" y2= "197" />
+    <line class="fil1 str78" x1="723" y1="170" x2="740" y2= "179" />
+    <line class="fil1 str78" x1="728" y1="153" x2="744" y2= "163" />
+    <line class="fil1 str78" x1="734" y1="138" x2="750" y2= "147" />
+    <line class="fil1 str78" x1="742" y1="123" x2="758" y2= "133" />
+    <line class="fil1 str78" x1="750" y1="109" x2="767" y2= "119" />
+    <line class="fil1 str78" x1="761" y1="96" x2="777" y2= "106" />
+    <line class="fil1 str78" x1="772" y1="84" x2="789" y2= "93" />
+    <line class="fil1 str78" x1="786" y1="73" x2="803" y2= "82" />
+    <line class="fil1 str78" x1="803" y1="64" x2="819" y2= "73" />
+    <line class="fil1 str78" x1="828" y1="59" x2="844" y2= "68" />
+    <g>
+     <path class="fil0" d="M1296 664l1 0 -1 0zm-106 188l18 10 -18 -10zm0 0c-15,-9 -22,-27 -22,-50 0,-22 7,-49 22,-75 15,-26 35,-46 54,-57 19,-11 38,-14 53,-6 6,3 14,8 21,12 -22,-10 -35,-8 -56,4 -20,11 -39,31 -54,57 -15,26 -23,53 -23,75 0,23 5,36 23,50 -6,-4 -12,-7 -18,-10z"/>
+     <path id="1" class="fil1 str79" d="M1296 664l1 0m-107 188l18 10m-18 -10c-15,-9 -22,-27 -22,-50 0,-22 7,-49 22,-75 15,-26 35,-46 54,-57 19,-11 38,-14 53,-6 6,3 14,8 21,12 -22,-10 -35,-8 -56,4 -20,11 -39,31 -54,57 -15,26 -23,53 -23,75 0,23 5,36 23,50 -6,-4 -12,-7 -18,-10z"/>
+    </g>
+    <path class="fil0 str80" d="M1262 856c-20,12 -39,14 -54,6 -15,-9 -23,-27 -23,-50 0,-22 8,-49 23,-75 15,-26 34,-46 54,-57 19,-11 39,-14 54,-5 15,8 22,27 22,49 0,23 -7,50 -22,75 -15,26 -35,46 -54,57z"/>
+    <line class="fil1 str81" x1="1179" y1="841" x2="1197" y2= "852" />
+    <line class="fil1 str81" x1="1169" y1="815" x2="1186" y2= "825" />
+    <line class="fil1 str81" x1="1168" y1="795" x2="1186" y2= "805" />
+    <line class="fil1 str81" x1="1171" y1="776" x2="1188" y2= "786" />
+    <line class="fil1 str81" x1="1176" y1="759" x2="1193" y2= "769" />
+    <line class="fil1 str81" x1="1182" y1="743" x2="1199" y2= "753" />
+    <line class="fil1 str81" x1="1190" y1="727" x2="1207" y2= "737" />
+    <line class="fil1 str81" x1="1199" y1="713" x2="1217" y2= "723" />
+    <line class="fil1 str81" x1="1210" y1="699" x2="1227" y2= "709" />
+    <line class="fil1 str81" x1="1223" y1="686" x2="1240" y2= "696" />
+    <line class="fil1 str81" x1="1237" y1="674" x2="1255" y2= "684" />
+    <line class="fil1 str81" x1="1255" y1="665" x2="1272" y2= "674" />
+    <line class="fil1 str81" x1="1281" y1="660" x2="1298" y2= "670" />
+    <g>
+     <path class="fil0" d="M1416 1305l0 0 0 0zm-106 188l17 10 -17 -10zm0 0c-15,-9 -22,-27 -22,-50 0,-22 7,-49 22,-75 15,-26 34,-46 54,-57 19,-11 37,-14 52,-6 7,3 14,8 21,12 -21,-10 -35,-8 -56,4 -19,11 -39,31 -54,57 -15,26 -22,53 -22,75 0,23 5,36 22,50 -5,-4 -11,-7 -17,-10z"/>
+     <path id="1" class="fil1 str82" d="M1416 1305l0 0m-106 188l17 10m-17 -10c-15,-9 -22,-27 -22,-50 0,-22 7,-49 22,-75 15,-26 34,-46 54,-57 19,-11 37,-14 52,-6 7,3 14,8 21,12 -21,-10 -35,-8 -56,4 -19,11 -39,31 -54,57 -15,26 -22,53 -22,75 0,23 5,36 22,50 -5,-4 -11,-7 -17,-10z"/>
+    </g>
+    <path class="fil0 str83" d="M1381 1497c-19,12 -39,14 -54,6 -15,-9 -22,-27 -22,-50 0,-22 7,-49 22,-75 15,-26 35,-46 54,-57 20,-11 39,-14 54,-5 15,8 23,27 23,49 0,23 -8,50 -23,75 -14,26 -34,46 -54,57z"/>
+    <line class="fil1 str84" x1="1298" y1="1482" x2="1317" y2= "1493" />
+    <line class="fil1 str84" x1="1289" y1="1456" x2="1306" y2= "1466" />
+    <line class="fil1 str84" x1="1288" y1="1436" x2="1305" y2= "1446" />
+    <line class="fil1 str84" x1="1290" y1="1417" x2="1308" y2= "1427" />
+    <line class="fil1 str84" x1="1295" y1="1400" x2="1313" y2= "1410" />
+    <line class="fil1 str84" x1="1302" y1="1384" x2="1319" y2= "1394" />
+    <line class="fil1 str84" x1="1310" y1="1368" x2="1327" y2= "1378" />
+    <line class="fil1 str84" x1="1319" y1="1354" x2="1336" y2= "1364" />
+    <line class="fil1 str84" x1="1330" y1="1340" x2="1347" y2= "1350" />
+    <line class="fil1 str84" x1="1342" y1="1327" x2="1360" y2= "1337" />
+    <line class="fil1 str84" x1="1357" y1="1315" x2="1374" y2= "1325" />
+    <line class="fil1 str84" x1="1375" y1="1306" x2="1392" y2= "1316" />
+    <line class="fil1 str84" x1="1401" y1="1301" x2="1418" y2= "1311" />
+    <g>
+     <path class="fil0" d="M1640 1164l0 0 0 0zm-106 188l17 10 -17 -10zm0 0c-15,-8 -23,-27 -23,-49 0,-23 8,-50 23,-76 14,-25 34,-45 53,-56 19,-11 38,-14 53,-7 6,4 14,9 21,12 -22,-9 -35,-8 -56,5 -20,11 -39,31 -54,56 -15,26 -22,53 -22,76 0,22 5,36 22,49 -6,-3 -12,-6 -17,-10z"/>
+     <path id="1" class="fil1 str85" d="M1640 1164l0 0m-106 188l17 10m-17 -10c-15,-8 -23,-27 -23,-49 0,-23 8,-50 23,-76 14,-25 34,-45 53,-56 19,-11 38,-14 53,-7 6,4 14,9 21,12 -22,-9 -35,-8 -56,5 -20,11 -39,31 -54,56 -15,26 -22,53 -22,76 0,22 5,36 22,49 -6,-3 -12,-6 -17,-10z"/>
+    </g>
+    <path class="fil0 str86" d="M1605 1357c-19,11 -39,14 -54,5 -15,-8 -22,-27 -22,-49 0,-23 7,-50 22,-76 15,-25 34,-45 54,-56 19,-12 39,-14 54,-6 15,9 22,27 22,50 0,22 -7,49 -22,75 -15,26 -34,46 -54,57z"/>
+    <line class="fil1 str87" x1="1522" y1="1342" x2="1541" y2= "1352" />
+    <line class="fil1 str87" x1="1512" y1="1316" x2="1529" y2= "1326" />
+    <line class="fil1 str87" x1="1511" y1="1296" x2="1529" y2= "1306" />
+    <line class="fil1 str87" x1="1514" y1="1277" x2="1531" y2= "1287" />
+    <line class="fil1 str87" x1="1519" y1="1260" x2="1536" y2= "1270" />
+    <line class="fil1 str87" x1="1525" y1="1243" x2="1543" y2= "1253" />
+    <line class="fil1 str87" x1="1533" y1="1228" x2="1551" y2= "1238" />
+    <line class="fil1 str87" x1="1543" y1="1213" x2="1560" y2= "1223" />
+    <line class="fil1 str87" x1="1553" y1="1199" x2="1570" y2= "1209" />
+    <line class="fil1 str87" x1="1566" y1="1187" x2="1583" y2= "1197" />
+    <line class="fil1 str87" x1="1580" y1="1175" x2="1598" y2= "1185" />
+    <line class="fil1 str87" x1="1598" y1="1165" x2="1615" y2= "1175" />
+    <line class="fil1 str87" x1="1624" y1="1160" x2="1642" y2= "1170" />
+    <polygon class="fil0 str88" points="277,399 277,261 366,313 366,451 "/>
+    <polygon class="fil0 str89" points="43,232 2,208 94,50 277,261 231,288 99,135 "/>
+    <polygon class="fil0 str90" points="133,283 92,259 183,101 366,312 321,339 189,186 "/>
+    <polygon class="fil0 str90" points="92,259 183,101 94,50 2,208 "/>
+    <polygon class="fil0 str90" points="231,288 171,218 189,186 321,339 "/>
+    <polygon class="fil0 str90" points="314,479 366,451 275,683 92,683 92,630 239,629 "/>
+    <polygon class="fil0 str91" points="226,424 277,399 185,631 2,631 2,578 149,578 "/>
+    <polygon class="fil0 str90" points="2,631 2,578 92,630 92,683 "/>
+    <polygon class="fil0 str90" points="92,630 2,578 149,578 239,629 "/>
+    <polygon class="fil0 str90" points="239,629 149,578 226,424 312,477 "/>
+    <polygon class="fil0 str90" points="314,479 226,424 277,399 366,451 "/>
+   </g>
+  </g>
+ </g>
+</svg>
