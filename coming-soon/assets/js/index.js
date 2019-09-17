@@ -16,30 +16,20 @@ $(function() {
 
 	(function retroAnimate() {
 		// Glowing the icons for 200ms
-		setTimeout(function() {
-			glowIcons();
-			setTimeout(function() {
-				dimIcons();
-				// Now glowing the icons forever after 400ms
-				setTimeout(function() {
-					glowIcons();
-					setTimeout(function() {
-						dimIcons();
-						// Now glowing the icons forever after 400ms
-						setTimeout(function() {
-							glowIcons();
-						}, 70);
-					}, 70);
-				}, 100);
-			}, 200);
-		}, 100);
+		glowIcons();
+		setInterval(() => flickrIcons(), 2500);
 	}());
+
+	function flickrIcons() {
+		dimIcons();
+		setTimeout(() => glowIcons(), 100);
+	}
 
 
 	/**
 	 * This function is used to dim the currently glowing icons.
  	 */
-	function dimIcons() {
+	function glowIcons() {
 		retroIcons.each(function(index, element) {
 			var sourceImage = $(this).attr("src");
 			// Extracting the name of the image to find the dim image
@@ -49,7 +39,7 @@ $(function() {
 				var basePath = match[1];
 				var imageName = match[2];
 				// Generating the location of the dim image
-				var dimImageSource = `${basePath}/${imageName}-dim.png`;
+				var dimImageSource = `${basePath}/${imageName}-glow.png`;
 
 				$(this).attr("src", dimImageSource);
 			}
@@ -59,11 +49,11 @@ $(function() {
 	/**
 	 * This function is used to glow the currently dimmed icons.
  	 */
-	function glowIcons() {
+	function dimIcons() {
 		retroIcons.each(function(index, element) {
 			var sourceImage = $(this).attr("src");
 			// Extracting the name of the image to find the dim image
-			var match = /^(.*)\/(.*)\-dim.png/.exec(sourceImage);
+			var match = /^(.*)\/(.*)\-glow.png/.exec(sourceImage);
 			// Proceed only if a match is found
 			if(match) {
 				var basePath = match[1];

@@ -55,15 +55,15 @@
                                     <p class="sub-count seconds_ref">seconds</p>
                                 </li>
                             </ul>
-                            <div class="row">
+                            <div class="row mb-5">
                                 <div class="col-md-12">
                                     <h5 class="subtitle text-accent">Gallery</h5>
-                                    <img src="./assets/images/gallery.svg" alt="Gallery" class="img img-responsive gallery-icon mb-4">
+                                    <img src="assets/images/coming-soon/polaroid.png" alt="Gallery" class="img img-responsive glow gallery-icon mb-4">
                                 </div>
                             </div>
                         </div>
                         <div class="flex d-flex flex-row justify-content-center align-items-center">
-                            <canvas id="myCanvas" width="320" height="320" style="background:url('http://s2js.com/img/etc/flappyback.png');  background-size: 100%; height: 80% "> </canvas>
+                            <canvas id="myCanvas" width="320" height="320" style="background:url('assets/images/coming-soon/game/background.png');  background-size: 100%; height: 80% "> </canvas>
                             <h3> <i onclick="myFunction(this)" class="fa fa-thumbs-up"></i></h3>
                         </div>
                     </div>
@@ -188,22 +188,22 @@
             if (ImagesTouching(bird, pipes[i])) game_mode = "over";
             }
             function display_intro_instructions() {
-            kontext.font = "25px Arial";
-            kontext.fillStyle = "red";
+            kontext.font = "20px Roboto";
+            kontext.fillStyle = "#29001b";
             kontext.textAlign = "center";
-            kontext.fillText("Press, touch or click to start", myCanvas.width / 2, myCanvas.height / 4);
+            kontext.fillText("Click to start the game", myCanvas.width / 2, myCanvas.height / 4);
             }
             function display_game_over() {
             var score = 0;
             for (var i = 0; i < pipes.length; i++)
             if (pipes[i].x < bird.x) score = score + 0.5;
-            kontext.font = "30px Arial";
-            kontext.fillStyle = "red";
+            kontext.font = "25px Roboto";
+            kontext.fillStyle = "#29001b";
             kontext.textAlign = "center";
             kontext.fillText("Game Over", myCanvas.width / 2, 100);
-            kontext.fillText("Score: " + score, myCanvas.width / 2, 150);
-            kontext.font = "20px Arial";
-            kontext.fillText("Click, touch, or press to play again", myCanvas.width / 2, 300);
+            kontext.fillText("Score: " + score, myCanvas.width / 2, 130);
+            kontext.font = "15px Roboto";
+            kontext.fillText("Click to play again", myCanvas.width / 2, 200);
             }
             function display_bar_running_along_bottom() {
             if (bottom_bar_offset < -23) bottom_bar_offset = 0;
@@ -218,7 +218,7 @@
             function add_all_my_pipes() {
             add_pipe(500, 100, 140);
             add_pipe(800, 50, 140);
-            add_pipe(1000, 250, 140);
+            add_pipe(1000, 150, 140);
             add_pipe(1200, 150, 120);
             add_pipe(1600, 100, 120);
             add_pipe(1800, 150, 120);
@@ -236,7 +236,7 @@
             }
             var pipe_piece = new Image();
             pipe_piece.onload = add_all_my_pipes;
-            pipe_piece.src = "http://s2js.com/img/etc/flappypipe.png";
+            pipe_piece.src = "assets/images/coming-soon/game/pipe.png";
             function Do_a_Frame() {
             kontext.clearRect(0, 0, myCanvas.width, myCanvas.height);
             bird.Do_Frame_Things();
@@ -266,8 +266,8 @@
             }
             }
             var bottom_bar = new Image();
-            bottom_bar.src = "http://s2js.com/img/etc/flappybottom.png";
-            var bird = new MySprite("http://s2js.com/img/etc/flappybird.png");
+            bottom_bar.src = "assets/images/coming-soon/game/ground.png";
+            var bird = new MySprite("assets/images/coming-soon/game/object.png");
             bird.x = myCanvas.width / 3;
             bird.y = myCanvas.height / 2;
             setInterval(Do_a_Frame, 1000 / FPS);

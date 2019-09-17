@@ -3,14 +3,14 @@
     var varJson ={
   "particles": {
     "number": {
-      "value": 50,
+      "value": 40,
       "density": {
         "enable": true,
         "value_area": 800
       }
     },
     "color": {
-      "value": "#fc3"
+      "value": "#f9edeb"
     },
     "shape": {
       "type": "circle",
@@ -50,8 +50,8 @@
     "line_linked": {
       "enable": true,
       "distance": 300,
-      "color": "#fc3",
-      "opacity": 0.4,
+      "color": "#f9edeb",
+      "opacity": 0.15,
       "width": 1
     },
     "move": {
