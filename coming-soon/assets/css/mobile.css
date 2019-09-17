@@ -1,0 +1,27 @@
+@media only screen and (max-width: 768px) {
+	.logo {
+		width: 40vw;
+	}
+	.bottom-icons {
+		display: block;
+	}
+	.desktop-icons {
+		display: none;
+	}
+	.gallery-icon {
+		width: 10vw;
+	}
+	.retro-icon {
+		width: 20vw;
+	}
+	.retro-icon-1x {
+		width: 10vw;
+	}
+
+	.retro-icon-2x {
+		width: 15vw;
+	}
+	.inner-container {
+		flex-direction: column;;
+	}
+}
