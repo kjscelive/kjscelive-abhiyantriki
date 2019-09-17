@@ -72,6 +72,9 @@ ul {
 #comming-soon {
     /*margin: 0 5vw;*/
 }
+nav.navbar {
+    width: 100%;
+}
 
 .heading {
     text-transform: uppercase;
@@ -247,7 +250,9 @@ canvas {
     animation-name: float;
 }
 
-
+.shit-logo {
+    width: 10vw;
+}
 
 /***************************************************************************************************
 									  		ANIMATIONS

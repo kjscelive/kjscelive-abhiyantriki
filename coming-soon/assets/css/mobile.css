@@ -2,6 +2,10 @@
 	.logo {
 		width: 40vw;
 	}
+	.shit-logo {
+		width: 20vw;
+		float: right;
+	}
 	.bottom-icons {
 		display: block;
 	}
