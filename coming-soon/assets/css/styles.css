@@ -80,7 +80,7 @@ nav.navbar {
 .heading {
     text-transform: uppercase;
     font-weight: 100;
-    font-size: 3rem;
+    font-size: 3.5rem;
     text-align: center;
     color: var(--text-color);
     margin-bottom: 20px;
@@ -89,7 +89,7 @@ nav.navbar {
 .heading span {
     display: block;
     letter-spacing: 1px;
-    font-size: 4.2rem;
+    font-size: 4.8rem;
 }
 
 .gallery-icon {
@@ -193,6 +193,7 @@ nav.navbar {
 ****************************************/
 
 ul.countdown {
+    font-family: "Roboto";
     list-style: none;
 
     display: block;
