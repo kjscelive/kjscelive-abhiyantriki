@@ -1,0 +1,1230 @@
+@font-face {
+    font-family: Coves;
+    src: url('../fonts/Coves-Light.otf') format('opentype');
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: Coves;
+    src: url('../fonts/Coves-Bold.otf') format('opentype');
+    font-weight: bold;
+}
+#form{
+    position: fixed;
+    top: 70px;
+    left: 0px;
+    z-index: 9999;
+    width: 40px;
+    height: 40px;
+    border-radius: 0px 10px 10px 0px;
+    text-align: center;
+    line-height: 41.5px;
+    background: rgba(0,0,0,0.5);
+    color: #fff;
+    cursor: pointer;
+    border: 0;
+    font-size: 25px;
+    text-decoration: none;
+}
+@media screen and (max-width: 768px)
+{
+  .carousel-caption h3
+  {
+    font-size: 18px;
+  }
+}
+*
+{
+  font-family: "Roboto";
+}
+* h1,h2,h3,h4,h5,h6
+{
+  font-family: Coves !important;
+  /*font-weight: bold !important;*/
+}
+#aboutheading
+{
+  font-family: Coves !important;
+  font-weight: bold !important;
+}
+        #section1 .section_content1
+        {
+          padding-top: 5vmax;
+        }
+
+/*#loader {
+              position: fixed;
+              left: 0px;
+              top: 0px;
+              width: 100%;
+              height: 100%;
+              z-index: 9999;
+              background: url('../loadu3.gif') 50% 50% no-repeat black;
+              background-size: contain;
+            }*/
+
+.dropdown-menu>.active>a, .dropdown-menu>.active>a:focus, .dropdown-menu>.active>a:hover
+{
+  background: #a8518a !important;
+  color: #fff !important;
+}
+.navbar-right .dropdown-menu
+{
+    left:0 !important;
+    right:auto !important;
+    /*margin-right:-10px !important;*/
+}
+.dropdown-menu>li>a
+{
+  color: #9d9d9d !important;
+  background: #222;
+}
+.dropdown-menu>li>a:hover
+{
+  background: #a8518a !important;
+  color: #fff !important;
+}
+.dropdown-menu
+{
+  border-color:#080808;
+  padding: 0px !important;
+}
+body::-webkit-scrollbar-track
+{
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.6);
+  /*border-radius: 10px;*/
+  background-color: #333;
+}
+
+body::-webkit-scrollbar
+{
+  width: 1em;
+  background-color: #F5F5F5;
+}
+
+body::-webkit-scrollbar-thumb
+{
+  /*border-radius: 10px;*/
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.6);
+  background-color: #a8518a;
+}
+
+/*@media screen and (min-width: 450px && min-height: 450px)
+{
+  #section1, #section2, #section3, #section4, #section5, #section6, #section7{
+    font-size:23px;
+  }
+
+}
+
+@media screen and (max-width: 450px || max-height: 450px )
+{
+  #section2, #section3, #section4, #section5, #section6, #section7{
+    font-size:5vmin;
+  }
+  #section1 .section_content1{
+    font-size:5vmin;
+  }
+}*/
+body{
+  /*padding-top: 20px;*/
+  width: 100%; height: 100%; position: absolute;
+}
+/*Importing Fonts COVES*/
+
+/*h1,h2,h3,h4,h5,h6
+{
+  font-family: Coves !important;
+  font-weight: bold !important;
+}*/
+
+/*MAIN PAGE SECTION CSS:*/
+
+/*Deactivate social widget buttons for small screens, since overlapping*/
+/*Or can activate only one of them and keep content less*/
+
+@media screen and (max-width: 510px),  screen and (max-height: 350px)
+{
+  .social_widgets{
+    display: none;
+  }
+
+}
+
+/*Styling container inside each section*/
+.section > .container {
+  font-family: "Roboto";
+  position: relative;
+  /*Position set to relative for this, so as to center the inside content container*/
+    height: 100vh;
+    min-width: 100%;
+    /*padding: 50px;*/
+    background: rgba(0,0,0,0.6);
+    /*Giving an opacity layer*/
+}
+
+/*Styling headings inside section_content inside containers*/
+.section > .container > .section_content1 > h1{
+  font-family: Coves;
+  font-weight: bold;
+  font-size: 2em;
+}
+
+/*Vertically aligning the text content*/
+.section > .container > .section_content1{
+  position: absolute;
+  /*position absolute wrt container div, which is parent div*/
+  top: 60px;
+  bottom: 0;
+  left:0;
+  right: 0;
+  width: 80%;
+  height: 50%;
+  /*Setting a wwidth and height is necessary for margin auto to work*/
+  margin: auto;
+}
+
+/*Section 2 contains two divs, one having text and the other has a background image*/
+.section > .section_content8{
+  /*background: red;*/
+  font-family: Roboto;
+  position: relative;
+  height: 100vh;
+}
+.section > .section_content9{
+  /*background: red;*/
+  font-family: Roboto;
+  position: relative;
+  height: 100vh;
+}
+.section > .section_content8 > .section8_text{
+  color: black;
+  position: absolute;
+  /*position absolute wrt container div, which is parent div*/
+  top: 0;
+  bottom: 0;
+  left:0;
+  right: 0;
+  width: 80%;
+  height: 50%;
+  /*Setting a wwidth and height is necessary for margin auto to work*/
+  margin:auto;
+}
+.section > .section_content9 > .section9_text{
+  color: black;
+  position: absolute;
+  /*position absolute wrt container div, which is parent div*/
+  top: 0;
+  bottom: 0;
+  left:0;
+  right: 0;
+  width: 80%;
+  height: 50%;
+  /*Setting a wwidth and height is necessary for margin auto to work*/
+  margin:auto;
+}
+.section > .section_image2{
+  /*display: none;*/
+  background: url('../images/mainabout/img_02.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+  height: 100vh;
+}
+.section > .section_content2 > .section2_text {
+    text-align: right;
+  }
+.section > .section_content3 > .section3_text {
+    text-align: left;
+  }
+.section > .section_content3 > .section3_text > h1 {
+    text-align: left !important;
+  }
+.section > .section_content2 > .section2_text > h1{
+    text-align: right !important;
+  }
+/*Adjusting the section2 for smaller screens*/
+@media screen and (max-width: 992px)
+{
+/*  .section > .section2_layer{
+    height: 50vh;
+  }
+  .section > .section_image2{
+    height: 50vh;
+  }
+  .section > .section_content2{
+    height: 50vh;
+  }*/
+  .section .section_content2 .section2_text{
+    text-align: center !important;
+  }
+  .section .section_content3 .section3_text{
+    text-align: center !important;
+  }
+.section > .section_content3 > .section3_text > h1 {
+    text-align: center !important;
+  }
+.section > .section_content2 > .section2_text > h1{
+    text-align: center !important;
+  }
+
+}
+@media screen and (max-width: 992px)
+{
+  .section > .section_image2{
+    display: none;
+  }
+  .section > .section_content2{
+    background: url('../images/bg_images/abhiyantriki.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+  }
+  .section > .section_content2 > .overlay2{
+    height: 100%;
+    width: 100%;
+    background: rgba(0,0,0,0.5);
+    /*height: 100vh;*/
+  }
+.section > .section_content2 > .section2_text
+{
+  color: #c1c1c1;
+  height: 60vh;
+}
+  .section > .section_content2 > .section2_text > p{
+    text-align: center;
+  }
+}
+
+.section > .section_content3{
+  /*background: red;*/
+  font-family: Roboto;
+  position: relative;
+  height: 100vh;
+}
+.section > .section_content3 > .section3_text{
+  color: black;
+  position: absolute;
+  /*position absolute wrt container div, which is parent div*/
+  top: 0;
+  bottom: 0;
+  left:0;
+  right: 0;
+  width: 80%;
+  height: 50%;
+  /*Setting a wwidth and height is necessary for margin auto to work*/
+  margin:auto;
+}
+.section > .section_image3{
+  /*display: none;*/
+  background: url('../images/mainabout/img_01.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+  height: 100vh;
+}
+.section > .section_content3 > .section3_text > p{
+    text-align: left;
+  }
+/*Adjusting the section2 for smaller screens*/
+@media screen and (max-width: 992px)
+{
+  .section > .section_image3{
+    display: none;
+  }
+  .section > .section_content3{
+    background: url('../images/bg_images/kjsce2.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+  }
+  .section > .section_content3 > .overlay3{
+    height: 100%;
+    width: 100%;
+    background: rgba(0,0,0,0.5);
+    /*height: 100vh;*/
+  }
+.section > .section_content3 > .section3_text
+{
+  color: #c1c1c1;
+  height: 60vh;
+}
+  .section > .section_content3 > .section3_text > p{
+    text-align: center;
+  }
+}
+@media screen and (max-width: 500px)
+{
+  .section > .section_content3 > .section3_text
+  {
+    margin: auto;
+  }
+  .section > .section_content2 > .section2_text
+  {
+    margin: auto;
+  }
+}
+@media screen and (min-width: 992px)
+{
+  .section > .section_content3{
+    height: 100vh;
+    float: right;
+  }
+}
+
+/*Section4 containet styling*/
+/*.section > .container > .section_content4{
+  position: absolute;
+
+  top: 0;
+  bottom: 0;
+  left:0;
+  right: 0;
+  width: 80%;
+  height: 50%;
+
+  margin: auto;
+}*/
+
+/*Section5 containet styling*/
+.section > .container > .section_content5{
+  position: absolute;
+  /*position absolute wrt container div, which is parent div*/
+  top: 0;
+  bottom: 0;
+  left:0;
+  right: 0;
+  width: 80%;
+  height: 50%;
+  /*Setting a wwidth and height is necessary for margin auto to work*/
+  margin: auto;
+}
+
+/*Section6 containet styling*/
+.section > .container > .section_content6{
+  position: absolute;
+  /*position absolute wrt container div, which is parent div*/
+  top: 0;
+  bottom: 0;
+  left:0;
+  right: 0;
+  width: 80%;
+  height: 50%;
+  /*Setting a wwidth and height is necessary for margin auto to work*/
+  margin: auto;
+}
+
+/*Section7 containet styling*/
+.section > .container > .section_content7{
+  position: absolute;
+  /*position absolute wrt container div, which is parent div*/
+  top: 0;
+  bottom: 0;
+  left:0;
+  right: 0;
+  width: 80%;
+  height: 50%;
+  /*Setting a wwidth and height is necessary for margin auto to work*/
+  margin: auto;
+}
+
+/*All sections styling*/
+#section1{
+    position: relative;
+    color: white;
+    /*font-size: 20px;*/
+    height:100vh;
+    margin: 0px 0px 0px 0px;
+    /*background: url('../images/bg_images/cs_bg.png');*/
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#section2{
+    position: relative;
+    color:black;
+    /*font-size: 20px;*/
+    min-height:100vh;
+    width: 100%;
+    padding: 0px 0px 0px 0px;
+    background: white;
+/*    background: url('../images/bg_images/temp1.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;*/
+}
+
+/*#section2 > .container{
+  background: white;
+}*/
+
+#section3{
+    position: relative;
+    color:black;
+    /*font-size: 20px;*/
+    min-height:100vh;
+    width: 100%;
+    padding: 0px 0px 0px 0px;
+    background: white;
+/*    background: url('../images/bg_images/temp1.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;*/
+}
+
+#section4{
+    color:white;
+    /*font-size: 20px;*/
+    min-height:100vh;
+    max-width: 100%;
+    padding: 0px 0px 0px 0px;
+    background: white;
+/*    background: url('../images/bg_images/cs_bg.png');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;*/
+}
+
+#section5{
+    color:white;
+    /*font-size: 20px;*/
+    min-height:100vh;
+    max-width: 100%;
+    padding: 0px 0px 0px 0px;
+    background: white;
+/*    background: url('../images/bg_images/cs_bg.png');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;*/
+}
+#section6{
+    color:white;
+    /*font-size: 20px;*/
+    height:100vh;
+    max-width: 100%;
+    padding: 0px 0px 0px 0px;
+    background: url('../images/bg_images/parvaah_bg.png');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+#section7{
+    color:white;
+    /*font-size: 20px;*/
+    height:100vh;
+    max-width: 100%;
+    padding: 0px 0px 0px 0px;
+    background: url('../images/bg_images/contactus_bg.png');
+    /*background-attachment: fixed;*/
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*Background Video Styling*/
+.fullscreen-bg {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+    z-index: -100;
+}
+
+.fullscreen-bg__video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: auto;
+    height: auto;
+    min-width: 100%;
+    min-height: 100%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+/*From coming soon page, to disable videos for smaller screens-*/
+/*@media (max-width: 767px) {
+    .fullscreen-bg {
+        background: url('https://preview.ibb.co/dALv25/cs_bg.png') center center / cover no-repeat;
+    }*/
+
+/*Back to top sparrow*/
+#back-to-top {
+    position: fixed;
+    bottom: 40px;
+    right: 0px;
+    z-index: 9999;
+    width: 40px;
+    height: 40px;
+    border-radius: 10px 0px 0px 10px;
+    text-align: center;
+    line-height: 37px;
+    background: rgba(0,0,0,0.3);
+    color: #e0e0e0;
+    cursor: pointer;
+    border: 0;
+    font-size: 20px;
+    text-decoration: none;
+    transition: opacity 0.2s ease-out;
+    opacity: 0;
+}
+#back-to-top:hover {
+    background: rgba(0,0,0,0.6);
+}
+#back-to-top.show {
+    opacity: 1;
+}
+#content {
+    display: none;
+}
+
+/*Navbar editing*/
+#logo{
+    height:48px;
+    padding: 3px 10px 5px 0px;
+}
+
+/*#myNavbar{
+  font-family: "Coves";
+  font-weight: bold;
+}*/
+#myNavbar li:hover{
+    background: #a8518a;
+}
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
+    color: #fff;
+    background-color: #a8518a !important ;
+}
+
+/*Caoursel CSS*/
+.carousel-caption{
+  bottom: 10% !important ;
+}
+.main-container {
+  padding: 10px 15px;
+}
+.skyblue {
+  background-image: url("../images/bg_images/techexpo_bg.png");
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  /*background-repeat: no-repeat;*/
+}
+.deepskyblue {
+  background-image: url("../images/bg_images/events_bg.png");
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+}
+
+.speakersbg
+{
+  background-image: url("../images/bg_images/speakerbg.png");
+  height: 100%;
+  width: 100%;
+  /*background-attachment: fixed;*/
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.darkerskyblue {
+  background-image: url("../images/bg_images/internshipexpo_bg.png");
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+}
+.darkerskybluex {
+  background-image: url("../images/bg_images/sexpo.png");
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+}
+.darkerskybluey {
+  background-image: url("../images/bg_images/auto-expo.png");
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+}
+.carousel-indicators {
+  bottom: 0;
+}
+.carousel-control.right,
+.carousel-control.left {
+  background-image: none;
+}
+.carousel .item {
+  height: 100vh;
+  width:100%;
+}
+.carousel-caption h3
+/*, .carousel .icon-container,
+.carousel-caption button*/ {
+  color: #000;
+  /*background:rgba(0,0,0,0.3);*/
+}
+.carousel-caption h3 {
+  /*padding: .5em;*/
+}
+.carousel .icon-container {
+  display: inline-block;
+  font-size: 25px;
+  line-height: 25px;
+  padding: 1em;
+  text-align: center;
+  border-radius: 50%;
+}
+.carousel-caption button {
+  border-color: #00bfff;
+  margin-top: 1em;
+}
+
+/* Animation delays */
+.carousel-caption h3:first-child {
+  animation-delay: 1s;
+}
+/*.carousel-caption h3:nth-child(2) {
+  animation-delay: 1s;
+}*/
+.carousel-caption a {
+  animation-delay: 2s;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.p {
+  padding-top: 125px;
+  text-align: center;
+}
+
+.p a {
+  text-decoration: underline;
+}
+
+/*Section 1 Animation*/
+.content { position: absolute;
+  top: 25%;
+  left: 50%;
+  transform: translate(-50%, -50%); height: 160px;
+  overflow: hidden;
+  font-family: 'Lato', sans-serif;
+  font-size:23px;
+  line-height: 40px;
+  color: #ecf0f1; }
+
+.content__container {
+  font-weight: 600;
+  overflow: hidden;
+  height: 40px;
+  padding: 0 20px; }
+
+/*.content__container:before {
+  content: '[';
+  left: 0; }*/
+/*
+.content__container:after {
+  content: ']';
+  position: absolute;
+  right: 0; }*/
+
+.content__container:after, .content__container:before {
+  position: absolute;
+  top: 0;
+  color: #16a085;
+  font-size: 42px;
+  line-height: 40px;
+  -webkit-animation-name: opacity;
+  -webkit-animation-duration: 2s;
+  -webkit-animation-iteration-count: infinite;
+  animation-name: opacity;
+  animation-duration: 2s;
+  animation-iteration-count: infinite; }
+
+.content__container__text {
+  display: inline;
+  float: left;
+  margin: 0; }
+
+.content__container__list {
+  margin-top: 0;
+  padding-left:160px;
+  text-align: left;
+  list-style: none;
+  -webkit-animation-name: change;
+  -webkit-animation-duration: 10s;
+  -webkit-animation-iteration-count: infinite;
+  animation-name: change;
+  animation-duration: 10s;
+  animation-iteration-count: infinite; }
+
+.content__container__list__item {
+  line-height: 40px;
+  margin: 0; }
+
+@-webkit-keyframes opacity { 0%, 100% { opacity: 0; } 50% { opacity: 1; } }
+@-webkit-keyframes change { 0%, 12.66%, 100% { transform: translate3d(0, 0, 0); } 16.66%, 29.32% { transform: translate3d(0, -25%, 0); } 33.32%,45.98% { transform: translate3d(0, -50%, 0); } 49.98%,62.64% { transform: translate3d(0, -75%, 0); } 66.64%,79.3% { transform: translate3d(0, -50%, 0); } 83.3%,95.96% { transform: translate3d(0, -25%, 0); } }
+@-o-keyframes opacity { 0%, 100% { opacity: 0; } 50% { opacity: 1; } }
+@-o-keyframes change { 0%, 12.66%, 100% { transform: translate3d(0, 0, 0); } 16.66%, 29.32% { transform: translate3d(0, -25%, 0); } 33.32%,45.98% { transform: translate3d(0, -50%, 0); } 49.98%,62.64% { transform: translate3d(0, -75%, 0); } 66.64%,79.3% { transform: translate3d(0, -50%, 0); } 83.3%,95.96% { transform: translate3d(0, -25%, 0); } }
+@-moz-keyframes opacity { 0%, 100% { opacity: 0; } 50% { opacity: 1; } }
+@-moz-keyframes change { 0%, 12.66%, 100% { transform: translate3d(0, 0, 0); } 16.66%, 29.32% { transform: translate3d(0, -25%, 0); } 33.32%,45.98% { transform: translate3d(0, -50%, 0); } 49.98%,62.64% { transform: translate3d(0, -75%, 0); } 66.64%,79.3% { transform: translate3d(0, -50%, 0); } 83.3%,95.96% { transform: translate3d(0, -25%, 0); } }
+@keyframes opacity { 0%, 100% { opacity: 0; } 50% { opacity: 1; } }
+@keyframes change { 0%, 12.66%, 100% { transform: translate3d(0, 0, 0); } 16.66%, 29.32% { transform: translate3d(0, -25%, 0); } 33.32%,45.98% { transform: translate3d(0, -50%, 0); } 49.98%,62.64% { transform: translate3d(0, -75%, 0); } 66.64%,79.3% { transform: translate3d(0, -50%, 0); } 83.3%,95.96% { transform: translate3d(0, -25%, 0); } }
+
+/*@media only screen and (max-width: 900px) {
+    .content {
+        display: none;
+    }
+}*/
+
+
+/*Bottom Social Media Buttons Styling*/
+@media screen and (max-width: 350px)
+{
+  .icon
+  {
+    width: 40px !important;
+    height: 40px !important;
+    font-size: 20px !important;
+    line-height: 45px !important;
+  }
+}
+#socialdiv{
+  min-height: 15vh;
+  background: #232526;  /* fallback for old browsers */
+  padding: 10px 10px 1px 10px;
+}
+#socialx{
+  /*position: absolute;*/
+  bottom: 0;
+}
+.transition-animation {
+  -webkit-transition: all .5s;
+  -moz-transition: all .5s;
+  -ms-transition: all .5s;
+  -o-transition: all .5s;
+  transition: all .5s;
+}
+/* Ul styles */
+#socialx ul {
+  list-style: none;
+}
+#socialx ul > li {
+  display: inline;
+  margin-right: 20px;
+}
+/*
+* Icon styles
+*
+* There are styles for icon and everything which are connected with it.
+*/
+.icon {
+  display: inline-block;
+  position: relative;
+  z-index: 1;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  font-size: 24px;
+  color: #f1f1f1;
+  line-height: 52px;
+  text-align: center;
+  background-color: #000000;
+}
+.icon:after {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  content: '';
+  box-sizing: content-box;
+}
+/* Hover effect */
+.icon-effect .icon {
+  -webkit-transition: all .5s;
+  -moz-transition: all .5s;
+  -ms-transition: all .5s;
+  -o-transition: all .5s;
+  transition: all .5s;
+}
+.icon-effect .icon:after {
+  top: -7px;
+  left: -7px;
+  padding: 7px;
+  box-shadow: 0 0 0 4px #f1f1f1;
+  -webkit-transition: all .5s;
+  -moz-transition: all .5s;
+  -ms-transition: all .5s;
+  -o-transition: all .5s;
+  transition: all .5s;
+  -webkit-transform: scale(0.8);
+  -moz-transform: scale(0.8);
+  -ms-transform: scale(0.8);
+  -o-transform: scale(0.8);
+  transform: scale(0.8);
+  opacity: 0;
+}
+.icon-effect-1a .icon:hover {
+  background-color: #f1f1f1;
+  color: #000000;
+}
+.icon-effect-1a .icon:hover:after {
+  -webkit-transform: scale(1);
+  -moz-transform: scale(1);
+  -ms-transform: scale(1);
+  -o-transform: scale(1);
+  transform: scale(1);
+  opacity: 1;
+}
+.carousel .item {
+  height: 100vh;
+  width:100%;
+}
+
+.carousel .icon-container {
+  display: inline-block;
+  font-size: 25px;
+  line-height: 25px;
+  padding: 1em;
+  text-align: center;
+  border-radius: 50%;
+}
+/* * {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.section
+{
+    height: 100vh;
+}*/
+@media screen and (max-width: 450px)
+{
+    .itemx
+    {
+        width: 50% !important;
+        height: 33.33% !important;
+    }
+}
+.itemx {
+  position: relative;
+  /*border: 1px solid #333;*/
+  margin: 0px;
+  overflow: hidden;
+  width: 33.33%;
+  height: 50%;
+}
+.itemx img {
+    max-height: 100%;
+    max-width: 100%;
+    width: auto;
+    height: auto;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+  -moz-transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+.itemx:hover img {
+  -moz-transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+}
+
+.item-overlay
+{
+    position: absolute;
+    top: 0;
+    left:0;
+    width: 100%;
+    height: 100%;
+}
+.itemx:hover .item-overlay
+{
+/*background:-webkit-linear-gradient(45deg, rgba(168,81,138,0.9) 0%, rgba(122,118,157,0.3) 50%, rgba(220,96,56,0.9) 100%);*/
+
+}
+
+.textx
+{
+  top:70%;
+  color: #fff;
+  width: 100%;
+text-align: center;
+padding: 10px;
+z-index: 1000;
+font-size: 1.2em;
+/*color: #fff;*/
+}
+ @media screen and (min-width: 768px)
+ {
+.itemx:hover .textx
+{
+  font-size: 1.7em;
+}
+ }
+
+ @media screen and (max-width: 768px)
+ {
+  .textx
+  {
+    top:45%;
+  }
+ }
+body
+{
+    overflow-x: hidden;
+}
+/*.nav
+{
+    height: 7vh;
+}*/
+
+#home
+{
+    height:85vh;
+    overflow: hidden;
+}
+#home.on
+{
+    overflow: auto;
+}
+#menu1
+{
+    height:85vh;
+    overflow: hidden;
+}
+#menu1.on
+{
+    overflow: auto;
+}
+body.on
+{
+    overflow-y: hidden;
+}
+.closed .vertical {
+  transition: all 0.5s ease-in-out;
+  transform: rotate(-90deg);
+}
+.closed .horizontal {
+  transition: all 0.5s ease-in-out;
+  transform: rotate(-90deg);
+  opacity: 1;
+}
+.opened {
+  opacity: 1;
+}
+.opened .vertical {
+  transition: all 0.5s ease-in-out;
+  transform: rotate(90deg);
+}
+.opened .horizontal {
+  transition: all 0.5s ease-in-out;
+  transform: rotate(90deg);
+  opacity: 0;
+}
+.circle-plus {
+  position: absolute;
+  /*height: 10vh;*/
+  bottom: 10px;
+  /*z-index: 1000;*/
+  width: 4em;
+  font-size: 1em;
+  margin: auto;
+  padding-bottom: 5px;
+  opacity: 1;
+  width: 100vw;
+  /*background: white;*/
+}
+
+.circle-plus .circle {
+  position: relative;
+  margin: auto;
+  width: 2.55em;
+  height: 2.5em;
+  border-radius: 100%;
+  border: solid 0.4em rgba(0,0,0,0.2);
+}
+.circle-plus .circle .horizontal {
+  position: absolute;
+  background-color: #a8518a;
+  background-color: #a8518a;
+  width: 30px;
+  height: 5px;
+  left: 50%;
+  margin-left: -15px;
+  top: 50%;
+  margin-top: -2.5px;
+}
+.circle-plus .circle .vertical {
+  position: absolute;
+  background-color: #a8518a;
+  width: 5px;
+  height: 30px;
+  left: 50%;
+  margin-left: -2.5px;
+  top: 50%;
+  margin-top: -15px;
+}
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover
+{
+    background: #a8518a !important;
+    border: none !important;
+    /*height: 50px !important;*/
+
+}
+.nav
+{
+  /*height: 50px !important;*/
+    background: #1e1e1e !important;
+}
+.nav-tabs>li>a
+{
+    color: #fff !important;
+    /*border:1px solid #000 !important;*/
+    /*height: 50px !important;*/
+}
+
+.nav-tabs li a:hover
+{
+    background: #a8518a !important;
+    border:1px solid #000 !important;
+    /*height: 50px !important;*/
+}
+#contactcontent
+{
+  background: rgba(255,255,255,0.5);
+  color: #313131;
+}
+#map
+{
+  padding:10px 10px 10px 10px;
+  float: right;
+}
+@media screen and (max-width: 768px)
+{
+  #map, #contactcontent
+  {
+    height: 50vh
+  }
+}
+@media screen and (min-width: 768px)
+{
+  #map, #contactcontent
+  {
+    height: 100vh
+  }
+}
+#parvaahlogo
+{
+  padding-top: 10vh;
+  height: 50vh;
+  text-align: center;
+}
+#parvaahcontent
+{
+  padding-top: 20vh;
+  height: 50vh;
+  text-align: center;
+}
+#section8{
+    /*color:white;*/
+    /*font-size: 20px;*/
+    height:100vh;
+    max-width: 100%;
+    padding: 0px 0px 0px 0px;
+    background: url('../images/bg_images/aboutabhiyantriki-bg.png');
+    /*background-attachment: fixed;*/
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#section9{
+    /*color:white;*/
+    /*font-size: 20px;*/
+    height:100vh;
+    max-width: 100%;
+    padding: 0px 0px 0px 0px;
+    background: url('../images/bg_images/about-kjsce-bg.png');
+    /*background-attachment: fixed;*/
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#specialsection1
+{
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+  background: url('../images/bg_images/d-bg.png');
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#overlayspecial1
+{
+  height: 100%;
+  width: 100%;
+  background: rgba(0,0,0,0.7);
+}
+#headerimage1
+{
+  text-align: center;
+  padding-top: 10vh;
+  padding-left: 10px;
+  padding-right: 10px;
+  min-height: 40vh;
+}
+#specialcontent1
+{
+  position: relative;
+  height: 50vh;
+}
+#actualcontent1
+{
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  color: white;
+  text-align: center;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+@media screen and (min-width: 992px)
+{
+  #actualcontent1
+  {
+    font-size: 1.3em;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+}

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW X7 -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="56.6418mm" height="91.4398mm" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 5664 9144"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <style type="text/css">
+   <![CDATA[
+    .str14 {stroke:#61003F;stroke-width:84.65;stroke-linecap:round;stroke-linejoin:round}
+    .str15 {stroke:#61003F;stroke-width:84.66;stroke-linecap:round;stroke-linejoin:round}
+    .str4 {stroke:#61003F;stroke-width:84.66;stroke-linecap:round;stroke-linejoin:round}
+    .str5 {stroke:#61003F;stroke-width:84.66;stroke-linecap:round;stroke-linejoin:round}
+    .str16 {stroke:#61003F;stroke-width:84.66;stroke-linecap:round;stroke-linejoin:round}
+    .str9 {stroke:#61003F;stroke-width:84.66;stroke-linecap:round;stroke-linejoin:round}
+    .str6 {stroke:#61003F;stroke-width:84.66;stroke-linecap:round;stroke-linejoin:round}
+    .str8 {stroke:#61003F;stroke-width:84.66;stroke-linecap:round;stroke-linejoin:round}
+    .str3 {stroke:#61003F;stroke-width:84.66;stroke-linecap:round;stroke-linejoin:round}
+    .str2 {stroke:#61003F;stroke-width:84.66;stroke-linecap:round;stroke-linejoin:round}
+    .str1 {stroke:#61003F;stroke-width:84.66;stroke-linecap:round;stroke-linejoin:round}
+    .str0 {stroke:#61003F;stroke-width:84.66;stroke-linecap:round;stroke-linejoin:round}
+    .str13 {stroke:#61003F;stroke-width:84.66;stroke-linecap:round;stroke-linejoin:round}
+    .str12 {stroke:#61003F;stroke-width:84.66;stroke-linecap:round;stroke-linejoin:round}
+    .str11 {stroke:#61003F;stroke-width:84.66;stroke-linecap:round;stroke-linejoin:round}
+    .str10 {stroke:#61003F;stroke-width:84.66;stroke-linecap:round;stroke-linejoin:round}
+    .str7 {stroke:#61003F;stroke-width:84.66;stroke-linecap:round;stroke-linejoin:round}
+    .fil1 {fill:none}
+    .fil2 {fill:#61003F}
+    .fil0 {fill:#FFF4F0}
+   ]]>
+  </style>
+ </defs>
+ <g id="Layer_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <g id="_2548769515792">
+   <g>
+    <polygon class="fil0 str0" points="5110,6238 5110,1748 5665,2069 5665,6559 "/>
+    <line class="fil1 str0" x1="5110" y1="2389" x2="5665" y2= "2710" />
+    <line class="fil1 str0" x1="5110" y1="3031" x2="5665" y2= "3352" />
+    <line class="fil1 str0" x1="5110" y1="3672" x2="5665" y2= "3993" />
+    <line class="fil1 str1" x1="5110" y1="4314" x2="5665" y2= "4635" />
+    <line class="fil1 str2" x1="5110" y1="4955" x2="5665" y2= "5276" />
+    <line class="fil1 str3" x1="5110" y1="5597" x2="5665" y2= "5918" />
+   </g>
+   <path class="fil2 str4" d="M87 2166c-59,-34 -88,-106 -88,-194 0,-89 29,-195 88,-296 58,-102 135,-180 212,-224 77,-44 154,-55 213,-21l1650 953c3,2 5,3 7,4 59,34 88,106 88,195 0,88 -29,194 -88,295 -58,102 -135,180 -212,224 -77,45 -154,55 -212,21l-1658 -957z"/>
+   <path class="fil0 str5" d="M1957 3102c-77,45 -154,55 -212,21 -59,-34 -89,-106 -89,-194 0,-89 30,-195 88,-296 59,-102 135,-180 212,-224 77,-44 154,-55 213,-21 59,34 88,106 88,195 0,88 -29,194 -88,295 -58,102 -135,180 -212,224z"/>
+   <g>
+    <path class="fil0" d="M4331 131l1 1 -1 -1zm-3393 6015l555 321 -555 -321zm0 0c-479,-276 -718,-861 -719,-1584 0,-722 238,-1581 715,-2406 477,-826 1101,-1462 1726,-1822 601,-347 1202,-439 1672,-202 217,108 461,265 674,388 -686,-302 -1110,-258 -1790,135 -625,360 -1250,996 -1726,1821 -477,826 -715,1685 -715,2406 0,728 159,1150 718,1585 -185,-110 -370,-214 -555,-321z"/>
+    <path id="1" class="fil1 str6" d="M4331 131l1 1m-3394 6014l555 321m-555 -321c-479,-276 -718,-861 -719,-1584 0,-722 238,-1581 715,-2406 477,-826 1101,-1462 1726,-1822 601,-347 1202,-439 1672,-202 217,108 461,265 674,388 -686,-302 -1110,-258 -1790,135 -625,360 -1250,996 -1726,1821 -477,826 -715,1685 -715,2406 0,728 159,1150 718,1585 -185,-110 -370,-214 -555,-321z"/>
+   </g>
+   <path class="fil0 str7" d="M3225 6297c-627,361 -1253,446 -1732,170 -478,-276 -718,-862 -718,-1585 0,-721 238,-1580 715,-2406 476,-825 1101,-1461 1726,-1821 626,-362 1253,-447 1731,-171 479,276 718,862 718,1585 1,721 -238,1580 -714,2406 -477,825 -1102,1461 -1726,1822z"/>
+   <line class="fil1 str8" x1="530" y1="5791" x2="1122" y2= "6133" />
+   <line class="fil1 str9" x1="250" y1="4988" x2="805" y2= "5308" />
+   <line class="fil1 str9" x1="227" y1="4333" x2="783" y2= "4654" />
+   <line class="fil1 str9" x1="311" y1="3740" x2="867" y2= "4061" />
+   <line class="fil1 str9" x1="464" y1="3187" x2="1020" y2= "3508" />
+   <line class="fil1 str9" x1="671" y1="2665" x2="1227" y2= "2986" />
+   <line class="fil1 str9" x1="926" y1="2170" x2="1481" y2= "2491" />
+   <line class="fil1 str9" x1="1224" y1="1701" x2="1780" y2= "2022" />
+   <line class="fil1 str9" x1="1570" y1="1259" x2="2115" y2= "1574" />
+   <line class="fil1 str9" x1="1968" y1="848" x2="2524" y2= "1169" />
+   <line class="fil1 str9" x1="2435" y1="476" x2="2990" y2= "797" />
+   <line class="fil1 str9" x1="3004" y1="163" x2="3553" y2= "480" />
+   <line class="fil1 str9" x1="3837" y1="2" x2="4392" y2= "323" />
+   <g id="_2548769516688">
+    <polygon class="fil0 str10" points="227,8823 227,4333 783,4654 783,9144 "/>
+    <line class="fil1 str10" x1="227" y1="4975" x2="783" y2= "5295" />
+    <line class="fil1 str10" x1="227" y1="5616" x2="783" y2= "5937" />
+    <line class="fil1 str10" x1="227" y1="6257" x2="783" y2= "6578" />
+    <line class="fil1 str11" x1="227" y1="6899" x2="783" y2= "7220" />
+    <line class="fil1 str12" x1="227" y1="7540" x2="783" y2= "7861" />
+    <line class="fil1 str13" x1="227" y1="8182" x2="783" y2= "8503" />
+   </g>
+   <path class="fil0 str14" d="M3242 5923c-544,313 -1087,387 -1502,148 -415,-240 -623,-748 -623,-1375 -1,-626 206,-1371 619,-2087 414,-716 956,-1268 1498,-1581 543,-313 1087,-387 1502,-148 415,240 623,748 623,1375 0,626 -206,1371 -620,2087 -413,716 -955,1268 -1497,1581z"/>
+   <path class="fil2 str15" d="M3026 3851c-59,-33 -89,-105 -89,-194 0,-89 30,-194 88,-296 59,-101 136,-179 212,-224 77,-44 154,-55 213,-21l1651 954c2,1 4,2 7,3 58,34 88,106 88,195 0,89 -29,194 -88,296 -59,101 -135,179 -212,224 -77,44 -154,54 -213,20l-1657 -957z"/>
+   <path class="fil0 str16" d="M4896 4788c-77,44 -154,54 -213,20 -59,-34 -88,-105 -88,-194 0,-89 29,-194 88,-296 58,-101 135,-179 212,-224 77,-44 154,-55 213,-21 58,34 88,106 88,195 0,89 -29,194 -88,296 -59,101 -135,179 -212,224z"/>
+  </g>
+ </g>
+</svg>

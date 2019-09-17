@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW X7 -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="41.9098mm" height="91.4398mm" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 4191 9144"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <style type="text/css">
+   <![CDATA[
+    .str0 {stroke:#61003F;stroke-width:84.66;stroke-linecap:round;stroke-linejoin:round}
+    .str1 {stroke:#61003F;stroke-width:84.66;stroke-linecap:round;stroke-linejoin:round}
+    .fil1 {fill:none}
+    .fil2 {fill:#61003F}
+    .fil0 {fill:#FFF4F0}
+   ]]>
+  </style>
+ </defs>
+ <g id="Layer_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <g id="_2512748917568">
+   <polygon class="fil0 str0" points="3551,0 0,2050 0,8884 3551,6834 "/>
+   <line class="fil1 str0" x1="296" y1="2563" x2="3255" y2= "854" />
+   <line class="fil1 str0" x1="296" y1="2904" x2="2663" y2= "1538" />
+   <line class="fil1 str0" x1="296" y1="3246" x2="1775" y2= "2392" />
+   <line class="fil1 str0" x1="296" y1="3588" x2="2959" y2= "2050" />
+   <line class="fil1 str0" x1="296" y1="3930" x2="2367" y2= "2734" />
+   <polygon class="fil2 str0" points="1775,3417 296,4271 296,5980 1775,5126 1775,3759 "/>
+   <line class="fil1 str0" x1="2071" y1="3246" x2="2663" y2= "2904" />
+   <line class="fil1 str0" x1="2071" y1="3588" x2="2959" y2= "3075" />
+   <line class="fil1 str0" x1="2071" y1="3930" x2="2663" y2= "3588" />
+   <polyline class="fil1 str0" points="296,6322 2959,4784 2959,5126 "/>
+   <polyline class="fil1 str0" points="2959,5126 296,6663 296,6322 "/>
+   <line class="fil1 str0" x1="296" y1="7005" x2="1479" y2= "6322" />
+   <line class="fil1 str0" x1="296" y1="7347" x2="2663" y2= "5980" />
+   <line class="fil1 str0" x1="296" y1="7688" x2="3255" y2= "5980" />
+   <line class="fil1 str0" x1="296" y1="8030" x2="2071" y2= "7005" />
+   <line class="fil1 str0" x1="296" y1="8372" x2="2959" y2= "6834" />
+   <polygon class="fil0 str1" points="4191,260 640,2310 640,9144 4191,7094 "/>
+   <line class="fil1 str1" x1="936" y1="2823" x2="3895" y2= "1114" />
+   <line class="fil1 str1" x1="936" y1="3164" x2="3304" y2= "1797" />
+   <line class="fil1 str1" x1="936" y1="3506" x2="2416" y2= "2652" />
+   <line class="fil1 str1" x1="936" y1="3848" x2="3600" y2= "2310" />
+   <line class="fil1 str1" x1="936" y1="4189" x2="3008" y2= "2993" />
+   <polygon class="fil2 str1" points="2416,3677 936,4531 936,6240 2416,5385 2416,4018 "/>
+   <line class="fil1 str1" x1="2712" y1="3506" x2="3304" y2= "3164" />
+   <line class="fil1 str1" x1="2712" y1="3848" x2="3600" y2= "3335" />
+   <line class="fil1 str1" x1="2712" y1="4189" x2="3304" y2= "3848" />
+   <polyline class="fil1 str1" points="936,6581 3600,5044 3600,5385 "/>
+   <polyline class="fil1 str1" points="3600,5385 936,6923 936,6581 "/>
+   <line class="fil1 str1" x1="936" y1="7265" x2="2120" y2= "6581" />
+   <line class="fil1 str1" x1="936" y1="7606" x2="3304" y2= "6240" />
+   <line class="fil1 str1" x1="936" y1="7948" x2="3895" y2= "6240" />
+   <line class="fil1 str1" x1="936" y1="8290" x2="2712" y2= "7265" />
+   <line class="fil1 str1" x1="936" y1="8631" x2="3600" y2= "7094" />
+  </g>
+ </g>
+</svg>
