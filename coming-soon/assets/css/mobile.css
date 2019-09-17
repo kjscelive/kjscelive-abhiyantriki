@@ -28,4 +28,11 @@
 	.inner-container {
 		flex-direction: column;;
 	}
+	.vertical-solid-line {
+		display: none;
+
+	}
+	.follow {
+		display: none;
+	}
 }
