@@ -1,0 +1,466 @@
+<!-- TODO:
+Section2 amd 3 for mobile, add background image instead of direct image ? -->
+  <!DOCTYPE html>
+  <html>
+  <head>
+    <link rel="icon" href="http://i.imgur.com/mVIraef.png" type="image/png">
+    <meta name="theme-color" content="#a8518a">
+    <!-- FONTS -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700,700i,900,900i" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- CSS FILES-->
+    <link rel="stylesheet" type="text/css" href="css/effects.css">
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+
+    <!-- JS FILES -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.touchswipe/1.6.4/jquery.touchSwipe.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <meta http-equiv="refresh" content="5" > for continuous refresh each 5 seconds-->
+    <title>Abhiyantriki 2017</title>
+    <style type="text/css">
+
+@media (max-width: 1200px) {
+    .navbar-header {
+        float: none;
+    }
+    .navbar-left,.navbar-right {
+        float: none !important;
+    }
+    .navbar-toggle {
+        display: block;
+    }
+    .navbar-collapse {
+        border-top: 1px solid transparent;
+        box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+    }
+    .navbar-fixed-top {
+        top: 0;
+        border-width: 0 0 1px;
+    }
+    .navbar-collapse.collapse {
+        display: none!important;
+    }
+    .navbar-nav {
+        float: none!important;
+        margin-top: 7.5px;
+    }
+    .navbar-nav>li {
+        float: none;
+    }
+    .navbar-nav>li>a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .collapse.in{
+        display:block !important;
+    }
+}
+      @media screen and (min-width: 992px)
+      {
+        #section2, #section3
+        {
+          /*font-size: 20px;*/
+        }
+        #section2 h1
+        {
+          font-size: 50px;
+        }
+        #section3 h1
+        {
+          font-size: 50px;
+        }
+        #section1
+        {
+          font-size: 23px !important;
+        }
+        #section1 .content
+        {
+          font-size: 35px !important;
+        }
+        #section1 .content__container__list
+        {
+          padding-left: 240px;
+        }
+      }
+    </style>
+  </head>
+
+  <body data-spy="scroll" data-target=".navbar" data-offset="60">
+    <!-- above attributes, so as to highlight the sections on navbar when scrolling -->
+    <!-- <div id="loader"></div> -->
+
+    <!-- BOOTSTRAP NAVBAR -->
+    <nav class="navbar navbar-inverse navbar-fixed-top" id="nav_bar">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="index.html" id="logo"><img src="images/branding/logo.png" id="logo"></a>
+        </div>
+        <div>
+          <div class="collapse navbar-collapse" id="myNavbar">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#section1">HOME</a></li>
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="events.html">EVENTS
+                                <span class="caret"></span>
+                            </a>
+                            <ul class="dropdown-menu">
+                                <!-- <li><a href="events.html">OVERVIEW</a></li> -->
+                                <li><a href="events.html#Robotics">TECHNICAL</a></li>
+                                <li><a href="events.html#Coding">CODING</a></li>
+                                <li><a href="events.html#Workshops">PRE-EVENTS</a></li>
+                                <li><a href="events.html#Informals">INFORMALS</a></li>
+                                <li><a href="events.html#Shield">SHIELD</a></li>
+                            </ul>
+                        </li>
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="#">EXPOS
+                <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                <li><a href="internshipexpo.html">INTERNSHIP EXPO</a></li>
+                  <li><a href="techexpo.html">TECH EXPO</a></li>
+                  <li><a href="startupexpo.html">STARTUP EXPO</a></li>
+                  <!-- <li><a href="#">Page 1-3</a></li> -->
+                </ul>
+              </li>
+              <li><a href="speakers.html">SPEAKERS</a></li>
+              <li><a href="sponsors.html">SPONSORS</a></li>
+              <li><a href="parvaah.html">PARVAAH</a></li>
+              <li><a href="#section7">CONTACT</a></li>
+              <li style="background: none;"><a target="_blank" href="https://www.somaiya.edu/" style="padding:0px 15px; background: none !important;"><img src="images/branding/somaiya.png" height="50"></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+<a target="_blank" href="https://goo.gl/forms/ASvSn4bo5dSxMe1C3" id="form" title="Register!"><i class="fa fa-pencil-square-o" aria-hidden="true"></i></a>
+<!-- END OF NAVBAR -->
+    <!-- SECTION 1 (Containing background video) -->
+    <div id="section1" class="section">
+      <!-- Inserting BG Video: -->
+      <div class="fullscreen-bg">
+        <div class="fullscreen-bg__video"></div>
+        <video poster="images/bg_images/cs_bg.png" loop muted autoplay class="fullscreen-bg__video">
+          <source src="bg_video/BG_vid.mp4" type="video/mp4">
+          </video>
+        </div>
+        <!-- End of BG Video -->
+        <!-- Inserting container inside section 1 -->
+        <div class="container">
+          <!-- Inserting Animation (Only for desktop)-->
+          <div class="content" style="margin-top: 60px;">
+            <div class="content__container" >
+              <p class="content__container__text">
+                Brimming with
+              </p>
+
+              <ul class="content__container__list">
+                <li class="content__container__list__item" style="color: #a8518a;">fun!</li>
+                <li class="content__container__list__item" style="color: #a8518a;">curiosity!</li>
+                <li class="content__container__list__item" style="color: #a8518a;">technology!</li>
+                <li class="content__container__list__item" style="color: #a8518a;">knowledge!</li>
+              </ul>
+            </div>
+          </div>
+          <!-- End Of Animation -->
+
+          <!-- Section Text Content -->
+          <div class="section_content1">
+            <p style="text-align: center;">
+              Put on your thinking caps and fasten your seatbelts, as new frontiers await to be conquered.</p>
+              <p style="text-align: center;"> It’s here and it has all the answers you needed, the <strong>Answer to Life</strong>, the <strong>Universe</strong>, and <strong>Everything</strong>.</p>
+              <p style="text-align: center;">And it’s not just <strong>42!</strong></p>
+          </div>
+          <!-- End of Text Content -->
+
+          <!-- Social Media Widget Plugin -->
+          <div class="social_widgets">
+            <!-- Facebook Widget -->
+            <div style="position: absolute; bottom: 0; left:10px;">
+              <iframe src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2Fkjsceabhiyantriki%2F&width=450&layout=standard&action=like&size=small&show_faces=true&share=false&height=80&appId&colorscheme=dark" width="200" height="25" style="border:none;overflow:hidden;" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+            </div>
+            <!-- Twitter Widget -->
+            <div style="position: absolute; bottom: 0; right:0;">
+              <iframe
+              src="https://platform.twitter.com/widgets/follow_button.html?screen_name=kjsabhiyantriki&show_screen_name=false&show_count=true&size=s"
+              title="Follow TwitterDev on Twitter"
+              width="200"
+              height="25"
+              style="border: 0; overflow: hidden;"
+              ></iframe>
+            </div>
+          </div>
+          <!-- End Of Social Media Widget -->
+        </div>
+        <!-- End Of Section 1 Container -->
+      </div>
+      <!-- Enf Of Section 1 -->
+
+      <!-- SECTION 2 (Placeholder) -->
+      <div id="section8" class="section">
+        <!-- Section 2 container -->
+        <div class="col-xs-12 col-md-6 section_content8" style="padding: 0px; float: right;">
+          <div class="overlay8"></div>
+          <div class="section8_text">
+            <h1 style="color: #dc6038">
+              about <strong id="aboutheading">abhiyantriki</strong>
+            </h1>
+            <p style="text-align: center;">Abhiyantriki, which stands for ‘Engineering’ in Sanskrit, is the annual technical festival of the K. J. Somaiya College of Engineering. Abhiyantriki 2017 is going to be held in the first week of October. Abhiyantriki was born out of the desire to inspire and nurture bright minds in the field of technology. Over 35 events are organized, ranging from workshops to exhibitions and witness a footfall of around 15,000. It also hosts events like Internship Expo, Tech Expo, Auto Expo, Speaker Sessions, and Panel Sessions. Abhiyantriki also undertakes various social initiatives under the banner of ‘Parvaah’ which strives for the upliftment of the underprivileged and works for the overall betterment of our society. Over the years, Abhiyantriki has established itself as one of the premier technical festivals in Mumbai.</p>
+          </div>
+        </div>
+        <!-- <div class="col-md-6 section_image2"></div> -->
+        <!-- End Of Section 2 Container -->
+      </div>
+      <!-- End Of Section 2 -->
+
+      <!-- Section 3, same as section 2 -->
+      <div id="section9" class="section">
+        <div class="col-xs-12 col-md-6 section_content9" style="padding: 0px;">
+        <div class="overlay9"></div>
+          <div class="section9_text">
+            <h1 style="color: #a8518a">
+              about <strong id="aboutheading">kjsce</strong>
+            </h1>
+            <p style="text-align: center;">
+              Set in the heart of the city, K.J Somaiya College of Engineering is located in the Somaiya campus at Vidyavihar. Catering to about 40,000 students every day, this campus offers diverse fields of education such as Engineering, Management, Commerce, Arts, and Sciences. Along with numerous institutes, Somaiya Vidyavihar also boasts of a campus covering 65 acres.
+              Being granted Autonomous status from the academic year 2014-15, K.J, Somaiya College of Engineering also enjoys the status of being graded ‘A’ by the NAAC (National Assessment and Accreditation Council)
+            </p>
+          </div>
+        </div>
+        <!-- <div class="col-md-6 section_image3"></div> -->
+        <!-- End Of Section 3 Container -->
+      </div>
+
+      <div id="specialsection1">
+        <div id="overlayspecial1">
+        <div id="headerimage1">
+            <img class="img-responsive" src="images/drdodae.png" height="100%" style="margin: auto;">
+        </div>
+        <div id="specialcontent1">
+        <div id="actualcontent1">
+          In a first of its kind, Abhiyantriki welcomes India’s premier technical institutes, in the form of <strong>DAE (Department of Atomic Energy) and DRDO (Defence Research and Development Organization)</strong>. These two elite organizations mirror the ethos of discipline, diligence, and proficiency, and Abhiyantriki strives to walk on the same path. With  two such giants in town, the festival has to be legendary, as their exhibition is the highlight event of Abhiyantriki 2017!
+        </div>
+        </div>
+        </div>
+      </div>
+
+      <div id="section4" class="section">
+        <!-- CAROUSEL -->
+        <div id="carousel-example-generic" class="carousel slide" data-interval="false">
+          <!-- Indicators -->
+          <ol class="carousel-indicators">
+            <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+          </ol>
+
+          <!-- Wrapper for slides -->
+          <div class="carousel-inner" role="listbox">
+
+            <!-- First slide -->
+            <div class="item active deepskyblue">
+
+              <div class="carousel-caption">
+                <h3 data-animation="animated bounceInLeft">
+  Ranging from coding events to informals, these competitions will evoke interest in all.
+                </h3>
+                <!-- <h3 data-animation="animated bounceInRight">
+                  This is the caption for slide 1
+                </h3> -->
+                <a href="events.html" class="btn btn-primary btn-lg" data-animation="animated zoomInUp">Know More</a>
+              </div>
+            </div> <!-- /.item -->
+
+            <!-- Second slide -->
+            <div class="item skyblue">
+              <div class="carousel-caption">
+                <h3 data-animation="animated bounceInLeft">
+ Witness innovative technologies, designed by some brilliant minds that will leave you stunned!
+</h3>
+<!--                 <h3 data-animation="animated bounceInRight">
+                  This is the caption for slide 1
+                </h3> -->
+                <a href="techexpo.html" class="btn btn-primary btn-lg" data-animation="animated zoomInUp">Know More</a>
+              </div>
+            </div><!-- /.item -->
+
+            <!-- Third slide -->
+            <div class="item darkerskyblue">
+              <div class="carousel-caption">
+                <h3 data-animation="animated bounceInLeft">
+  It’s the perfect platform to upgrade your resumes, and to get industry exposure. So, be there to stand a chance to get some amazing internship offers.
+                </h3>
+<!--                 <h3 data-animation="animated bounceInRight">
+                  This is the caption for slide 1
+                </h3> -->
+                <a href="internshipexpo.html" class="btn btn-primary btn-lg" data-animation="animated zoomInUp">Know More</a>
+                </div>
+              </div>
+            <div class="item darkerskybluex">
+              <div class="carousel-caption">
+                <h3 data-animation="animated bounceInLeft">
+ A haven for startups and investors alike, this event is the perfect platform to develop and market those billion-dollar ideas!
+                </h3>
+<!--                 <h3 data-animation="animated bounceInRight">
+                  This is the caption for slide 1
+                </h3> -->
+                <a href="startupexpo.html" class="btn btn-primary btn-lg" data-animation="animated zoomInUp">Know More</a>
+                </div>
+              </div><!-- /.item -->
+            <div class="item darkerskybluey">
+              <div class="carousel-caption">
+                <h3 data-animation="animated bounceInLeft">
+ For all those who drool over cars and bikes, here is your chance to witness these splendid machines in all their glory!
+                </h3>
+<!--                 <h3 data-animation="animated bounceInRight">
+                  This is the caption for slide 1
+                </h3> -->
+                <a href="#" onclick="return false;" class="btn btn-primary btn-lg" data-animation="animated zoomInUp">Know More</a>
+                </div>
+              </div><!-- /.item -->
+            </div><!-- /.carousel-inner -->
+
+            <!-- Controls -->
+            <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+              <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+              <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div><!-- /.carousel -->
+          <!-- End of Carousel -->
+        </div>
+        <!-- End of Section 3 -->
+
+        <!-- SECTION 4 -->
+
+
+        <!-- SECTION 5 -->
+        <div id="section5" class="section">
+          <div id="myCarousel" class="carousel slide" data-interval="false">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+              <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+              <li data-target="#myCarousel" data-slide-to="1"></li>
+              <!-- <li data-target="#myCarousel" data-slide-to="2"></li> -->
+            </ol>
+
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner">
+              <div class="item active speakersbg">
+              <div class="carousel-caption">
+                <h3 data-animation="animated bounceInLeft" style="color: #fff;">
+Get inspired by the motivating speeches of illustrious personalities in the field of Science and Technology.
+                </h3>
+<!--                 <h3 data-animation="animated bounceInRight">
+                  This is the caption for slide 1
+                </h3> -->
+                <a href="speakers.html" class="btn btn-primary btn-lg" data-animation="animated zoomInUp">SPEAKERS</a>
+                </div>
+              </div>
+
+              <div class="item" style="background:#a1a1a1;">
+                <div class="itemx" style="float: left; padding: 0px">
+                  <img src="images/speakers/am.png" alt="pepsi" width="auto" height="auto">
+                  <div class="textx" style="position: absolute;"><p>Dr. Abhas Mitra</p><p>World Renowed Astrophysicist</p></div>
+                  <div class="item-overlay top"></div>
+                </div>
+                <div class="itemx" style="float: left; padding: 0px">
+                  <img src="images/speakers/rc.png" alt="pepsi" width="auto" height="auto">
+                  <div class="textx" style="position: absolute;"><p>Dr. R Chidambaram</p><p style="font-size: 0.8em;">Principal Scientific Adviser, GOI</p></div>
+                  <div class="item-overlay top"></div>
+                </div>
+                <div class="itemx" style="float: left; padding: 0px">
+                  <img src="images/speakers/mani-mamallan.png" alt="" width="auto" height="auto">
+                  <div class="textx" style="position: absolute;"><p>Mani Mamallan</p><p style="font-size: 0.8em;">Founder & Chairman- E.P.S.</p></div>
+                  <div class="item-overlay top"></div>
+                </div>
+                <div class="itemx" style="float: left; padding: 0px">
+                  <img src="images/speakers/vishal-gupta.png" alt="pepsi" width="auto" height="auto">
+                  <div class="textx" style="position: absolute;"><p>Vishal Gupta</p><p style="font-size: 0.8em;">CEO- SearchTrade</p></div>
+                  <div class="item-overlay top"></div>
+                </div>
+                <div class="itemx" style="float: left; padding: 0px">
+                  <img src="images/speakers/sameer-singh-jaini.png" alt="pepsi" width="100%" height="100%">
+                  <div class="textx" style="position: absolute;"><p>Sameer Singh Jaini</p><p style="font-size: 0.8em;">CEO- The Digital Fifth</p></div>
+                  <div class="item-overlay top"></div>
+                </div>
+                <div class="itemx" style="float: left; padding: 0px">
+                  <img src="images/speakers/murad-nathani.png" alt="pepsi" width="100%" height="100%">
+                  <div class="textx" style="position: absolute;"><p>Murad Nathani</p><p style="font-size: 0.8em;">Co-Founder & CEO- Slonkit</p></div>
+                  <div class="item-overlay top"></div>
+                </div>
+              </div>
+      </div>
+
+      <!-- Left and right controls -->
+      <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="right carousel-control" href="#myCarousel" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+  </div>
+        <div id="section6" class="section">
+          <div class="container">
+            <div id="parvaahlogo">
+              <img src="images/parvaah_img/Parvaah12.png" height="100%" style="margin: auto;">
+            </div>
+            <div id="parvaahcontent">
+            <a href="parvaah.html" type="button" class="btn btn-info btn-lg">Know More</a>
+            </div>
+          </div>
+        </div>
+<div id="section7" class="section">
+  <div id="map" class="col-xs-12 col-md-6"><iframe width=100% height=100% frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJf3iBnifG5zsRYLpPMcdMXSQ&key=AIzaSyDRBmZOu_TAou6zkVtGTcVuji2tnush-Kg" allowfullscreen></iframe></div>
+  <div id="contactcontent" class="col-xs-12 col-md-6">
+  <h1 style="margin-top: 10px; font-weight: bold;">Contact Us:</h1>
+  <img src="images/contact-us.svg" height="80%" width="100%" style="margin-top: -5vh;">
+  </div>
+</div>
+
+<!-- Bottom-most social media div -->
+<footer id="socialdiv">
+  <!-- Difference between div and footer ? -->
+  <div  id="socialx" >
+    <!-- Created a different id here, so as to target the social media buttons -->
+    <ul class="icon-effect icon-effect-1a" style="text-align: center;">
+      <li><a target="_blank" href="https://www.facebook.com/kjsceabhiyantriki/" class="icon"><i class="fa fa-facebook"></i></a></li>
+      <li><a target="_blank" href="https://twitter.com/kjsabhiyantriki" class="icon"><i class="fa fa-twitter"></i></a></li>
+      <li><a target="_blank" href="https://www.instagram.com/kjscelive/" class="icon"><i class="fa fa-instagram"></i></a></li>
+      <li><a target="_blank" href="https://www.youtube.com/kjscelive" class="icon"><i class="fa fa-youtube-play"></i></a></li>
+    </ul>
+  </div>
+  <div><a target="_blank" href="test.html"><p style="text-align: center; color: white;">Designed And Developed By-Team Abhiyantriki '17</p></a></div>
+</footer>
+<!-- Sparrow to topmost section -->
+
+<div id="content">Scroll <i class="fa fa-arrow-down" aria-hidden="true"></i></div>
+<a href="#" id="back-to-top" title="Back to top"><i class="fa fa-arrow-up" aria-hidden="true"></i></a>
+
+<script type="text/javascript" src="js/animations.js"></script>
+<script>
+  $('.carousel').carousel({
+    interval: false,
+    wrap: true,
+    pause: true,
+  });
+</script>
+
+</body>
+</html>

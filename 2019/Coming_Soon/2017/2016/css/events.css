@@ -1,0 +1,154 @@
+body {
+  background-color: white;
+  overflow-x: hidden;
+}
+
+.life {
+  background: url("http://www.freedigitalphotos.net/images/img/homepage/87357.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.life1 {
+  background: url("https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTeU8a576MoBpKXatVExRE_8qNWCCny_3o7AKFe-93MioUmiCoMePaOygId");
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.container {
+  height: 100vh;
+  width: 100%;
+}
+
+.container-cards {
+  margin: 0 10px;
+}
+
+.card-title {
+  padding: 20px;
+  padding-left: 10px;
+}
+
+.collapsible-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  color: white;
+  text-align: center;
+  height: 25vh;
+  padding: 1%;
+}
+
+.collapsible-body {
+  background-color: white;
+  max-height: 73vh;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  overflow-scrolling: touch;
+  -webkit-overflow-scrolling: touch;
+}
+
+ul {
+  margin: 0px;
+}
+
+li:nth-child(1) .collapsible-header {
+  background: rgba(255, 0, 0, 0.5);
+}
+
+li:nth-child(2) .collapsible-header {
+  background: rgba(0, 0, 255, 0.5);
+}
+
+li:nth-child(3) .collapsible-header {
+  background: #B71427;
+}
+
+li:nth-child(4) .collapsible-header {
+  background: #0f0;
+}
+
+.collapsible {
+  margin: 0px;
+}
+
+.parallax-container {
+  height: 25vh;
+}
+
+img {
+  height: 25vh;
+  margin: 0;
+  display: inline;
+}
+
+.image-fix {
+  background: url("https://newsroom.uber.com/wp-content/uploads/2015/10/HQ_uberkittens_blog_960x540_r1v1.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 26vh;
+  overflow: auto;
+}
+
+.scroll {
+  background: transparent;
+  height: 100vh;
+  width: 100%;
+}
+
+.modal-footer {
+  overflow-x: hidden;
+}
+
+.modal-img {
+  position: relative;
+  top: 0;
+  bottom: 0;
+}
+
+.modal-content {
+  padding: 0px;
+  overflow: hidden;
+  overflow-y: hidden !important;
+}
+
+.modal-text {
+  max-height: 50vh;
+  overflow-y: auto;
+}
+
+.tab {
+  font-size: 100%;
+}
+
+.modal {
+  height: 100vh;
+  width: 90%;
+  height: 90vh;
+  bottom: 10%;
+}
+
+#test1 {
+  padding: 0;
+}
+
+#test2 {
+  padding: 0;
+}
+
+#test3 {
+  padding: 0;
+}
+
+#test4 {
+  padding: 0;
+}
+
+.spacing {
+  padding: 0;
+}
+
+.modal-header {
+  padding: 10px;
+}
