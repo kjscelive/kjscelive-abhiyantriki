@@ -202,6 +202,17 @@
     }
 
     .title2-left {
+        position: absolute;
+        height: auto;
+        width: -webkit-fit-content;
+        width: -moz-fit-content;
+        width: fit-content;
+        right: 22vw;
+        z-index: 1;
+        left: auto;
+        margin-top: auto;
+        top: 0%
+/*
         position: relative;
         height: auto;
         width: -webkit-fit-content;
@@ -211,15 +222,24 @@
         z-index: 1;
         left: 0%;
         transform: translateY(5vw)
+*/
     }
 
     .img2-left {
+        width: 45%;
+        height: auto;
+        float: none;
+        padding: 1%;
+        position: relative;
+        left: 30%
+/*
         width: 45%;
         float: none;
         height: auto;
         padding: 1%;
         position: relative;
         right: 23%
+*/
     }
 
     .text2-left {
@@ -262,7 +282,7 @@
 }
 
 .hero {
-    background: #61003F
+    background: #61003F;
 }
 
 .hero_content {
@@ -270,7 +290,7 @@
     margin-bottom: 5vw;
     padding-top: 7.5vw;
     width: 60vw;
-    color: #FFF4F0;
+    color: #f1f1f1;
     font-family: 'Roboto', Arial, Helvetica, sans-serif;
     font-size: 1.2vw;
     font-weight: 300
@@ -328,7 +348,8 @@
 
 @media screen and (max-width:800px) {
     .hero {
-        background: linear-gradient(0deg, #FFF4F0, #FFF4F0 30%, #61003F 30%, #61003F 100%)
+/*        background: linear-gradient(0deg, #FFF4F0, #FFF4F0 30%, #61003F 30%, #61003F 100%)*/
+        color: #61003F;
     }
 
     .hero_content {
@@ -341,7 +362,7 @@
         margin-top: 45%;
         position: relative;
         left: -28%;
-        color: #61003F;
+        color: #f1f1f1;
         text-align: center
     }
 
@@ -355,9 +376,12 @@
         padding: 5%;
         border: 2px solid #DB1c1c;
         background-color: #61003F;
-        color: #f1f1f1
+        color: #f1f1f1;
     }
-
+    .button_container .button:hover {
+        color: #61003F;
+    }
+    
     .images {
         -ms-flex-direction: column;
         flex-direction: column;

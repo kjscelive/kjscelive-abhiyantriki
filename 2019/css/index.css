@@ -120,7 +120,7 @@
         width: 0;
         height: 0;
         border-top: 15px solid transparent;
-        border-left: 30px solid #61003F;
+        border-left: 30px solid #f1f1f1;
         border-bottom: 15px solid transparent;
         grid-column: 3;
         grid-row: 1;
@@ -131,7 +131,7 @@
         width: 0;
         height: 0;
         border-top: 15px solid transparent;
-        border-right: 30px solid #61003F;
+        border-right: 30px solid #f1f1f1;
         border-bottom: 15px solid transparent;
         grid-column: 1;
         grid-row: 1;
@@ -781,7 +781,7 @@ img {
 }
 
 #orange {
-    color: #DB4C1C
+    color: #DB4C1C;
 }
 
 .parvaah {
@@ -905,7 +905,7 @@ img {
         font-size: 14px;
         font-weight: 400;
         width: 90vw;
-        color: #61003F
+        color: #f1f1f1;
     }
 
     .about_cards #acard1 {
@@ -1049,7 +1049,7 @@ img {
     .contact {
         width: 80vw;
         margin: auto;
-        color: #61003F;
+        color: #f1f1f1;
         margin-top: 40vw;
         padding-bottom: 7.5vw;
         display: grid

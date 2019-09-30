@@ -126,7 +126,7 @@
 
 path {
     fill: none;
-    stroke: #61003F;
+    stroke: #f1f1f1;
     stroke-width: 3;
     stroke-linecap: round;
     stroke-linejoin: round;
@@ -287,13 +287,14 @@ label:hover circle {
     display: none;
     position: absolute;
     background: #61003F;
+    
 }
 
 .drop-content {
     display: none;
     position: relative
 }
-
+ 
 .show-drop {
     display: block
 }
@@ -443,7 +444,7 @@ label:hover circle {
 		width: 170%;
 		height: auto;
 		top: 12%;
-		/*left: -23%*/
+		left: -35%
 	}
 	.icon-fa {
 		color: #f9edeb
@@ -651,7 +652,7 @@ a.regLink:hover {
     }
 
     .developed {
-        color: #61003F;
+        color: #f1f1f1;
         font-size: 14px;
         font-weight: 400;
         padding-top: 5vw;
