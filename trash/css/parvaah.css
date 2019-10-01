@@ -98,8 +98,8 @@
 }
 
 .outer {
-    width: 80%;
-    margin: auto;
+    width: 60%;
+    margin: 0 auto;
     transform: translateX(-5vw)
 }
 
@@ -109,7 +109,7 @@
     display: flex;
     width: 100%;
     position: relative;
-    margin-top: 5%
+    margin-top: 5%;
 }
 
 .title2-left {
@@ -136,7 +136,7 @@
     width: 70%;
     float: right;
     text-align: left;
-    padding: 5%;
+   margin:0 auto;
     padding-top: 7%;
     color: #f1f1f1;
     
@@ -172,8 +172,8 @@
 }
 
 .image {
-    width: 100%;
-    height: auto
+    width: 10 0%;
+    
 }
 
 @media screen and (max-width:800px) {

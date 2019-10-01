@@ -239,7 +239,7 @@ a {
 }
 
 .button_container button{
-    border-color: #DB4C1C;
+    //border-color: #DB4C1C;
     background: #29001B;
     color: #f1f1f1;
 }
@@ -281,14 +281,14 @@ button:focus {
     width: 30%;
     margin: 1.666%;
     padding: 15px;
-    border: 1px solid #61003F;
+    
     position: relative;
     color: #fff;
-    background-color: #fff
+    background-color: transparent;
 }
 
 .card__head img {
-    width: 100%;
+    width: 80%;
     height: auto
 }
 
