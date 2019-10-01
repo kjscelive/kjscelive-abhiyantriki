@@ -19,7 +19,7 @@
 }
 
 .pushmenu {
-    background: #61003F;
+    background: #29001B;
     text-align: center;
     font-family: Coves Bold, Geneva, sans-serif;
     width: 250px;
@@ -193,7 +193,7 @@ label:hover circle {
         height: auto;
         display: -ms-flexbox;
         display: flex;
-        background: #61003F;
+        background: #29001B;
         position: absolute;
         top: 0;
         left: 0;
@@ -286,7 +286,7 @@ label:hover circle {
 .expo-drop {
     display: none;
     position: absolute;
-    background: #61003F;
+    background: #29001B;
     
 }
 
@@ -316,7 +316,7 @@ label:hover circle {
 	top: 12%;
 	left: -7%;
 	padding-left: 7%;
-	background-color: #61003F;
+	background-color: #29001B;
 }
 
 .social-media {
@@ -559,7 +559,7 @@ img {
     min-height: 100vh;
     -ms-flex-line-pack: center;
     align-content: center;
-    background: #61003F;
+    background: #29001B;
 }
 
 .abs {
@@ -598,7 +598,7 @@ img {
 .sideButton {
     display: block;
     color: white;
-    background-color: #61003F;
+    background-color: #29001B;
     border-radius: 5px;
     border: 0.5px solid #FFF4F0;
     width: 4%;
@@ -663,7 +663,7 @@ a.regLink:hover {
     .sideButton {
         display: block;
         color: white;
-        background-color: #61003F;
+        background-color: #29001B;
         border-radius: 5px;
         border: 0.5px solid #FFF4F0;
         width: 10%;

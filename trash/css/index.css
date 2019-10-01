@@ -228,7 +228,7 @@
 }
 
 .card {
-    border: 1px solid #61003F;
+    border: 1px solid #29001B;
     background-color: white;
     position: relative;
     width: 30%;
@@ -259,7 +259,7 @@
 }
 
 .card-text h1 {
-    color: #61003F;
+    color: #29001B;
     font-size: 28px;
     position: relative;
     text-align: left;
@@ -267,7 +267,7 @@
 }
 
 .card-text h4 {
-    color: #61003F;
+    color: #29001B;
     position: relative;
     text-align: left;
     font-weight: normal;
@@ -280,7 +280,7 @@ img {
 }
 
 .timeline {
-    width: 70%;
+    width: 90%;
     list-style: none;
     padding: 2vw 0 2vw;
     position: relative;
@@ -289,13 +289,16 @@ img {
 }
 
 .timeline:before {
-    border-left: 2px dashed #f1f1f1;
+    background-image: url('../images/images2019/timeline.png');
     top: 0;
     bottom: 0;
     position: absolute;
     content: " ";
     left: 50%;
-    margin-left: -1px
+    margin-left: -1px;
+    width:100vh;
+    height:140vh;
+    background-repeat: no-repeat;
 }
 
 .timeline > li {
@@ -328,7 +331,7 @@ img {
     display: flex;
     width: 43%;
     float: left;
-    border: 1px solid #d4d4d4;
+   
     border-radius: 2px;
     padding: 20px;
     position: relative;
@@ -362,6 +365,7 @@ img {
     border-right-width: 15px;
     left: -15px;
     right: auto
+    border-left:5em;
 }
 
 .timeline > li.timeline-inverted > .timeline-panel:after {
@@ -472,11 +476,11 @@ img {
 }
 
 .button {
-    border: 2px solid #61003F;
+    border: 2px solid #29001B;
     font-size: 1.2vw;
     font-family: 'Roboto', Arial, Helvetica, sans-serif;
     padding: 0.5vw 1.2vw;
-    color: #61003F;
+    color: #29001B;
     margin: 3vw;
     transition: all 1s ease;
     text-align: center;
@@ -499,7 +503,7 @@ img {
 }
 
 .button:after {
-    color: #61003F;
+    color: #29001B;
     content: '';
     position: absolute;
     width: 115%;
@@ -534,18 +538,18 @@ img {
     }
 
     .button {
-        background: #61003F;
+        background: #29001B;
         position: relative;
         overflow: hidden
     }
 
     .button:hover {
-        color: #61003F;
+        color: #29001B;
         cursor: pointer
     }
 
     .button:after {
-        color: #61003F;
+        color: #29001B;
         content: '';
         position: absolute;
         width: 115%;
@@ -558,7 +562,7 @@ img {
 
     .button:hover:after {
         transform: translateY(-45%) skew(25deg) scale(1);
-        color: #61003F
+        color: #29001B
     }
 
     .button span {
@@ -573,7 +577,7 @@ img {
 }
 */
 .full_container{
-    background:  #61003F;
+    background:  #29001B;
     color:#f1f1f1;
 }
 
@@ -682,7 +686,7 @@ img {
     display: flex;
     margin: 5% 5%;
     padding-bottom: 5%;
-    border-left: 2px dashed #61003F
+    border-left: 2px dashed #29001B
 }
 
 .about_cards #acard2 span {
@@ -706,7 +710,7 @@ img {
     font-family: 'Roboto', Arial, Helvetica, sans-serif;
     font-size: 14px;
     font-weight: 400;
-    color: #61003F;
+    color: #29001B;
     width: 70vw;
     margin-top: 30vw
 }
@@ -730,7 +734,7 @@ img {
     padding: 2% 5%;
     float: right;
     margin: auto;
-    border-left: 2px solid #61003F
+    border-left: 2px solid #29001B
 }
 
 .organization .org_text {
@@ -788,7 +792,7 @@ img {
     font-family: 'Roboto', Arial, Helvetica, sans-serif;
     font-size: 1vw;
     font-weight: 400;
-    color: #61003F;
+    color: #29001B;
     width: 70vw;
     margin-top: 10vw
 }
@@ -875,7 +879,7 @@ img {
 @media screen and (max-width:800px) {
     .glitch {
         padding-top: 100px;
-        color: #61003F;
+        color: #29001B;
         font-size: 13vw;
         font-family: 'Roboto', Arial, Helvetica, sans-serif;
         font-weight: 500;
@@ -966,7 +970,7 @@ img {
         font-family: 'Roboto', Arial, Helvetica, sans-serif;
         font-size: 14px;
         font-weight: 400;
-        color: #61003F;
+        color: #29001B;
         width: 70vw;
         margin-top: 30vw
     }
@@ -988,7 +992,7 @@ img {
         padding: 2% 5%;
         float: right;
         margin: auto;
-        border-left: 2px dashed #61003F
+        border-left: 2px dashed #29001B
     }
 
     .parvaah .parvaah_text {
@@ -1003,7 +1007,7 @@ img {
         font-family: 'Roboto', Arial, Helvetica, sans-serif;
         font-size: 14px;
         font-weight: 400;
-        color: #61003F;
+        color: #29001B;
         width: 70vw;
         margin-top: 0vw
     }
@@ -1090,7 +1094,7 @@ img {
         height: 0;
         float: left;
         grid-row: 2;
-        border: 5px solid #61003F
+        border: 5px solid #29001B
     }
 
     .map iframe {
