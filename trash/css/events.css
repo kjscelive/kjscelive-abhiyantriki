@@ -280,11 +280,12 @@ button:focus {
     box-sizing: border-box;
     width: 30%;
     margin: 1.666%;
-    padding: 15px;
+    padding: 15px; 
     
     position: relative;
     color: #fff;
     background-color: transparent;
+    border: 0;
 }
 
 .card__head img {

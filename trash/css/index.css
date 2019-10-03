@@ -296,9 +296,10 @@ img {
     content: " ";
     left: 50%;
     margin-left: -1px;
-    width:100vh;
-    height:140vh;
+    width:12vh;
+    height:180vh;
     background-repeat: no-repeat;
+    background-size: contain;
 }
 
 .timeline > li {

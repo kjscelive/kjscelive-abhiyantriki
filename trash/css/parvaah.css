@@ -2,52 +2,18 @@
     width: 60vw
 }
 
-.button {
-    border: 2px solid #29001B;
-    font-size: 1.2vw;
-    font-family: 'Roboto', Arial, Helvetica, sans-serif;
-    padding: 0.5vw 1.2vw;
-    color: #29001B;
-    margin: 3vw;
-    transition: all 1s ease;
-    text-align: center;
-    text-decoration: none;
-    text-transform: uppercase;
-    font-family: 'Roboto', Arial, Helvetica, sans-serif;
-    font-weight: 300
-}
 
-.button {
-    background: #fff;
-    position: relative;
-    overflow: hidden
-}
-
-.button:hover {
-    color: #fff;
-    cursor: pointer
-}
-
-.button:after {
-    color: #29001B;
-    content: '';
-    position: absolute;
-    width: 115%;
-    height: 200px;
-    background: #940060;
-    transform: translateY(-45%) skew(25deg) scale(0);
-    left: -8%;
-    transition: 100ms ease-in-out
-}
-
-.button:hover:after {
-    transform: translateY(-45%) skew(25deg) scale(1);
-    color: #fff
-}
 
 .button span {
     position: relative;
     z-index: 1
+}
+
+
+.parvaah__title-white{
+    text-transform: uppercase;
+    color: #ebbf79;
+    letter-spacing: 1px;
 }
 
 @media screen and (max-width:800px) {
@@ -98,9 +64,10 @@
 }
 
 .outer {
-    width: 60%;
-    margin: 0 auto;
-    transform: translateX(-5vw)
+    width: 60vw;
+    padding: 0 20vw;
+    transform: translateX(-5vw);
+    margin-left: 4vw
 }
 
 .card2-left,
@@ -129,15 +96,14 @@
 .img2-left {
     width: 30%;
     float: left;
-    padding: 1%
+    padding: 2%
 }
 
 .text2-left {
     width: 70%;
     float: right;
     text-align: left;
-   margin:0 auto;
-    padding-top: 7%;
+  
     color: #f1f1f1;
     
 }
@@ -162,13 +128,14 @@
 }
 
 .text2-right {
-    width: 70%;
+ width: 70%;
     float: left;
     text-align: right;
-    padding: 5%;
-    padding-top: 7%;
+    /* padding-left: 2%; */
+    padding-right: 2%;
     color: #f1f1f1;
     background: #29001B;
+    margin-bottom: 10px;
 }
 
 .image {
