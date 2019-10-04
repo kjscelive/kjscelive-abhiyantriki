@@ -1,3 +1,6 @@
+.gold-color{
+    color:#ebbf79;
+}
 .navslide {
     width: 90vw;
     display: grid;
@@ -10,7 +13,6 @@
     grid-column: 2;
     grid-row: 1;
     height: 15vw;
-    
     overflow: hidden
 }
 
@@ -21,7 +23,8 @@
 }
 
 #carousel div img {
-    height: 15vw;
+    height: 13vw;
+    width:auto;
     transition: height 1s
 }
 
@@ -48,7 +51,7 @@
 #carousel div.prev {
     z-index: 5;
     left: 30%;
-    transform: translateX(-50%) trlateY(25%)
+    transform: translateX(-50%) translateY(25%)
 }
 
 #carousel div.prev img {
@@ -66,7 +69,7 @@
     height: 5vw
 }
 
-#carousel div.selected {
+#carousel div.selected {  
     z-index: 10;
     left: 50%;
     transform: translateY(0px) translateX(-50%)
@@ -115,6 +118,8 @@
     margin: auto;
     z-index: 1
 }
+
+
 
 @media screen and (max-width:800px) {
     .nxt {
@@ -395,7 +400,7 @@ img {
 .timeline-body > p + p {
     margin-top: 5px
 }
-
+z
 .timeline > li.timeline-inverted > .timeline-panel > .timeline-body > p {
     margin-left: 10px
 }
@@ -643,7 +648,8 @@ img {
 
 #main_title {
     font-weight: 500;
-    display: -webkit-inline-box
+    display: -webkit-inline-box;
+        color:#ebbf79;
 }
 
 #title {
@@ -841,7 +847,7 @@ img {
     text-align: left;
     padding-left: 5vw;
     padding-top: 3vw;
-    float: left
+    float: left;
 }
 
 .contact .reach #main_title {

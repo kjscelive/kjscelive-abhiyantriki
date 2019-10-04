@@ -287,10 +287,13 @@ button:focus {
     background-color: transparent;
     border: 0;
 }
-
+.card__head{
+    display: flex;
+    justify-content: center;
+}
 .card__head img {
     width: 80%;
-    height: auto
+    height: auto;
 }
 
 .card__logo {
@@ -328,7 +331,8 @@ button:focus {
 }
 
 .ideate-img {
-    width: 50%;
+    padding-top: 4rem;
+    width: 40%;
     margin: auto;
     height: auto
 }

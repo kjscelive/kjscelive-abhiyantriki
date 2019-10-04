@@ -3,13 +3,13 @@
 }
 
 .button {
-    border: 2px solid #29001B;
+    border: 2px solid #61003F;
     font-size: 1.2vw;
     font-family: 'Roboto', Arial, Helvetica, sans-serif;
     padding: 0.5vw 1.2vw;
-    color: #29001B;
+    color: #61003F;
     margin: 3vw;
-    transition: all 1s ease;
+    transition: all 100ms ease;
     text-align: center;
     text-decoration: none;
     text-transform: uppercase;
@@ -18,37 +18,41 @@
 }
 
 .button {
-    background: #fff;
+    background: #29001b;
+    color:white;
     position: relative;
     overflow: hidden
 }
 
 .button:hover {
-    color: #fff;
+    color: #29001b;
     cursor: pointer
 }
 
 .button:after {
-    color: #29001B;
+    color: #61003F;
     content: '';
     position: absolute;
-    width: 115%;
-    height: 200px;
-    background: #940060;
-    transform: translateY(-45%) skew(25deg) scale(0);
-    left: -8%;
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    transform: translateY(-100%);
+    left: 0;
+    top: 0;
     transition: 100ms ease-in-out
 }
 
 .button:hover:after {
-    transform: translateY(-45%) skew(25deg) scale(1);
-    color: #fff
+    transform: translateY(0);
+    color: #29001B;
 }
 
 .button span {
     position: relative;
     z-index: 1
 }
+
+
 
 @media screen and (max-width:800px) {
     .button {
