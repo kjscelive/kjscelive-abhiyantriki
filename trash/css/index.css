@@ -10,6 +10,7 @@
     grid-column: 2;
     grid-row: 1;
     height: 15vw;
+    
     overflow: hidden
 }
 
@@ -670,7 +671,7 @@ img {
     display: flex;
     margin: 5% 5%;
     padding-top: 5%;
-    border-right: 2px dashed #f1f1f1;
+  
 }
 
 .about_cards #acard1 span {
@@ -687,7 +688,7 @@ img {
     display: flex;
     margin: 5% 5%;
     padding-bottom: 5%;
-    border-left: 2px dashed #29001B
+  
 }
 
 .about_cards #acard2 span {
@@ -814,7 +815,7 @@ img {
     padding: 2% 5%;
     float: right;
     margin: auto;
-    border-left: 2px dashed #f1f1f1;
+    border-left: 2px solid #f1f1f1;
 }
 
 .parvaah .parvaah_text {
