@@ -144,6 +144,9 @@
     float: left;
     padding: 1%
 }
+h3{
+    color: #ebbf79;
+}
 
 .text2-left {
     width: 70%;
@@ -371,7 +374,7 @@
 
 @media screen and (max-width:800px) {
     .hero {
-        background: linear-gradient(0deg, #FFF4F0, #FFF4F0 50%, #29001B 50%, #29001B 100%)
+        background:#29001B; 
     }
 
     .hero_content {
@@ -384,7 +387,7 @@
         margin-top: 15vw;
         position: relative;
         left: -25%;
-        color: #29001B;
+        color: #fff;
         text-align: center
     }
 
@@ -463,8 +466,8 @@
         width: 50%;
         font-size: 12px;
         padding: 5%;
-        border: 2px solid #29001B;
+        border: 2px solid #61003F;
         background-color: unset;
-        color: #29001B
+        color: #fff;
     }
 }

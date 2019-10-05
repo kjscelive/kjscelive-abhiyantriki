@@ -496,6 +496,11 @@ z
     font-family: 'Roboto', Arial, Helvetica, sans-serif;
     font-weight: 300;
     padding:1em;
+    
+    
+    
+    
+    
 }
 
 .button {
@@ -648,7 +653,7 @@ z
 
 #main_title {
     font-weight: 500;
-    display: -webkit-inline-box;
+    display: -webkit-inline-box;    
         color:#ebbf79;
 }
 
