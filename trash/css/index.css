@@ -1,3 +1,4 @@
+
 .gold-color{
     color:#ebbf79;
 }
@@ -122,6 +123,11 @@
 
 
 @media screen and (max-width:800px) {
+    .logo {
+        padding: 0.3rem;
+		height: 4vh;
+        width: 100vw;
+    }
     .nxt {
         width: 0;
         height: 0;
@@ -434,8 +440,18 @@ z
     position: relative;
     width: 10vw
 }
+.mob_time{
+    display: none;
+}
 
 @media screen and (max-width:800px) {
+    .img_timeline{
+        display: none;
+    }
+    .mob_time{
+        display: block;
+    }
+    
     .timeline > li > .timeline-panel {
         -ms-flex-direction: column;
         flex-direction: column;
@@ -537,9 +553,9 @@ z
         border: 2px solid white;
         font-size: 15px;
         padding: 2.5vw 4.2vw;
-        color: white;
+        color: #61003F;
         margin: 3vw;
-        transition: all 1s ease;
+        transition: all 100ms ease;
         text-align: center;
         text-decoration: none;
         text-transform: uppercase
@@ -547,6 +563,7 @@ z
 
     .button {
         background: #29001B;
+        color:#fff;
         position: relative;
         overflow: hidden
     }
@@ -561,15 +578,16 @@ z
         content: '';
         position: absolute;
         width: 115%;
-        height: 200px;
+        height: 500px;
         background: #fff;
-        transform: translateY(-45%) skew(25deg) scale(0);
-        left: -8%;
+        transform: translateY(-100%);
+        left: 0;
+        top:0;
         transition: 200ms ease-in-out
     }
 
     .button:hover:after {
-        transform: translateY(-45%) skew(25deg) scale(1);
+        transform: translateY(0);
         color: #29001B
     }
 
@@ -913,7 +931,7 @@ z
     }
 
     .about_cards {
-        padding-bottom: 40vw;
+        padding-bottom:10vw;
         font-family: 'Roboto', Arial, Helvetica, sans-serif;
         font-size: 14px;
         font-weight: 400;
