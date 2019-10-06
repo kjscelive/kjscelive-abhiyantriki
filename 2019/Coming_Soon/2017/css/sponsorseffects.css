@@ -1,0 +1,132 @@
+@font-face {
+    font-family: Coves;
+    src: url('../fonts/Coves-Light.otf') format('opentype');
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: Coves;
+    src: url('../fonts/Coves-Bold.otf') format('opentype');
+    font-weight: bold;
+}
+*
+{
+  font-family: "Roboto";
+}
+* h1,h2,h3,h4,h5,h6
+{
+  font-family: Coves !important;
+  font-weight: bold !important;
+}
+.dropdown-menu>.active>a, .dropdown-menu>.active>a:focus, .dropdown-menu>.active>a:hover
+{
+  background: #a8518a !important;
+  color: #fff !important;
+}
+.navbar-right .dropdown-menu
+{
+    left:0 !important;
+    right:auto !important;
+    /*margin-right:-10px !important;*/
+}
+.dropdown-menu>li>a
+{
+  color: #9d9d9d !important;
+  background: #222;
+}
+.dropdown-menu>li>a:hover
+{
+  background: #a8518a !important;
+  color: #fff !important;
+}
+.dropdown-menu
+{
+  border-color:#080808;
+  padding: 0px !important;
+}
+
+#home::-webkit-scrollbar-track
+{
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.6);
+  /*border-radius: 10px;*/
+  background-color: #333;
+}
+
+#home::-webkit-scrollbar
+{
+  width: 1em;
+  background-color: #F5F5F5;
+}
+
+#home::-webkit-scrollbar-thumb
+{
+  /*border-radius: 10px;*/
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.6);
+  background-color: #a8518a;
+}
+#menu1::-webkit-scrollbar-track
+{
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.6);
+  /*border-radius: 10px;*/
+  background-color: #333;
+}
+
+#menu1::-webkit-scrollbar
+{
+  width: 1em;
+  background-color: #F5F5F5;
+}
+
+#menu1::-webkit-scrollbar-thumb
+{
+  /*border-radius: 10px;*/
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.6);
+  background-color: #a8518a;
+}
+body
+{
+    overflow:hidden;
+}
+#logo {
+    height: 48px;
+    padding: 3px 10px 5px 0px;
+}
+.nav {
+    /* height: 50px !important; */
+    background: #1e1e1e !important;
+}
+#section6
+{
+    height: 100vh;
+    /*color: #fff;*/
+}
+#home, #menu1
+{
+    height: calc(100vh - 91px);
+    overflow:auto;
+}
+.nav-tabs>li>a {
+    color: #fff !important;
+}
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
+    background: #a8518a !important;
+    border: none !important;
+}
+.nav-tabs li a:hover
+{
+    background: #a8518a !important;
+    border:1px solid #000 !important;
+    /*height: 50px !important;*/
+}
+.navbar-inverse .navbar-nav>li>a:hover {
+    background: #a8518a !important;
+}
+.navbar-inverse .navbar-nav>.active>a
+{
+    background: #a8518a !important;
+}
+h6,h5,h2
+{
+  font-family: "Roboto" !important;
+  font-weight: 900 !important;
+}
