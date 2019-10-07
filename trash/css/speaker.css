@@ -10,7 +10,7 @@
 #main-container{
     position: absolute;
     width: 100%;
-    height: 55vh;
+    height: 70vh;
     top: 0;
     left: 0;
 }
@@ -66,6 +66,27 @@
 }
 
 @media screen and (max-width:800px) {
+    #main-container{
+        height: 50vh;
+    }
+    .outer{
+        display: flex;
+        flex-direction: column;
+        width: 90vw;
+/*        justify-content: center;*/
+    }
+    .card2-left{
+        display: flex;
+        flex-direction: column;
+        padding: 4rem 0;
+    }
+    .card2-right{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .outer img{
+        width: 60vw;
+    }
       .logo {
         padding: 0.3rem;
 		height: 4vh;

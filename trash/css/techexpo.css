@@ -55,6 +55,26 @@
 
 
 @media screen and (max-width:800px) {
+    
+    .outer{
+        display: flex;
+        flex-direction: column;
+        width: 90vw;
+/*        justify-content: center;*/
+    }
+    .card2-left{
+        display: flex;
+        flex-direction: column;
+        padding: 4rem 0;
+    }
+    .card2-right{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .outer img{
+        width: 60vw;
+    }
+    
     .button {
         border: 2px solid white;
         font-size: 15px;
@@ -108,7 +128,7 @@
 #main-container{
     position: absolute;
     width: 100%;
-    height: 55vh;
+    height: 70vh;
     top: 0;
     left: 0;
 }
@@ -119,7 +139,8 @@
 .outer {
     width: 80%;
     margin: auto;
-    transform: translateX(-5vw)
+    transform: translateX(-5vw);
+    padding-left: 8rem;
 }
 
 .card2-left,
@@ -209,12 +230,13 @@ h3{
 		height: 4vh;
         width: 100vw;
     }
+/*
      .outer{
         display: flex;
         flex-direction: column;
         width: 90vw;
        margin: 0 auto;
-      margin-left: 7rem;
+      margin-left: 6.2rem;
         justify-content: center;
     }
     .card2-left{
@@ -229,6 +251,7 @@ h3{
     .outer img{
         width: 70vw;
     }
+*/
 }
 
 .hero {

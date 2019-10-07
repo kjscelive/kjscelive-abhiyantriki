@@ -259,7 +259,7 @@
     .text {
         width: 155%;
         font-size: 14px;
-        margin-top: 45%;
+        margin-top: 15%;
         position: relative;
         left: -28%;
         color: #f1f1f1;
@@ -274,7 +274,7 @@
         width: 50%;
         font-size: 12px;
         padding: 5%;
-        border: 2px solid #DB1c1c;
+        border: 2px solid #fff;
         background-color: #29001B;
         color: #f1f1f1;
     }

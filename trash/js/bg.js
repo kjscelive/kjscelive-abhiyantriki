@@ -3,23 +3,23 @@
     var varJson ={
   "particles": {
     "number": {
-      "value": 40,
+      "value": 20,
       "density": {
         "enable": true,
         "value_area": 800
       }
     },
     "color": {
-      "value": "#f9edeb"
+      "value": "#ebbf79"
     },
     "shape": {
-      "type": "circle",
+      "type": "polygon",
       "stroke": {
         "width": 0,
-        "color": "#000000"
+        "color": "#630042"
       },
       "polygon": {
-        "nb_sides": 5
+        "nb_sides": 6
       },
       "image": {
         "src": "img/github.svg",
@@ -28,27 +28,27 @@
       }
     },
     "opacity": {
-      "value": 0.5,
+      "value": 0.1,
       "random": false,
       "anim": {
         "enable": false,
-        "speed": 1,
+        "speed": 2,
         "opacity_min": 0.1,
         "sync": false
       }
     },
     "size": {
-      "value": 2,
+      "value": 50,
       "random": true,
       "anim": {
-        "enable": false,
-        "speed": 80,
-        "size_min": 0.1,
+        "enable": true,
+        "speed": 10,
+        "size_min": 35,
         "sync": false
       }
     },
     "line_linked": {
-      "enable": true,
+      "enable": false,
       "distance": 300,
       "color": "#f9edeb",
       "opacity": 0.15,
@@ -56,12 +56,12 @@
     },
     "move": {
       "enable": true,
-      "speed": 12,
+      "speed": 8,
       "direction": "none",
       "random": false,
       "straight": false,
       "out_mode": "out",
-      "bounce": false,
+      "bounce": true,
       "attract": {
         "enable": false,
         "rotateX": 600,

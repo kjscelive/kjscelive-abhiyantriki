@@ -7,7 +7,6 @@ $("#informals").click(function(){
 
 function openevent(evt, evtName) {
     var i, tabcontent, tablinks;
-
     tabcontent = document.getElementsByClassName("tabcontent");
     for (i = 0; i < tabcontent.length; i++) {
         tabcontent[i].style.display = "none";
@@ -22,4 +21,4 @@ function openevent(evt, evtName) {
 
 $('.container').on('click', function () {
     $(this).children().toggleClass('flipped');
-  });
+});

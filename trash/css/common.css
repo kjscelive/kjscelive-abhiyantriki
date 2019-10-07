@@ -7,7 +7,7 @@
 }
 
 .navbar img {
-    width: 40%;
+    width: 54%;
     height: 100%;
     float: left;
     position: relative
@@ -582,7 +582,8 @@ img {
     font-family: 'Roboto', Arial, Helvetica, sans-serif;
     font-size: 1.2vw;
     font-weight: 400;
-    padding-top: 5vw;
+    background: #29001b;
+/*    padding-top: 5vw;*/
     padding-bottom: 2vw;
     bottom: 0%
 }
@@ -666,6 +667,12 @@ a.regLink {
     transform: translateY(0);
     color: #29001B;
 }
+
+.button-dark {
+    
+    background: #29001b;
+    color: #f9edeb;
+}
 a.game:hover,
 a.regLink:hover {
     color: #DB4C1C
@@ -685,7 +692,7 @@ a.regLink:hover {
 
 @media screen and (max-width:800px) {
     .glitch {
-        padding-top: 15vw
+        padding-top: 25vw
     }
 
     .hide {

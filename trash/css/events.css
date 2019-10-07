@@ -114,7 +114,7 @@
 #main-container{
     position: absolute;
     width: 100%;
-    height: 55vh;
+    height: 70vh;
     top: 0;
     left: 0;
 }
@@ -325,7 +325,9 @@ button:focus {
     width: 80%;
     height: auto;
 }
-
+.card:active, .card:focus {
+    background-color: transparent   
+}
 .card__logo {
     width: 100px;
     height: 100px;

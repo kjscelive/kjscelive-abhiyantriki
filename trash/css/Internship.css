@@ -125,7 +125,7 @@
 #main-container{
     position: absolute;
     width: 100%;
-    height: 55vh;
+    height: 70vh;
     top: 0;
     left: 0;
 }
@@ -142,7 +142,8 @@
 
 .glitch {
     width: 100%;
-    margin-bottom: 3vw
+    margin-bottom: 3vw;
+    padding-top: 3vw;
 }
 
 .main_content {
