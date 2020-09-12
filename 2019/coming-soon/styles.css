@@ -1,0 +1,303 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+body {
+  background-color: #1e1033;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/*----------------------------Navigation bar---------------------------*/
+.navbar__section {
+  background-color: transparent;
+  color: white;
+}
+
+.navbar__section ul {
+  padding: 10px;
+  list-style: none;
+  right: 0;
+  margin: 0 10px;
+}
+.abhiyantriki_logo img {
+  width: 250px !important;
+  z-index: 1;
+}
+.somaiya_logo {
+  float: right;
+}
+
+.navbar__section li {
+  display: inline;
+  margin-right: 5px;
+}
+
+/* .navbar__section img { */
+/* width: 250px;
+  height: 80px; */
+/* } */
+
+/*-------------------------Coming-soon section-------------------------*/
+.coming-soon__section {
+  color: black;
+  text-align: center;
+  padding: 30px 5px;
+  margin: auto;
+  width: 500px;
+  color: white;
+  font-family: "Cutive Mono", monospace;
+  /* font-family: "Merienda One", cursive; */
+}
+
+.coming-soon__section h1 {
+  font-size: 5em;
+  font-weight: 400;
+  color: white;
+  /* font-family: 'Kaushan Script', cursive; */
+  font-family: "VT323", monospace;
+}
+.coming-soon-gif {
+  background: url("/img/Final.gif");
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 250px;
+  height: 250px;
+  margin: auto 30%;
+  opacity: 0.95;
+}
+
+.coming-soon__section p {
+  font-size: 18px;
+  letter-spacing: 0.5px;
+  font-weight: 600;
+  margin: 0;
+  padding: 0;
+}
+.gallery {
+  margin: auto;
+  width: 100px;
+}
+/* ----------------------------Countdown CSS---------------------------- */
+/*coutdown_timer*/
+.countdown p:nth-child(1) {
+  color: darkorange;
+  text-align: center;
+  font-size: 2.5em;
+  font-family: sans-serif;
+}
+.countdown p:nth-child(2) {
+  color: white;
+  text-align: center;
+  font-size: 1.5em;
+  font-family: "Cutive Mono", monospace;
+}
+
+.countdown__section {
+  float: right;
+  margin-top: 50px;
+  margin-right: 200px;
+  /* background-color: peru; */
+  height: 80%;
+  width: 32%;
+  padding: 10px;
+  font-size: 20px;
+}
+
+.countdown__section td {
+  padding: 10px;
+}
+
+/*---------------------------------Sidebar---------------------------------*/
+.social-media__section {
+  width: 55px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  margin-top: 100px;
+  padding-top: 15px;
+}
+
+.social-media__section a {
+  padding: 6px 8px 6px 18px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #ccc;
+  display: block;
+  transition: 0.5s;
+  overflow: hidden !important;
+}
+
+.social-media__section ul li a:hover {
+  color: purple;
+  transform: scale(1);
+  overflow: hidden !important;
+}
+
+.mobile-social-media-section {
+  display: none;
+}
+
+/* ---------------------------GIF Effect-------------------------- */
+.img2 {
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: 1px solid #000000;
+  opacity: 25%;
+  z-index: -1;
+}
+
+/* ----------------------Game CSS------------------------ */
+.game_section {
+  margin: 0;
+  position: relative;
+}
+.game-button {
+  background-color: #ccc;
+  display: inline-block;
+  margin: 0;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  border-radius: 20px;
+  font-size: 1.5em;
+}
+.suggestion {
+  margin: 0;
+  padding: 0;
+  display: inline;
+}
+.tooltipText {
+  display: inline-block;
+  margin: 0;
+  background-color: #ccc;
+  color: #111;
+  font-size: 1.1rem;
+  padding: 5px 8px;
+  margin-left: 15px;
+  font-weight: 600;
+}
+.tooltipText1 {
+  display: inline-block;
+  margin: 0;
+  background-color: #ccc;
+  color: #111;
+  font-size: 1.1rem;
+  padding: 5px 8px;
+  font-weight: 600;
+}
+.container {
+  background-color: transparent;
+  margin: 0;
+  padding-top: 10px;
+}
+/* --------------------------Win Scenario-------------------------- */
+.win {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+  position: absolute;
+  top: 35%;
+  left: 150px;
+  font-family: sans-serif;
+}
+.hidden {
+  display: none;
+}
+/* ---------------------------PLAY AGAIN CONFIG-1----------------------- */
+h1 {
+  color: white;
+  font-size: 2.5rem;
+}
+.box {
+  width: 250px;
+  height: 120px;
+  border-radius: 10px;
+  text-align: center;
+  background-color: #170326;
+  border: 2px solid white;
+}
+.btn {
+  background-color: black;
+  color: white;
+  font-size: 1rem;
+  border-radius: 10px;
+  cursor: pointer;
+  padding: 8px 12px;
+  border: 2px solid white;
+  outline: 0;
+  font-weight: 600;
+  transition: all 0.3s;
+}
+.btn:hover {
+  background-color: white;
+  color: black;
+}
+
+/* -------------------------- Media Queries -------------------------- */
+@media (max-width: 768px) {
+  .mobile-social-media-section {
+    display: block;
+    width: 100%;
+    margin: 30px auto;
+  }
+  .mobile-social-media-inner-section {
+    width: 70%;
+    margin: auto;
+  }
+  .social-media__section {
+    display: none;
+  }
+  .mobile-social-media-section a {
+    padding: 0 10px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #ddd;
+    display: block;
+    transition: 0.5s;
+    display: inline;
+  }
+  .container {
+    padding: 0;
+  }
+  .coming-soon__section {
+    width: 300px;
+  }
+  .win {
+    left: 14%;
+    top: 28%;
+  }
+  .box {
+    margin-left: 18%;
+    padding: 10px;
+    height: 130px;
+  }
+  .abhiyantriki_logo img {
+    width: 150px !important;
+    z-index: 1;
+  }
+  .somaiya_logo {
+    margin: 0;
+  }
+  .img2 {
+    height: 125vh;
+  }
+  .coming-soon-gif {
+    margin: auto 18%;
+  }
+  .gallery {
+    margin-bottom: 25px;
+  }
+}
